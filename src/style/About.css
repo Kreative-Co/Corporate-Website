@@ -1,0 +1,258 @@
+body {
+    font-family: "Marcellus";
+}
+
+.main-about {
+    height: 740px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/web10.jpg");
+    background-size: cover;
+}
+
+.main .container {
+    position: relative;
+    top: 25%;
+}
+
+.main .col-sm {
+    padding-left: 150px;
+}
+
+.main .btn {
+    background-color: #fff;
+    position: relative;
+    top: 50px;
+    padding: 12px 25px;
+    border: none;
+    color: #191919;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+/* About Company */
+.section{
+
+    background-color: #1C1D1D;
+    color:#fff;
+}
+
+.section .col-lg-5 {
+    position: relative;
+    padding-top: 40px;
+    padding-left: 75px;
+    vertical-align: middle;
+}
+
+.section {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section p {
+    position: relative;
+    padding-top: 25px;
+    font-size: 1.3rem;
+}
+
+.section .col-lg-6 img {
+
+    height: 550px;
+
+}
+
+/* Core Values */
+.core-values {
+
+    padding-bottom: 100px;
+}
+
+
+.core-values .row .col-sm {
+
+    padding: 25px;
+    margin: 5px;
+    background-color: #F8FAF9;
+    border-radius: 25px;
+
+}
+
+.core-values .row .col-sm h1 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.core-values .row .col-sm p {
+    position: relative;
+    padding-top: 30px;
+    font-size: 1.2rem;
+
+
+}
+.core-values .title{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* Why Choose Us */
+.why {
+    margin-bottom: 100px;
+}
+
+.why .container-fluid .row .gauche {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/web10.jpg");
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.why .container-fluid .row .gauche img {
+    width: 550px;
+    height: 400px;
+    margin-left: 250px;
+    margin-top: 75px;
+}
+
+.why .container-fluid .row .col-lg-6 .row {
+    position: relative;
+    padding-top: 25px;
+}
+
+.why .container-fluid .droite {
+    position: relative;
+    padding: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.why .container-fluid .row h2{
+    font-size: 1.6rem;
+}
+.why .container-fluid .row p{
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 1090px) {
+
+    .about-company .img-fluid {
+
+        display: none;
+    }
+    .about-company .col-lg-5{
+        width:100%;
+    }
+
+
+}
+
+@media screen and (max-width: 780px) {
+
+    html,
+    body {
+
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+
+    .main h1 {
+        text-align: center;
+    }
+
+    .main h2 {
+        text-align: center;
+    }
+
+    .main .btn {
+        position: relative;
+        top: 70px;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .main .col-sm {
+        position: relative;
+        padding-left: 0;
+    }
+
+    .section .col-lg-6 img {
+        height: 400px;
+    }
+    .core-values .row{
+        margin: 20px;
+    }
+
+    .core-values .title h1{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .core-values .row .col-sm {
+        padding-top: 20px;
+        padding-bottom: 20px;      
+    }
+
+    .why .row {
+        padding-top: 0px;
+    }
+    .core-value{
+        padding-bottom: 20px;
+    }
+    .why{
+        margin-bottom: 0px;
+    }
+    .about-company .img-fluid {
+        display: flex;
+        position: relative;
+        width: 80%;
+        top: 175px;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+@media screen and (max-width: 580px) {
+
+    .about-company .img-fluid {
+
+        display: flex;
+        position: relative;
+        height: 250px;
+        width: 80%;
+        top: 175px;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+
+    .testimonials {
+        position: relative;
+        padding-left: 25px;
+        padding-bottom: 25px;
+    }
+
+    .testimonials .container .row {
+        position: relative;
+        padding: 20px;
+    }
+
+    .testimonials .container .row .btn {
+        display: none;
+
+    }
+
+    .testimonials .container .row .col-sm {
+        margin: 0;
+        margin-bottom: 20px;
+
+
+    }
+
+}

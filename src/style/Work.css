@@ -1,0 +1,68 @@
+
+.main-work{
+    height:740px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/photo-4.avif");
+    background-size: cover;
+}
+
+.hero .container{
+    position: relative;
+    top: 25%;
+}
+
+.hero .col-sm{
+    padding-left: 150px;
+
+
+}
+.hero .btn{
+
+    background-color: #fff;
+    position: relative;
+    top: 50px;
+    padding: 12px 25px;
+    border: none;
+    color: #191919;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 500;
+   
+}
+.portfolio .row{
+
+    position: relative;
+    margin-bottom: 75px;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.portfolio .title{
+    padding-top: 75px;
+    padding-bottom:75px;
+}
+
+.portfolio .col-sm{
+
+}
+
+.portfolio .col-sm h2{
+
+
+    font-size:1.7rem ;
+    font-weight: Bold;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.portfolio .col-sm .image{
+    
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+
+.portfolio .col-sm p{
+    font-size: 1.3rem;
+    width: 60%;
+}

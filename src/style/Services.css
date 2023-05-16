@@ -1,0 +1,202 @@
+.main {
+    height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/photo-3.avif");
+    background-size: cover;
+}
+
+section .container {
+    position: relative;
+    top: 25%;
+}
+
+.data {
+    position: relative;
+    padding-left: 100px;
+    padding-top: 40px;
+    vertical-align: middle;
+    padding-right: 50px;
+}
+
+section .btn {
+    background-color: #fff;
+    position: relative;
+    top: 50px;
+    padding: 12px 25px;
+    border: none;
+    color: #191919;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.section .progress {
+    border-radius: 0;
+    height: 7px;
+}
+
+.section .progress-sec {
+    position: relative;
+    padding-bottom: 35px;
+}
+
+.section .progress-sec h2 {
+    font-size: 1.2rem;
+}
+
+
+
+/* Services Cards */
+
+.services-list{
+    position: relative;
+    margin-top: 50px;
+}
+
+.card h1 {
+    font-size: 1.6rem;
+    padding-top: 30px;
+
+}
+
+.card p {
+    font-size: 1.3rem;
+    padding-top: 30px;
+    color: grey;
+}
+
+.row .card {
+    border: none;
+    background-color: #F8FAF9;
+
+}
+
+.card .button {
+    text-align: left;
+    font-size: 1.3rem;
+    color: #191919;
+    color: grey;
+}
+
+.row .icons {
+
+    position: relative;
+    font-size: 50px;
+    left:0%;
+    margin: 0;
+}
+
+/* Container Fluid */
+
+@media screen and (max-width: 1280px) {
+
+    .right {
+        padding-top: 40px;
+    }
+
+    .right p {
+        width: 100%;
+    }
+
+
+}
+@media screen and (max-width: 780px){
+    .data {
+        position: relative;
+        padding: 25px;
+        vertical-align: middle;
+        padding-right: 50px;
+    }
+    .secction .row{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .right {
+        padding: 20px;
+    }
+
+    .right p {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .section .row .droite {
+        display: none;
+    }
+
+    
+
+
+}
+
+
+@media screen and (max-width: 780px) {
+
+    html,
+    body {
+
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .container-fluid .row .left {
+        display: none;
+    }
+
+    .container-fluid .row {
+        height: fit-content;
+    }
+
+    .right {
+        padding: 20px;
+    }
+    .right h2{
+        font-size: 2rem;
+    }
+
+    .right p {
+        width: 100%;
+    }
+    .core-values .title h1{
+        font-size: 2rem;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 580px) {
+
+    html,
+    body {
+
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .section .row .droite {
+        display: flex;
+    }
+    .section .row .droite .img-fluid{
+        width:80%;
+        position: relative;
+        top:150px;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+
+
+
+}
