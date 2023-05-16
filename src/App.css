@@ -20,6 +20,16 @@ Link {
     box-sizing: border-box;
 }
 
+/* 404 Page */
+
+.NoPage{
+
+    position: relative;
+    height:400px;
+    padding-top: 150px;
+
+}
+
 .mb-3 {
     overflow: hidden;
     position: absolute;

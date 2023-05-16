@@ -28,6 +28,9 @@
     font-weight: 500;
    
 }
+.portfolio{
+    margin-bottom: 50px;
+}
 .portfolio .row{
 
     position: relative;

@@ -11,7 +11,6 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 import FooterSec from "./pages/FooterSec";
-
 import 'bootstrap/dist/css/bootstrap.css';
 import { HelmetProvider } from 'react-helmet-async';
 // Put any other imports below so that CSS from your
@@ -32,9 +31,11 @@ export default function App() {
             <Route path="contact" element={<Contact />} />
             <Route path="*" element={<NoPage />} />
           </Route>
+
         </Routes>
+        <FooterSec />
+
       </BrowserRouter>
-      <FooterSec />
 
     </>
 

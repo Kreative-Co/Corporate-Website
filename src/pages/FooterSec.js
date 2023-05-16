@@ -14,9 +14,9 @@ const FooterSec = () => {
     return (
         <div className="footer">
             <div className="container">
-                <div className="row" style={{ paddingBottom: "50px" }}>
+                <div className="row" style={{ paddingBottom: "50px", position: "relative", left: "-15px" }}>
                     <div className="col-lg-6">
-                        <img className="img-fluid" src={Logo}/>
+                        <img className="img-fluid" src={Logo} />
                     </div>
                     <div className="col-lg-6">
 
@@ -43,15 +43,26 @@ const FooterSec = () => {
                     <div className="col-lg-3">
                         <h1>Useful Links </h1>
                         <ul>
-                            <li>Home</li>
-                            <li>Services</li>
-                            <li>Work</li>
-                            <li>About</li>
-                            <li>Contact</li>
-                            <li>Terms & Conditions</li>
-                            <li>Privacy Policy</li>
+                            <li>
+                                <Link className="footer-link" to="/">Home</Link>
+                            </li>
+                            <li>
+                                <Link className="footer-link" to="/services">Services</Link>
+                            </li>
+                            <li>
+                                <Link className="footer-link" to="/work">Work</Link>
+                            </li>
+                            <li>
+                                <Link className="footer-link" to="/about">About</Link>
+                            </li>
+                            <li>
+                                <Link className="footer-link" to="/contact">Contact</Link>
+                            </li>
+                                                      
+
                         </ul>
                     </div>
+
                     <div className="col-lg-3">
                         <h1>Portfolio</h1>
                         <ul>
@@ -81,8 +92,10 @@ const FooterSec = () => {
                         <p>copyright 2023 LK, All Rights Reserved.
                         </p>
                     </div>
+                   
                 </div>
             </div>
+
         </div>
 
     );

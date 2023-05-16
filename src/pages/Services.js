@@ -23,9 +23,6 @@ const Services = () => {
     }, []);
     const now = 60;
 
-
-  
-
     return <>
 
         <Helmet>

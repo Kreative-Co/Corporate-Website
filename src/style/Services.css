@@ -81,8 +81,9 @@ section .btn {
 
     position: relative;
     font-size: 50px;
-    left:0%;
+    left:-40%;
     margin: 0;
+    color:#191919;
 }
 
 /* Container Fluid */
