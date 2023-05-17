@@ -1,9 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
-import { SocialIcon } from 'react-social-icons';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Outlet, Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../Footer.css';
 import { faInstagram, faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -16,7 +13,7 @@ const FooterSec = () => {
             <div className="container">
                 <div className="row" style={{ paddingBottom: "50px", position: "relative", left: "-15px" }}>
                     <div className="col-lg-6">
-                        <img className="img-fluid" src={Logo} />
+                        <img className="img-fluid" src={Logo} alt="logo-image"/>
                     </div>
                     <div className="col-lg-6">
 

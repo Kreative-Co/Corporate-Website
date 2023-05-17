@@ -1,16 +1,14 @@
 import React, { useEffect, useRef, useState } from 'react';
-import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../style/Services.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Outlet, Link } from "react-router-dom";
-import { faMailBulk, faPhone, faHandshakeSimple, faLocation, faScrewdriverWrench, faCode, faNetworkWired } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
+import {  faHandshakeSimple, faScrewdriverWrench, faCode} from '@fortawesome/free-solid-svg-icons';
 import {faFigma } from '@fortawesome/free-brands-svg-icons'
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import sectionImage from "../images/web5.webp";
-import emailjs from "@emailjs/browser";
 import { Helmet } from 'react-helmet-async';
 import ContactForm from './ContactForm';
 
@@ -78,7 +76,7 @@ const Services = () => {
                     </div>
 
                     <div className="col-sm droite" data-aos="fade-left">
-                        <img className="img-fluid" src={sectionImage} />
+                        <img className="img-fluid" src={sectionImage} alt="services-image" />
                     </div>
                 </div>
             </div>

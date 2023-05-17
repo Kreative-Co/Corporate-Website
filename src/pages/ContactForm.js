@@ -6,7 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMailBulk, faPhone, faLocation, faScrewdriverWrench, faCode} from '@fortawesome/free-solid-svg-icons';
+import { faMailBulk, faPhone, faLocation} from '@fortawesome/free-solid-svg-icons';
 import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
@@ -32,7 +32,6 @@ const ContactForm = () => {
                  console.log(error.text);
              });
      };
-     const [name, setName] = useState("");
 
     return (
         <div className="container">

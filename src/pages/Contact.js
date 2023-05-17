@@ -1,7 +1,7 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../style/Contact.css';
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Helmet } from 'react-helmet-async';

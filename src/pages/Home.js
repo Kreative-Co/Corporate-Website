@@ -1,9 +1,9 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect} from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMailBulk, faPhone, faLocation, faScrewdriverWrench, faCode} from '@fortawesome/free-solid-svg-icons';
+import { faScrewdriverWrench, faCode} from '@fortawesome/free-solid-svg-icons';
 import { faFigma } from '@fortawesome/free-brands-svg-icons'
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -13,10 +13,8 @@ import Three from "../images/lion-new.JPG";
 import Four from "../images/beauty.jpg";
 import Eight from "../images/Joker-Work.jpg";
 import reactImage from "../images/photo1.avif";
-import emailjs from "@emailjs/browser";
 import expertImage from "../images/web11.jpg";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import "@fontsource/crimson-pro";
 import 'swiper/swiper-bundle.css';
 import { EffectCards } from 'swiper';
 import { Container } from 'react-bootstrap';
@@ -110,7 +108,7 @@ const Home = () => {
                 <div className="">
                     <div className="row">
                         <div className="col-lg-6" >
-                            <img className="img-fluid" src={reactImage} alt="" data-aos="fade-right" />
+                            <img className="img-fluid" src={reactImage} alt="about-image" data-aos="fade-right" />
                         </div>
                         <div className="col-lg-5">
                             <h1 className="display-4" data-aos="fade-left" >

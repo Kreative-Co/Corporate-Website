@@ -3,8 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../style/Work.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Outlet, Link } from "react-router-dom";
-import Carousel from 'react-bootstrap/Carousel';
+import {Link } from "react-router-dom";
 import One from "../images/Coffee-Work.jpg";
 import Two from "../images/adidas.jpg";
 import Three from "../images/Lion-Work.jpg";
@@ -13,8 +12,6 @@ import Five from "../images/aloe-green.JPG";
 import Six from "../images/mercedes.jpg";
 import Seven from "../images/banking.JPG";
 import Eight from "../images/Joker-Work.jpg";
-import Nine from "../images/fashion.jpg";
-import Ten from "../images/Capture.JPG";
 import { Helmet } from 'react-helmet-async';
 
 
@@ -109,7 +106,7 @@ const Work = () => {
                     </div>
                     <div className="col-sm" data-aos="fade-up">
                         <div>
-                            <img className="img-fluid" src={Six} alt="" />
+                            <img className="img-fluid" src={Six} alt="Boy Toys" />
 
                         </div>
                         <h2>Boy Toys</h2>
@@ -119,14 +116,14 @@ const Work = () => {
                 <div className="row ">
                     <div className="col-sm " data-aos="fade-up">
                         <div>
-                            <img className="img-fluid" src={Seven} alt="" />
+                            <img className="img-fluid" src={Seven} alt="Banking" />
 
                         </div>
                         <h2>Banking</h2>
                     </div>
                     <div className="col-sm" data-aos="fade-up">
                         <div>
-                            <img className="img-fluid" src={Eight} alt="" />
+                            <img className="img-fluid" src={Eight} alt="The Joker" />
 
                         </div>
                         <h2>The Joker</h2>

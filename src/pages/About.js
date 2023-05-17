@@ -1,8 +1,6 @@
 
 import React, { useEffect } from 'react';
-import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Outlet, Link } from "react-router-dom";
 import '../style/About.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -54,7 +52,7 @@ const About = () => {
                 <div className=" row">
 
                     <div className="col-lg-6">
-                        <img className="img-fluid" src={reactImage} alt="" data-aos="fade-right" />
+                        <img className="img-fluid" src={reactImage} alt="about-image" data-aos="fade-right" />
 
                     </div>
                     <div className="col-lg-5" data-aos="fade-up">
@@ -177,49 +175,6 @@ const About = () => {
                 </div>
             </div>
 
-            {/*Testimonials*/}
-            {/** 
-           *   <div className="testimonials">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-5">
-                            <h1 className="display-1" data-aos="fade-up">
-                                What Our Clients Think Of Us
-                            </h1>
-                            <Link className="btn" to="/contact" data-aos="fade-up"> CONTACT US </Link>
-
-
-                        </div>
-                        <div className="col-lg-7 ">
-                            <div className="row">
-                                <div className="col-sm align-self-start" data-aos="fade-up">
-                                    <h2>Jonh Doe</h2>
-                                    <h4>Founder, SalesForce</h4>
-                                    <p>
-                                        LK Enterprises & Co implemented platform enhancements that generated a more than 90%
-                                        reduction in load speed. By delivering designs and executing integrations, the team
-                                        supported the development of additional systems. They regularly provided status reports,
-                                        resulting in transparent collaboration.
-                                    </p>
-                                </div>
-                                <div className="col-sm align-self-center" data-aos="fade-up" >
-                                    <h2>Peter Jones</h2>
-                                    <h4>Fouder, Kovich Corporation</h4>
-                                    <p>
-                                        LK Enterprise & Co  delivered a website that established a notable market presence
-                                        and captures an increased number of leads. The team was attentive and offered
-                                        support that exceeded expectations. They accommodated feedback and provided an
-                                        innovative perspective that ensured a productive engagement.
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-           */}
         </div>
 
 
