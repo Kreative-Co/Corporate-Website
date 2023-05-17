@@ -16,7 +16,7 @@ const Layout = () => {
                 <Navbar key={expand} expand={expand} className="mb-3">
                     <Container >
                         <Navbar.Brand href="#" className="logo"><img className="img-fluid" src={Logo} alt="logo"/></Navbar.Brand>
-                        <Navbar.Toggle className="bg-light" aria-controls={`offcanvasNavbar-expand-${expand}`} />
+                        <Navbar.Toggle className="toggle bg-light" aria-controls={`offcanvasNavbar-expand-${expand}`} />
                         <Navbar.Offcanvas
                             id={`offcanvasNavbar-expand-${expand}`}
                             aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
@@ -41,7 +41,7 @@ const Layout = () => {
                                         <Link className="link" to="/work">Work</Link>
 
                                     </Nav.Link>
-                                    <Nav.Link href="#action2" className="side-link">
+                                    <Nav.Link href="#action2" >
                                         <Link className="link" to="/about">About</Link>
 
                                     </Nav.Link>

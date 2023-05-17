@@ -232,27 +232,4 @@ body {
     }
 
 
-    .testimonials {
-        position: relative;
-        padding-left: 25px;
-        padding-bottom: 25px;
-    }
-
-    .testimonials .container .row {
-        position: relative;
-        padding: 20px;
-    }
-
-    .testimonials .container .row .btn {
-        display: none;
-
-    }
-
-    .testimonials .container .row .col-sm {
-        margin: 0;
-        margin-bottom: 20px;
-
-
-    }
-
 }

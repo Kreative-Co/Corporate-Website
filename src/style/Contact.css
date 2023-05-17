@@ -82,9 +82,6 @@ form .btn{
 
 /* Last Section */
 
-#container-fluid .row{
-  
-}
 
 .become-client{
     background-color: #fff;
@@ -120,10 +117,7 @@ form .btn{
     .right p{
         width: 100%;
     }
-    .container-fluid .row .left{
-        
-    }
-
+   
 }
 @media screen and (max-width: 1000px) {
    
