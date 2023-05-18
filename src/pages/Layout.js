@@ -12,10 +12,12 @@ import Logo from '../images/logo-new.png';
 const Layout = () => {
     return (
         <>
-            {['sm'].map((expand) => (
+
+
+               {['sm'].map((expand) => (
                 <Navbar key={expand} expand={expand} className="mb-3">
                     <Container >
-                        <Navbar.Brand href="#" className="logo"><img className="img-fluid" src={Logo} alt="logo"/></Navbar.Brand>
+                        <Navbar.Brand href="#" className="logo"><img className="img-fluid" src={Logo} alt="logo" /></Navbar.Brand>
                         <Navbar.Toggle className="toggle bg-light" aria-controls={`offcanvasNavbar-expand-${expand}`} />
                         <Navbar.Offcanvas
                             id={`offcanvasNavbar-expand-${expand}`}
@@ -28,7 +30,7 @@ const Layout = () => {
                                 </Offcanvas.Title>
                             </Offcanvas.Header>
                             <Offcanvas.Body>
-                                <Nav className="justify-content-end flex-grow-1 pe-3">
+                                <Nav className="justify-content-end flex-grow-1 pe-3" >
                                     <Nav.Link href="#action1">
                                         <Link className="link" to="/">Home</Link>
 
@@ -49,17 +51,17 @@ const Layout = () => {
                                         <Link className="link" to="/contact">Contact</Link>
 
                                     </Nav.Link>
-
-                               
                                 </Nav>
-
                             </Offcanvas.Body>
                         </Navbar.Offcanvas>
                     </Container>
                 </Navbar>
             ))}
-         
+       
+
+
             <Outlet />
+
         </>
     )
 };

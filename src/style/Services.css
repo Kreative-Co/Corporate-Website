@@ -1,5 +1,5 @@
-.main {
-    height: 700px;
+.main-services {
+    height: 740px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/photo-3.avif");
     background-size: cover;
 }
@@ -13,7 +13,6 @@ section .container {
     position: relative;
     padding-left: 100px;
     padding-top: 40px;
-    vertical-align: middle;
     padding-right: 50px;
 }
 
@@ -155,6 +154,9 @@ section .btn {
     .container-fluid .row {
         height: fit-content;
     }
+    .container-fluid .row .col-sm h1{
+        font-size: 2rem;
+    }
 
     .right {
         padding: 20px;
@@ -184,12 +186,21 @@ section .btn {
         padding: 0;
         overflow-x: hidden;
     }
+    .service .main-services{
+
+        height:600px;
+
+    }
+    .data{
+        padding-top: 20px;
+        
+    }
 
     .section .row .droite {
         display: flex;
     }
     .section .row .droite .img-fluid{
-        width:80%;
+        width:90%;
         position: relative;
         top:150px;
         left: 50%;

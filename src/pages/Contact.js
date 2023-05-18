@@ -15,7 +15,7 @@ const Contact = () => {
         AOS.refresh();
     }, []);
 
-   
+
     return <>
 
 
@@ -27,31 +27,26 @@ const Contact = () => {
 
         <div className="contact-page">
             <div className="main">
-                <div className="container">
-                    <div className="row title" data-aos="fade-left">
-                        <div className="col-sm">
-                            <div className="info">
-                                <h1 className="display-1 text-light">
-                                    Contact Us
+                <div className="main-contact">
+                    <div className="container">
+                        <div className="row title" data-aos="fade-left">
+                            <div className="col-sm">
+                                <div className="info">
+                                    <h1 className="display-1 text-light">
+                                        Contact Us
 
-                                </h1>
-                                <h1 className="display-1 text-light">
-                                    Today
-                                </h1>
+                                    </h1>
+                                    <h1 className="display-1 text-light">
+                                        Today
+                                    </h1>
+                                </div>
                             </div>
-
-
                         </div>
-
-
-
                     </div>
                 </div>
             </div>
-
-
             {/** Form Section */}
-            <ContactForm/>
+            <ContactForm />
 
             {/** Section */}
 
@@ -73,9 +68,6 @@ const Contact = () => {
                                 to be remote. Ready to move forward?
                             </p>
                         </div>
-
-
-
                     </div>
                 </div>
             </div>

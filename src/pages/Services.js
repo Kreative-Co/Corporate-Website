@@ -3,16 +3,14 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../style/Services.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from "react-router-dom";
-import {  faHandshakeSimple, faScrewdriverWrench, faCode} from '@fortawesome/free-solid-svg-icons';
-import {faFigma } from '@fortawesome/free-brands-svg-icons'
+import { faHandshakeSimple, faScrewdriverWrench, faCode } from '@fortawesome/free-solid-svg-icons';
+import { faFigma } from '@fortawesome/free-brands-svg-icons'
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import sectionImage from "../images/web5.webp";
 import { Helmet } from 'react-helmet-async';
 import ContactForm from './ContactForm';
-
-
 
 const Services = () => {
     useEffect(() => {
@@ -32,21 +30,24 @@ const Services = () => {
 
         <div className="service">
             <section className="main" >
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm" data-aos="fade-left">
-                            <div className="info">
-                                <h1 className="display-1 text-light">
-                                    What We
-                                </h1>
-                                <h1 className="display-1 text-light">
-                                    Excel At!
-                                </h1>
-                                <Link to="/contact" className="btn">Contact Us</Link>
+                <div className="main-services">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-sm" data-aos="fade-left">
+                                <div className="info">
+                                    <h1 className="display-1 text-light">
+                                        What We
+                                    </h1>
+                                    <h1 className="display-1 text-light">
+                                        Excel At!
+                                    </h1>
+                                    <Link to="/contact" className="btn">Contact Us</Link>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </section>
 
             <div className="section">
@@ -157,14 +158,11 @@ const Services = () => {
                                 build brand recognition,  and ultimately drive revenue.
                             </p>
                         </div>
-
-
-
                     </div>
                 </div>
             </div>
 
-            <ContactForm/>
+            <ContactForm />
 
         </div>
     </>;

@@ -1,4 +1,4 @@
-.main{
+.main-contact{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../images/photo-3.avif") ;
     background-size: cover;
     height:740px;
@@ -181,14 +181,31 @@ form .btn{
 
 }
 @media screen and (max-width: 580px) {
+
+
+    .main-contact{
+        height:600px;
+    }
     
     
     img{
         display: flex;
     }
+    .contact-page .row .col-lg-5 p{
+        width: 100%;
+    }
+    form{
+        position: relative;
+        margin-top: 25px;
+    }
 
     .contact-form input[type=text], input[type=email]{
         width:90%;
+    }
+    form .btn{
+        width:50%;
+        font-size: 1.6rem;
+
     }
 
 }

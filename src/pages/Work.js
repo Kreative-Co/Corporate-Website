@@ -4,14 +4,14 @@ import '../style/Work.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {Link } from "react-router-dom";
-import One from "../images/Coffee-Work.jpg";
-import Two from "../images/adidas.jpg";
-import Three from "../images/Lion-Work.jpg";
-import Four from "../images/beauty.jpg";
-import Five from "../images/aloe-green.JPG";
-import Six from "../images/mercedes.jpg";
-import Seven from "../images/banking.JPG";
-import Eight from "../images/Joker-Work.jpg";
+import One from "../images/Coffee-Work-min.jpg";
+import Two from "../images/adidas-min.jpg";
+import Three from "../images/Lion-Work-min.jpg";
+import Four from "../images/beauty-min.jpg";
+import Five from "../images/aloe-green-min.JPG";
+import Six from "../images/mercedes-min.jpg";
+import Seven from "../images/banking-min.JPG";
+import Eight from "../images/Joker-Work-min.jpg";
 import { Helmet } from 'react-helmet-async';
 
 
@@ -31,7 +31,7 @@ const Work = () => {
             <link rel="canonical" href="/work" />
         </Helmet>
         <div className="">
-            <div className="main" style={{}}>
+            <div className="main" >
                 <div className="main-work">
 
                     <div className=" container">

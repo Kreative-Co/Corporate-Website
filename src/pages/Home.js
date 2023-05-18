@@ -8,10 +8,12 @@ import { faFigma } from '@fortawesome/free-brands-svg-icons'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Carousel from 'react-bootstrap/Carousel';
-import One from "../images/coffee-new.JPG";
-import Three from "../images/lion-new.JPG";
-import Four from "../images/beauty.jpg";
-import Eight from "../images/Joker-Work.jpg";
+import One from "../images/Coffee-Work-min.jpg";
+import Two from "../images/aloe-green-min.JPG"
+import Three from "../images/lion-new-min.JPG";
+import Four from "../images/beauty-min.jpg";
+import Five from "../images/mercedes-min.jpg";
+import Eight from "../images/Joker-Work-min.jpg";
 import reactImage from "../images/photo1.avif";
 import expertImage from "../images/web11.jpg";
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -141,7 +143,9 @@ const Home = () => {
                         className="mySwiper"
                     >
                         <SwiperSlide><img className="img-fluid" src={One} /></SwiperSlide>
+                        <SwiperSlide><img className="img-fluid" src={Two} /></SwiperSlide>
                         <SwiperSlide><img className="img-fluid" src={Four} /></SwiperSlide>
+                        <SwiperSlide><img className="img-fluid" src={Five} /></SwiperSlide>
                         <SwiperSlide><img className="img-fluid" src={Three} /></SwiperSlide>
                         <SwiperSlide><img className="img-fluid" src={Eight} /></SwiperSlide>
                     </Swiper>

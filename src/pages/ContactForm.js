@@ -51,7 +51,7 @@ const ContactForm = () => {
                         <input data-aos="fade-left" type="text" name="user_name" placeholder='Name' />
                         <input data-aos="fade-left" type='email' name="user_email" placeholder='Email' />
                         <textarea data-aos="fade-left" name="message" placeholder='Message'></textarea>
-                        <input data-aos="fade-left" type='submit' value="SEND" className='btn' />
+                        <input data-aos="fade-left" type='submit' value="Send" className='btn' />
                     </form>
                 </div>
             </div>
