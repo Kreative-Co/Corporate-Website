@@ -1,10 +1,12 @@
-import React, { useEffect} from 'react';
+import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faScrewdriverWrench, faCode} from '@fortawesome/free-solid-svg-icons';
+import { faScrewdriverWrench, faArrowUpRightDots, faCode, faArrowRight, faCircle } from '@fortawesome/free-solid-svg-icons';
 import { faFigma } from '@fortawesome/free-brands-svg-icons'
+import Table from 'react-bootstrap/Table';
+import { faMailBulk, faPhone, faLocation, faPlus, faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Carousel from 'react-bootstrap/Carousel';
@@ -23,6 +25,15 @@ import { Container } from 'react-bootstrap';
 import { Helmet } from 'react-helmet-async';
 import "react-multi-carousel/lib/styles.css";
 import ContactForm from './ContactForm';
+import "@fontsource/marcellus";
+import "@fontsource/montserrat"; // Defaults to weight 400
+import "@fontsource/merriweather-sans"; // Defaults to weight 400
+import "@fontsource/merriweather-sans/400.css"; // Specify weight
+import "@fontsource/merriweather-sans/400-italic.css"; // Specify weight and style
+import "@fontsource/mukta"; // Defaults to weight 400
+import "@fontsource/mukta/400.css"; // Specify weight
+
+
 
 const Home = () => {
 
@@ -33,7 +44,7 @@ const Home = () => {
     }, []);
 
 
-   
+
 
     return <>
 
@@ -46,101 +57,166 @@ const Home = () => {
         <div className="content">
             {/*Hero Section*/}
             <section className="main">
-                <Carousel>
-                    <Carousel.Item>
-                        <section className="item1">
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-sm" data-aos="fade-left">
-                                        <div className="info">
-                                            <h1 className="display-1 text-light">
-                                                Kreative & Co
-                                            </h1>
-                                            <h1 className="display-1 text-light">
-                                                Web Agency
-                                            </h1>
-                                            <Link to="/work" className="btn ">Our Work</Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <section className="item2">
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-sm">
-                                        <div className="info">
-                                            <h1 className="display-1 text-light">
-                                                Innovation
-                                            </h1>
-                                            <h1 className="display-1 text-light">
-                                                Is Our Name </h1>
-                                            <Link to="/work" className="btn">Our Work</Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <section className="item3">
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-sm">
-                                        <div className="info">
-                                            <h1 className="display-1 text-light">
-                                                Creativity
-                                            </h1>
-                                            <h1 className="display-1 text-light">
-                                                At Its Best
-                                            </h1>
-                                            <Link to="/work" className="btn">Our Work</Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </Carousel.Item>
-                </Carousel>
-            </section>
-            {/*About*/}
-            <div className="about">
-                <div className="">
-                    <div className="row">
-                        <div className="col-lg-6" >
-                            <img className="img-fluid" src={reactImage} alt="about-image" data-aos="fade-right" />
-                        </div>
-                        <div className="col-lg-5">
-                            <h1 className="display-4" data-aos="fade-left" >
-                                We Are A Web Development Agency
+                <div className="intro" >
+                    <div className="row" data-aos="fade-in">
+                        <div className="col-lg-7">
+
+                            <h1>
+                                DIGITIZE IDEAS.
                             </h1>
-                            <p className="dispaly-7" data-aos="fade-left">
-                                Trust and Customer Satisfaction above all things:
-                                Quality work, delivery on time, all the time.
-                                Our mission is to help businesses improve with an online
-                                presence and build long-term relationships with clients.
+                            <div className="intro-button">
+                                <Link className="button" to="/work">View Work</Link>
+                                <Link className="button disappear" to="/work">Contact Us</Link>
+
+                            </div>
+
+                        </div>
+                        <div className="col-lg-4">
+                            <div className="video">
+                                <FontAwesomeIcon className="icon" icon={faCirclePlay}></FontAwesomeIcon>
+
+                            </div>
+
+
+                            <p>
+                                The art of visual communication, creatively impacting the world
+                                arround us-one good design at a time, design like ou mean it!
                             </p>
-                            <Link className="button text-light" to="/about" data-aos="fade-left" >Learn More</Link>
+
                         </div>
                     </div>
+                    <div className="intro-image" data-aos="fade-up">
+
+                        <div className="row">
+                            <div className="col-lg-8">
+
+                            </div>
+                            <div className="col-lg-3">
+                                <div className="span">
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-            </div>
-            {/*Work*/}
-            <div className="container-fluid work">
-                <div className="title">
-                    <h1 className="display-1 text-center" data-aos="fade-up">
-                        Our Work Speaks for Itself
-                    </h1>
+            </section>
+            {/** Services */}
+            <div className="new-services">
+                <div className="service-intro">
+                    <div className="marquee-w">
+                        <div className="marquee">
+                            <span>DISCUSS YOUR IDEAS</span>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div className="our-services">
+                    <div className="row">
+                        <div className="col-lg-7" data-aos="fade-up">
+                            <span>
+                                <h1 className="display-1 ">
+                                    OUR SERVICES.
+
+                                </h1>
+                            </span>
+
+                            <p>
+                                Every one of us love something different. So explore the world through
+                                the lens of visual capabilities, and find what you love.
+                            </p>
+
+                        </div>
+                        <div className="col-lg-4">
+
+                        </div>
+                    </div>
+                    <div className="new-item">
+                        <Table responsive data-aos="fade-in" >
+                            <tbody>
+                                <tr>
+
+                                    <td>UI/UX Design</td>
+                                    <td>
+                                        <Link className="icon-link" to="/servives">  <FontAwesomeIcon icon={faArrowUpRightDots} /></Link>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Web Development</td>
+
+                                    <td>
+                                        <Link className="icon-link" to="/services">
+                                            <FontAwesomeIcon icon={faArrowUpRightDots} />
+
+                                        </Link>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>Maintenance</td>
+                                    
+                                        <td>
+                                            <Link className="icon-link" to="services">
+                                                <FontAwesomeIcon icon={faArrowUpRightDots} />
+                                            </Link>
+                                        </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>Consulting</td>
+                                    <td>
+                                        <Link className="icon-link"  to="/services">
+                                            <FontAwesomeIcon icon={faArrowUpRightDots} />
+                                        </Link>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </Table>
+                    </div>
+                    <div className="creative" data-aos="zoom-in">
+                        <span>
+                            <h1> A creative
+                                mind knows how to do the right thing
+                                at the <FontAwesomeIcon icon={faArrowUpRightDots} /> right place and at the  right time
+                            </h1>
+                        </span>
+                    </div>
+
+
+
                 </div>
 
-                <Container data-aos="fade-in">
+            </div>
+
+          
+
+            {/*Work*/}
+            <div className="container-fluid work">
+                <div className="row" data-aos="fade-up">
+                    <div className="col-lg-7">
+                        <h1>BEST PROJECT.</h1>
+
+
+                    </div>
+                    <div className="col-lg-4">
+
+
+
+
+                    </div>
+
+                </div>
+
+                <Container>
                     <Swiper
                         effect={"cards"}
                         grabCursor={true}
                         modules={[EffectCards]}
                         className="mySwiper"
+                        data-aos="zoom-in"
                     >
                         <SwiperSlide><img className="img-fluid" src={One} /></SwiperSlide>
                         <SwiperSlide><img className="img-fluid" src={Two} /></SwiperSlide>
@@ -151,80 +227,17 @@ const Home = () => {
                     </Swiper>
                 </Container>
 
-                <div className="container">
-                    <Link to="/work" className="btn">See All</Link>
-                </div>
             </div>
 
 
-            {/** Services New */}
-            <div className="expertise">
-
-                <div className="intro">
-                    <div className="row ">
-                        <div className="col-lg-6">
-                            <div className="offer">
-                                <h2 className="dispaly-5" data-aos="fade-up"   >What We Offer</h2>
-                                <h1 className="display-1" data-aos="fade-up">Our Expertise</h1>
-                                <p data-aos="fade-up"  >
-                                    The company specializes in the development and maintenance of websites,
-                                    web applications, and user-interface designs.
-                                    The company also provides hosting and domain
-                                    alongside consulting services.
-                                </p>
-                                <Link className="button text-light" to="/services" data-aos="fade-up">See All</Link>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 sec-right">
-
-                            <img className="img-fluid" src={expertImage} alt="image-expertise" />
-
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="item">
-                    <div className="container">
-                        <div className="row first">
-                            <div className="col-sm" data-aos="fade-up">
-                                <FontAwesomeIcon icon={faFigma} className="icon" />
-                                <h1>UX & UI Design</h1>
-                                <p>
-                                    User interfaces for machines and software, such as computers,
-                                    home applications, mobile devices, and electronic devices,
-                                    with a focus on maximizing usability and user experience.
-                                </p>
-                            </div>
-                            <div className="col-sm" data-aos="fade-up">
-                                <FontAwesomeIcon icon={faCode} className="icon" />
-                                <h1>Websites & Web Applications</h1>
-                                <p>
-                                    Websties solutions from corporate business websites
-                                    to e-commerce solutions for your business.
-                                </p>
-                            </div>
-                            <div className="col-sm" data-aos="fade-up">
-                                <FontAwesomeIcon icon={faScrewdriverWrench} className="icon" />
-                                <h1>Maintenance Services</h1>
-                                <p>
-                                    Maintenance packages for websites and web applications, consisting of
-                                    ensuring the solutions provided perform at peak performance and remain error-free.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
 
 
 
-                </div>
+            {/* New Contact */}
 
+      <ContactForm/>
 
-            </div>
-
-
-            {/*Testimonials*/}
+            {/*Testimonials
 
             <div className="title-testimonial">
 
@@ -293,8 +306,8 @@ const Home = () => {
                 </div>
             </div>
 
-            <ContactForm/>
-           
+            <ContactForm />
+*/}
         </div >
 
     </>;

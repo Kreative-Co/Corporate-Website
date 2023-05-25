@@ -1,5 +1,6 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import { Link } from 'react-router-dom';
 
 import '../App.css';
 import AOS from "aos";
@@ -34,28 +35,22 @@ const ContactForm = () => {
      };
 
     return (
-        <div className="container">
-            <div className="row contact-form">
-                <div className="col-lg-5">
-                    <h1 className="display-1" data-aos="fade-up">
-                        Let's talk
-                    </h1>
-
-                    <p data-aos="fade-up"><FontAwesomeIcon icon={faPhone} /> 0027 590 5100</p>
-                    <p data-aos="fade-up"><FontAwesomeIcon icon={faMailBulk} /> linokhan1@gmail.com</p>
-                    <p data-aos="fade-up"><FontAwesomeIcon icon={faLocation} /> 53 Commercial Street, Cape Town Western Cape, South Africa 8001</p>
-
-                </div>
-                <div className="col-lg-7">
-                    <form ref={form} onSubmit={sendEmail}>
-                        <input data-aos="fade-left" type="text" name="user_name" placeholder='Name' />
-                        <input data-aos="fade-left" type='email' name="user_email" placeholder='Email' />
-                        <textarea data-aos="fade-left" name="message" placeholder='Message'></textarea>
-                        <input data-aos="fade-left" type='submit' value="Send" className='btn' />
-                    </form>
-                </div>
+        <div className="new-contact">
+        <div className="contact-intro">
+            <h1 className="text-center">
+                LET'S DISCUSS YOUR IDEAS
+            </h1>
+            <div className="contact-btn text-center">
+                <Link to="/contact" className="button">  START NOW  </Link> 
+                <Link to="/contact" className="button disappear"> FOLLOW US  </Link>
             </div>
+
+
+
         </div>
+
+    </div>
+
     );
 }
 

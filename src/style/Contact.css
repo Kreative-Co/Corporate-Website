@@ -1,64 +1,49 @@
-.main-contact{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../images/photo-3.avif") ;
-    background-size: cover;
-    height:740px;
-}
-.main .container{
-
-    position: relative;
-    top:25%;
-    
-}
-.main .col-sm{
-    position: relative;
-    padding-left: 150px;
-}
-.main .container .info{
-
-    position: relative;
-    margin-top: 130px;
-
-}
-
-
-
-
 
 /* Contact Form */
 
-.contact-form{
+.contact-formulaire{
+    margin-top: 130px;
     padding-top: 100px;
     padding-bottom: 100px;
+    background-color: #0A0A0A;
+    padding-left: 100px;
 }
 
-.contact-page .row .col-lg-5{
-    background-color: #F8FAF9;
-    border-radius: 25px;
-    padding: 50px;
+.contact-formulaire .row {
+    opacity: 20%;
+
 }
-.contact-page .row .col-lg-5 p{
-    color: grey;
-    width: 60%;
+
+.contact-formulaire h1{
+    font-size: 5.2rem;
+    font-weight: bold;
+    color: #fff;
+}
+.contact-formulaire p{
+    color: #fff;
 }
 
 form input[type=text], input[type="email"]{
-    width: 45%;
+    width: 100%;
     margin: 10px;
     padding:18px;
     font-size: 1.4rem;
-    border: 1px solid grey;
-    opacity: 0.5;
-    border-radius: 25px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
 }
 form textarea{
-    width: 93%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+
+    width: 100%;
     margin: 10px;
     padding: 10px;
     font-size: 1.4rem;
     height:200px;
-    border: 1px solid grey;
-    opacity: 0.5;
-    border-radius: 25px;
+    color:#fff;
 
 
 
@@ -78,61 +63,97 @@ form .btn{
 
 }
 
+.contact-formulaire .row .col-lg-6 .info-contact{
+    background-color: #272727;
+    padding: 50px;
+    
+  
+  margin-left: 100px;
+  margin-top: 70px;
+}
+.contact-formulaire .row .col-lg-6 .info-contact h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 40px;
+
+}
+.contact-formulaire .row .col-lg-6 .info-contact p{
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-bottom: 40px;
+    letter-spacing: 1.4px;
+
+}
+.contact-formulaire .row .col-lg-6 .info-contact .form-icon{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+
 
 
 /* Last Section */
 
 
-.become-client{
-    background-color: #fff;
-    color:#000;
-    margin-bottom: 150px;
-}
 
-#container-fluid .left{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),url("../images/web11.jpg") ;
-    background-size: cover;
-}
-#container-fluid .left img{
-    display: none;
-}
- .right{
-    position: relative;
-    padding-top: 120px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 120px;
-    
-}
-.right p{
-    font-size: 1.3rem;
-    width: 70%;
-}
 
 @media screen and (max-width: 1280px) {
-   
-    .right{
-        padding-top: 40px;
+
+    .contact-formulaire .row .col-lg-6 .info-contact{
+        margin-top: 20px;
+        margin-left: 20px;
+
     }
-    .right p{
-        width: 100%;
+
+    .contact-formulaire{
+        padding-left: 50px;
+    }
+    .contact-formulaire .row .col-lg-6 h1{
+        font-size: 4rem;
+    }
+
+    .contact-formulaire .row .col-lg-6 form input[type=text], input[type=email]{
+        font-size: 1.2rem;
+
+    }
+    form textarea{
+        font-size: 1.2rem;
     }
    
+    .contact-formulaire .row .col-lg-6 .info-contact p{
+        font-size: 1.2rem;
+    }
+  
 }
 @media screen and (max-width: 1000px) {
-   
-    .right{
-        padding: 20px;
-    }
-    .right p{
-        width: 100%;
-    }
-   
 
-    .container-fluid{
-        margin-bottom: 20px;
+    .contact-formulaire{
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-left: 0px;
+        padding: 25px;
+        margin-top: 50px;
+    }
+    .contact-formulaire h1{
+        font-size: 2rem;
+    }
+    .contact-formulaire .row .col-lg-6 form input[type=text], input[type=email]{
+        margin: 0;
+    }
+    .contact-formulaire .row .col-lg-6 form textarea{
+        margin:0;
+    }
+    .contact-formulaire .row .col-lg-6 .info-contact{
+        margin-left: 0px;
     }
 
+    .contact-formulaire .row .col-lg-6 h1{
+        font-size: 4rem;
+    }
+   
+  
 }
 @media screen and (max-width: 780px) {
     html, body{
@@ -141,73 +162,20 @@ form .btn{
         padding: 0;
         overflow-x: hidden;
     }
+    
+.contact-formulaire h1{
+    font-size: 3rem;
+}
 
-    .main h1 {
-        text-align: center;
-    }
-    .main .btn{
-        position: relative;
-        top:70px;
-        left: 50%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-    }
-    .main .col-sm{
-        position: relative;
-        padding-left: 0;
-    }
-    .contact-form{
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    .container-fluid{
-        margin-bottom: 20px;
-    }
    
-    .container-fluid .row .left{
-        display: none;
-    }
 
-    .container-fluid .row{
-        height: fit-content;
-    }
-    .right{
-        padding: 20px;
-    }
-    .right p{
-        width: 100%;
-    }
+   
 
 }
 @media screen and (max-width: 580px) {
 
 
-    .main-contact{
-        height:600px;
-    }
-    
-    
-    img{
-        display: flex;
-    }
-    .contact-page .row .col-lg-5 p{
-        width: 100%;
-    }
-    form{
-        position: relative;
-        margin-top: 25px;
-    }
-
-    .contact-form input[type=text], input[type=email]{
-        width:90%;
-    }
-    form .btn{
-        width:50%;
-        font-size: 1.6rem;
-
-    }
-
+  
 }
 
 

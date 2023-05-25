@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import Logo from '../images/logo-new.png';
+import Logo from '../images/black-logo.png';
 
 
 
@@ -16,8 +16,7 @@ const Layout = () => {
 
                {['sm'].map((expand) => (
                 <Navbar key={expand} expand={expand} className="mb-3">
-                    <Container >
-                        <Navbar.Brand href="#" className="logo"><img className="img-fluid" src={Logo} alt="logo" /></Navbar.Brand>
+                        <Navbar.Brand href="#" className="logo">KREATIVE & CO</Navbar.Brand>
                         <Navbar.Toggle className="toggle bg-light" aria-controls={`offcanvasNavbar-expand-${expand}`} />
                         <Navbar.Offcanvas
                             id={`offcanvasNavbar-expand-${expand}`}
@@ -54,7 +53,6 @@ const Layout = () => {
                                 </Nav>
                             </Offcanvas.Body>
                         </Navbar.Offcanvas>
-                    </Container>
                 </Navbar>
             ))}
        

@@ -3,14 +3,19 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../style/Services.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from "react-router-dom";
-import { faHandshakeSimple, faScrewdriverWrench, faCode } from '@fortawesome/free-solid-svg-icons';
-import { faFigma } from '@fortawesome/free-brands-svg-icons'
+import { faHandshakeSimple, faCirclePlay, faScrewdriverWrench, faCode, faArrowUpRightDots } from '@fortawesome/free-solid-svg-icons';
+import { faFigma, faReact } from '@fortawesome/free-brands-svg-icons'
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import Table from 'react-bootstrap/Table';
+import { Accordion } from 'react-bootstrap';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import sectionImage from "../images/web5.webp";
+import sectionImage from "../images/photo-5.avif";
 import { Helmet } from 'react-helmet-async';
 import ContactForm from './ContactForm';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.css';
+import { EffectCards } from 'swiper';
 
 const Services = () => {
     useEffect(() => {
@@ -27,35 +32,59 @@ const Services = () => {
             <link rel="canonical" href="/services" />
         </Helmet>
 
+        <section className="main">
+            <div className="intro">
+                <div className="row">
+                    <div className="col-lg-7">
 
-        <div className="service">
-            <section className="main" >
-                <div className="main-services">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-sm" data-aos="fade-left">
-                                <div className="info">
-                                    <h1 className="display-1 text-light">
-                                        What We
-                                    </h1>
-                                    <h1 className="display-1 text-light">
-                                        Excel At!
-                                    </h1>
-                                    <Link to="/contact" className="btn">Contact Us</Link>
-                                </div>
-                            </div>
+                        <h1>
+                            WHAT WE DO
+                        </h1>
+                        <Link className="button" to="/work">View Work</Link>
+                        <Link className="button disappear" to="/contact">Contact Us</Link>
+
+
+                    </div>
+                    <div className="col-lg-4">
+                        <div className="video">
+                            <FontAwesomeIcon className="icon" icon={faCirclePlay}></FontAwesomeIcon>
+
                         </div>
+
+
+                        <p>
+                            The art of visual communication, creatively impacting the world
+                            arround us-one good design at a time, design like ou mean it!
+                        </p>
+
                     </div>
                 </div>
 
-            </section>
+            </div>
+
+
+
+        </section>
+        <div className="service">
+
+
+
 
             <div className="section">
+            <div className="service-intro">
+                    <div className="marquee-w">
+                        <div className="marquee">
+                            <span>CUSTOM DESIGN</span>
+
+                        </div>
+
+                    </div>
+                </div>
                 <div className="row">
-                    <div className="col-sm left" data-aos="fade-up">
+                    <div className="col-lg-7 left" data-aos="fade-up">
                         <div className="data">
                             <h1>
-                                Let Us Know Why You are the Best
+                                OUR EXPERTISE
                             </h1>
                             <p>
                                 By investing in our design solutions, you position your business for long-term success,
@@ -76,16 +105,57 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className="col-sm droite" data-aos="fade-left">
-                        <img className="img-fluid" src={sectionImage} alt="services-image" />
+                    <div className="col-lg-5 droite">
+                        <img className="img-fluid" src={sectionImage} alt="service-image" />
+
                     </div>
                 </div>
             </div>
             {/** Services List */}
-            <div class="container services-list">
+            <div class="services-list">
+          
+
+                <div className="row">
+                    <div className="col-sm">
+                        <FontAwesomeIcon icon={faCode} className="icons" />
+                        <h1>Websites & Web Application</h1>
+                        <p>
+                            Websties solutions from corporate business websites
+                            to e-commerce solutions for your business.
+                        </p>
+
+                    </div>
+                    <div className="col-sm">
+                        <FontAwesomeIcon icon={faFigma} className="icons" />
+                        <h1>UI & UX Design</h1>
+                        <p>
+                            User interfaces for machines and software, such as computers,
+                            home applications, with a focus on maximizing usability and user experience.
+                        </p>
+
+                    </div>
+                    <div className="col-sm">
+                        <FontAwesomeIcon icon={faHandshakeSimple} className="icons" />
+
+                        <h1>Consulting Services</h1>
+                        <p>
+                            Consulting services to businesses and individuals on a given topic or area.
+                        </p>
+
+                    </div>
+                    <div className="col-sm">
+                        <FontAwesomeIcon icon={faScrewdriverWrench} className="icons" />
+                        <h1>Maintenance Services</h1>
+                        <p>
+                            Maintenance packages for websites and web applications, consisting of ensuring the solutions provided perform at peak performance and remain error-free.
+                        </p>
+
+                    </div>
+                </div>
 
 
-                <div className="row align-items-center justify-content-center">
+
+                {/*} <div className="row align-items-center justify-content-center">
                     <div className="col-lg-4 col-md-6 order-md-1 order-lg-1">
                         <div className=" card card-service border-r-0 p-4 p-lg-5 mb-5 animate__animated animate__flipInY" data-aos="fade-up">
                             <FontAwesomeIcon icon={faCode} className="icons" />
@@ -140,23 +210,50 @@ const Services = () => {
                             <Link to="/contact" className="button">Contact Us</Link>
                         </div>
                     </div>
-                </div>
+                </div>*/}
             </div>
             {/** Unique Solution */}
-            <div id="container-fluid" className="container-fluid">
+            <div className="container-fluid service-why">
                 <div className="row ">
-                    <div className="col-sm left">
-                    </div>
-                    <div className="col-sm ">
+
+                    <div className="col-lg-12 ">
                         <div className="right">
-                            <h1 className="display-2" data-aos="fade-left">
-                                Unique Solutions for Your Business
+                            <h1 className="display-2 text-end" data-aos="fade-left">
+                                WHY CHOOSE US
                             </h1>
-                            <p className="" data-aos="fade-left">
-                                Our custom-made designs are tailored to your business needs, goals, and branding.
-                                We provide solutions that help businesses stand out from the competition,
-                                build brand recognition,  and ultimately drive revenue.
-                            </p>
+                            <Table responsive data-aos="fade-in" >
+                                <tbody>
+                                    <tr>
+                                        <td>Customization</td>
+                                        <td>
+
+                                            <FontAwesomeIcon icon={faArrowUpRightDots} />
+
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Collaboration</td>
+                                        <td> <FontAwesomeIcon icon={faArrowUpRightDots} />
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Long-term relationships</td>
+                                        <td><FontAwesomeIcon icon={faArrowUpRightDots} /></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Value</td>
+                                        <td><FontAwesomeIcon icon={faArrowUpRightDots} /></td>
+
+                                    </tr>
+
+                                </tbody>
+
+                            </Table>
+
+
                         </div>
                     </div>
                 </div>

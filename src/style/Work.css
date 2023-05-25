@@ -1,51 +1,57 @@
-.main-work {
-    height: 740px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/photo-4.avif");
-    background-size: cover;
+
+
+ .intro-work{
+    height: 600px;
 }
 
-.hero .container {
-    position: relative;
-    top: 25%;
-}
 
-.hero .col-sm {
-    padding-left: 150px;
-
-
-}
-
-.hero .btn {
-
-    background-color: #fff;
-    position: relative;
-    top: 50px;
-    padding: 12px 25px;
-    border: none;
-    color: #191919;
-    cursor: pointer;
-    font-size: 1.6rem;
-    font-weight: 500;
-
-}
 
 .portfolio {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    margin-top: 120px;
+    background-color: #0A0A0A;
+    color: #fff;
+   
 }
 
-.portfolio .row {
 
+.portfolio .row  {
+
+    padding-left: 100px;
+    padding-right: 100px;
     position: relative;
-    margin-bottom: 75px;
-    margin: auto;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding-bottom: 70px;
+  
+
+
 
 }
+.portfolio .row .col-lg-7{
+    opacity: 20%;
+}
+.portfolio .row .col-lg-5{
+    margin-top:10%;
+}
+
+.portfolio .row .col-lg-5 h1{
+    font-size: 4rem;
+   
+}
+.portfolio  h1, h2{
+    color: #fff;
+    opacity: 20%;
+
+}
+
 
 .portfolio .title {
     padding-top: 75px;
     padding-bottom: 75px;
+}
+
+.portfolio .title h1{
+    font-size: 5.2rem;
+    font-weight: bold;
 }
 
 
@@ -70,20 +76,66 @@
     font-size: 1.3rem;
     width: 60%;
 }
+@media screen and (max-width: 1280px){
 
+    .portfolio .row .col-lg-5 h1{
+        font-size: 3rem;
+    }
+    .portfolio .row .col-lg-5 h2{
+        font-size: 1.4rem;
+    }
+    .portfolio .row{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media screen and (max-width: 1000px){
+
+    .portfolio .title{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .portfolio .title h1{
+        text-align: center;
+    }
+
+    .portfolio .row{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 10px;
+    }
+    .portfolio .row .col-lg-5 h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .portfolio .row .col-lg-5 h2{
+        text-align: center;
+    }
+}
 @media screen and (max-width: 780px) {
 
     .portfolio .title h1 {
+        font-size: 3rem;
+    }
+    .portfolio .row .col-lg-5{
+        margin-top: 0px;
+    }
+    .portfolio .row .col-lg-5 h2{
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    .portfolio .row .col-lg-5 h1{
         font-size: 2rem;
+        margin-bottom: 20px;
+
     }
 
 }
 
 @media screen and (max-width: 580px) {
 
-    .main-work {
-        height: 600px;
-    }
+   
 
     .portfolio .title {
         position: relative;
@@ -92,12 +144,5 @@
     }
 
 
-
-    .portfolio .row {
-        position: relative;
-        margin-left: 15px;
-        margin-right: 15px;
-
-    }
 
 }

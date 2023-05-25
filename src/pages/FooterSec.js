@@ -3,24 +3,17 @@ import 'bootstrap/dist/css/bootstrap.css';
 import {  Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../Footer.css';
-import { faInstagram, faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faInstagramSquare, faSquareGithub, faFacebookSquare, faSquareTwitter, faBehanceSquare, faPinterestSquare, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
 import Logo from '../images/logo-new.png';
 
 
 const FooterSec = () => {
     return (
         <div className="footer">
-            <div className="container">
-                <div className="row" style={{ paddingBottom: "50px", position: "relative", left: "-15px" }}>
-                    <div className="col-lg-6">
-                        <img className="img-fluid" src={Logo} alt="logo-image"/>
-                    </div>
-                    <div className="col-lg-6">
-
-                    </div>
-                </div>
+            <div className="container-fluid">
+               
                 <div className="row">
-                    <div className="col-lg-3">
+                   {/* <div className="col-lg-3">
 
                         <h1>Our Company</h1>
                         <p>
@@ -83,12 +76,36 @@ const FooterSec = () => {
                         </ul>
                     </div>
                 </div>
-                {/* Copyright Area*/}
+       
                 <div className="row copyright" >
                     <div className="col-lg-6">
                         <p>copyright 2023 LK, All Rights Reserved.
                         </p>
+    </div>*/}
+
+                <div className="col-lg-6">
+                    
+                    <p>
+                       &copy; 2023 Kreative & Co, All Rights Reserved.
+                        
+                    </p>
+                    
+                </div>
+                <div className="col-lg-6">
+                    <div className="text-end">
+                        <ul>
+                            <li><Link className="footer-link" to="/">Home</Link>   </li>
+                            <li><Link className="footer-link" to="/services">Services</Link>   </li>
+                            <li><Link className="footer-link" to="/work">Work</Link>   </li>
+                            <li><Link className="footer-link" to="/about">About</Link>   </li>
+                            <li><Link className="footer-link" to="/contact">Contact</Link>   </li>
+
+                        </ul>
+                   
+
                     </div>
+               
+                </div>
                    
                 </div>
             </div>
