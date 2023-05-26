@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../style/Work.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faScrewdriverWrench, faArrowUpRightDots, faCode, faArrowRight, faCircle,faCirclePlay } from '@fortawesome/free-solid-svg-icons';
+import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {Link } from "react-router-dom";
@@ -10,10 +10,7 @@ import One from "../images/Coffee-new-version.JPG";
 import Two from "../images/Lion-new-version.JPG";
 import Three from "../images/Joker-new-version.JPG";
 import Four from "../images/Banking-new-version.JPG";
-import Five from "../images/aloe-green-min.JPG";
-import Six from "../images/mercedes-min.jpg";
-import Seven from "../images/banking-min.JPG";
-import Eight from "../images/Joker-Work-min.jpg";
+
 import { Helmet } from 'react-helmet-async';
 import ContactForm from './ContactForm';
 
@@ -58,8 +55,7 @@ const Work = () => {
 
 
                             <p>
-                                The art of visual communication, creatively impacting the world
-                                arround us-one good design at a time, design like ou mean it!
+                            Our web agency takes great pride in our extensive and diverse web design portfolio.
                             </p>
 
                         </div>

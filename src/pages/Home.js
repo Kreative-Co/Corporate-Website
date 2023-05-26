@@ -3,21 +3,17 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faScrewdriverWrench, faArrowUpRightDots, faCode, faArrowRight, faCircle } from '@fortawesome/free-solid-svg-icons';
-import { faFigma } from '@fortawesome/free-brands-svg-icons'
+import { faArrowUpRightDots} from '@fortawesome/free-solid-svg-icons';
 import Table from 'react-bootstrap/Table';
-import { faMailBulk, faPhone, faLocation, faPlus, faCirclePlay } from '@fortawesome/free-solid-svg-icons';
+import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Carousel from 'react-bootstrap/Carousel';
 import One from "../images/Coffee-Work-min.jpg";
 import Two from "../images/aloe-green-min.JPG"
 import Three from "../images/lion-new-min.JPG";
 import Four from "../images/beauty-min.jpg";
 import Five from "../images/mercedes-min.jpg";
 import Eight from "../images/Joker-Work-min.jpg";
-import reactImage from "../images/photo1.avif";
-import expertImage from "../images/web11.jpg";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import { EffectCards } from 'swiper';
@@ -25,14 +21,7 @@ import { Container } from 'react-bootstrap';
 import { Helmet } from 'react-helmet-async';
 import "react-multi-carousel/lib/styles.css";
 import ContactForm from './ContactForm';
-import "@fontsource/marcellus";
 import "@fontsource/montserrat"; // Defaults to weight 400
-import "@fontsource/merriweather-sans"; // Defaults to weight 400
-import "@fontsource/merriweather-sans/400.css"; // Specify weight
-import "@fontsource/merriweather-sans/400-italic.css"; // Specify weight and style
-import "@fontsource/mukta"; // Defaults to weight 400
-import "@fontsource/mukta/400.css"; // Specify weight
-
 
 
 const Home = () => {
@@ -42,9 +31,6 @@ const Home = () => {
         AOS.init();
         AOS.refresh();
     }, []);
-
-
-
 
     return <>
 
@@ -93,6 +79,8 @@ const Home = () => {
                             </div>
                             <div className="col-lg-3">
                                 <div className="span">
+
+
 
                                 </div>
 
@@ -237,77 +225,7 @@ const Home = () => {
 
       <ContactForm/>
 
-            {/*Testimonials
-
-            <div className="title-testimonial">
-
-
-
-                <h1 className="display-1 text-center" data-aos="fade-up">
-                    What our clients think of us !
-                </h1>
-
-            </div>
-            <div className="testim">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-6 col-md-4"></div>
-                        <div className="col-6 col-md-4"></div>
-
-                        <div className="col-6 col-md-4 text" data-aos="fade-in">
-
-                            <Carousel className="carousel">
-                                <Carousel.Item>
-                                    <div className="testimonial-item">
-                                        <h2>Peter Jones</h2>
-                                        <h4>Founder, Property & Co</h4>
-                                        <p>
-                                            LK Enterprises exceeded my expectations in every way. From the initial consultation
-                                            to the final product, the team's expertise and attention to detail were
-                                            evident throughout the entire process. They listened carefully to my
-                                            vision for the website and executed it perfectly, creating a professional
-                                            and user-friendly website.
-                                        </p>
-                                    </div>
-
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className="testimonial-item">
-                                        <h2>Ventina Chiara</h2>
-                                        <h4>Founder, La Dolce Vita </h4>
-                                        <p>
-                                            The team was professional, knowledgeable, and attentive to my needs throughout
-                                            the entire process. They took the time to listen to my ideas and vision
-                                            for the website and then brought it to life in a way that exceeded my
-                                            expectations. Since the launch of the website, my
-                                            restaurant has seen a significant increase in online traffic and
-                                            reservations.
-                                        </p>
-                                    </div>
-
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className="testimonial-item">
-                                        <h2>Jonas Franklin</h2>
-                                        <h4>Founder, Fresh Feet</h4>
-                                        <p>
-                                            They took the time to understand my business needs and goals, and developed
-                                            a website that perfectly captured my brand's aesthetic and values.
-                                            Throughout the process, they communicated with me every step of the
-                                            way and were always responsive to my questions and concerns. The end
-                                            result is a beautifully designed and user-friendly website that has
-                                            significantly increased traffic and sales to my online store.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                            </Carousel>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <ContactForm />
-*/}
+            
         </div >
 
     </>;

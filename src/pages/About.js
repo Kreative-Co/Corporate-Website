@@ -5,7 +5,7 @@ import Table from 'react-bootstrap/Table';
 import { Link } from 'react-router-dom';
 import '../style/About.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faScrewdriverWrench,faCirclePlay, faArrowUpRightDots, faCode, faArrowRight, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCirclePlay, faArrowUpRightDots} from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import reactImage from "../images/photo-5.avif";
@@ -49,8 +49,7 @@ const About = () => {
 
 
                             <p>
-                                The art of visual communication, creatively impacting the world
-                                arround us-one good design at a time, design like ou mean it!
+                            We are committed to building long-term relationships with our customers. 
                             </p>
 
                         </div>
@@ -76,7 +75,7 @@ const About = () => {
 
                 <div className=" row">
 
-                    <div className="col-lg-6">
+                    <div className="col-lg-6" data-aos="fade-up">
                         <div className="mission">
                         <h1>
                             Our Mission
@@ -117,7 +116,7 @@ const About = () => {
                     <h1 className="display-1 text-end" data-aos="fade-up"  > What We Stand For  </h1>
                 </div>
 
-                <Table responsive>
+                <Table responsive data-aos="fade-in">
                     <tbody>
                         <tr>
                             <td>INTEGRITY</td>

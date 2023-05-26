@@ -4,6 +4,7 @@ body {
     padding: 0;
     overflow-x: hidden;
     font-family: "Montserrat";
+    color: #000;
 }
 
 * {
@@ -50,13 +51,14 @@ p {
 
 
 .intro .button {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     padding: 15px 40px 15px 40px;
     border-radius: 50px;
     border: 1px solid #101010;
     margin-right: 20px;
     text-decoration: none;
     color: #101010;
+    text-transform: uppercase;
 
 }
 
@@ -77,8 +79,11 @@ p {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-color: #101010;
+    background-color: #000;
 }
+
+
+
 
 .intro-image .span {
     font-size: 20px;
@@ -133,7 +138,7 @@ p {
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #101010;
+    background-color: #0A0A0A;
     color: #fff;
 }
 
@@ -141,14 +146,14 @@ p {
     font-size: 3.6rem;
     font-weight: 900;
     text-align: right;
-    opacity: 15%;
+    opacity: 20%;
 }
 
 .our-services {
     padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #0A0A0A;
+    background-color: #000;
     color: #fff;
 }
 
@@ -170,7 +175,7 @@ p {
 .new-services .our-services h1 {
     font-size: 5.2rem;
     font-weight: bold;
-    opacity: 15%;
+    opacity: 10%;
 }
 
 .new-services .our-services img {
@@ -179,8 +184,8 @@ p {
 }
 
 .new-services .our-services p {
-    opacity: 15%;
     width: 90%;
+    opacity: 10%;
 }
 
 .new-services .our-services button {
@@ -213,7 +218,7 @@ p {
 .new-item td {
     font-size: 3rem;
     color: #fff;
-    opacity: 15%;
+    opacity: 10%;
     font-weight: 900;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -222,19 +227,19 @@ p {
 }
 
 .new-item tr:hover {
-    background-color: #272727;
-    opacity: 30%;
+    background-color: #0A0A0A;
+    opacity: 20%;
     cursor: pointer;
 
 }
 
-.new-item td:hover {}
+
 
 
 .creative {
     position: relative;
     margin-top: 70px;
-    background-color: #101010;
+    background-color: #0A0A0A;
     padding: 100px;
     opacity: 30%;
 }
@@ -244,6 +249,7 @@ p {
     text-transform: uppercase;
     font-weight: 700;
     color: #fff;
+    opacity: 10%;
 
 }
 
@@ -264,6 +270,37 @@ p {
 
 
 }
+.topnav-right{
+
+    position: relative;
+    padding-left: 480px;
+    width: 100%;
+    float: right;
+}
+
+.navbar{
+    overflow: hidden;
+    position: absolute;
+    padding-left: 120px;
+    padding-right: 200px;
+    padding-top: 25px;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: fit-content;
+}
+
+.nav-link{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color:#000;
+}
+
+.navbar .brand{
+  /*  font-size: 1.6rem;
+    font-weight: bold;*/
+}
+ 
 
 .mb-3 {
     overflow: hidden;
@@ -279,67 +316,6 @@ p {
 
 }
 
-.mb-3 .logo {
-    font-size: 1.4rem;
-    font-weight: 900;
-    padding-left: 20px;
-}
-
-.offcanvas {
-    background-color: #1C1D1D;
-    color: #fff;
-
-}
-
-.offcanvas .offcanvas-body .nav-link .link {
-    color: #101010;
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 1.3rem;
-    text-transform: uppercase;
-}
-
-.offcanvas .offcanvas-header .btn-close {
-    color: #fff;
-    background-color: #fff;
-}
-
-.toggle {
-    border: none;
-    position: relative;
-    right: 30px;
-    background-color: #fff;
-}
-
-.toggle:focus {
-    color: #fff;
-}
-
-.mb-3 .logo img {
-
-    position: relative;
-}
-
-
-
-
-.mb-3 .link {
-    position: relative;
-    list-style-type: none;
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.3rem;
-    cursor: pointer;
-}
-
-
-
-
-.side-link {
-    color: #191919;
-    text-decoration: none;
-    list-style-type: none;
-}
 
 /* Swiper */
 
@@ -456,13 +432,14 @@ img {
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #0A0A0A;
+    background-color: #000;
 
 
 }
 
 .work .col-lg-7{
-    opacity: 20%;
+
+    opacity: 10%;
 
 }
 
@@ -486,7 +463,7 @@ img {
 /* New Contact */
 
 .new-contact {
-    background-color: #0A0A0A;
+    background-color: #000;
     padding-left: 100px;
     padding-right: 100px;
 
@@ -512,7 +489,7 @@ img {
 
 }
 .contact-intro .text-center span{
-    opacity: 20%;
+    opacity: 30%;
     position: relative;
    top: 40px;
 }
@@ -526,6 +503,7 @@ img {
 .contact-intro .contact-btn {
     position: relative;
     margin-top: 70px;
+    opacity: 30%;
   
 
 }
@@ -545,7 +523,6 @@ img {
     color: #fff;
     border-radius: 50px;
     border: 1px solid #fff;
-
     font-size: 1.4rem;
     margin-right: 20px;
 }
@@ -558,37 +535,17 @@ img {
 
 /* Testimonials */
 
-.testim {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./images/photo-3.avif");
-    background-size: cover;
-    height: fit-content;
-}
-
-.title-testimonial {
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
-
-.testim .text {
-    vertical-align: middle;
-    background-color: #fff;
-    margin-top: 75px;
-    margin-bottom: 75px;
-    padding: 40px;
-}
-
-.testimonial-item {
-    position: relative;
-    padding-bottom: 10px;
-}
-
-
-
-
-
-
 
 @media screen and (max-width: 1400px) {
+
+    .navbar{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .topnav-right{
+        padding-left: 420px;
+ }
 
     .mySwiper {
         width: 90%;
@@ -598,9 +555,6 @@ img {
 
     }
 
-}
-
-@media screen and (max-width: 1400px) {
     .intro h1 {
         font-size: 6rem;
     }
@@ -618,6 +572,10 @@ img {
 /* Media Query */
 @media screen and (max-width: 1280px) {
 
+    .topnav-right{
+        padding-left: 150px;       
+    }
+
     .intro .button {
         font-size: 1.3rem;
     }
@@ -634,14 +592,6 @@ img {
         font-size: 1.1rem;
         width: 100%;
     }
-
-
-  
-
-    
-
-
-
     .work .container .row h1 {
         padding-bottom: 50px;
         font-size: 2.4rem;
@@ -653,53 +603,18 @@ img {
         margin-right: auto;
         width: 70%;
     }
-
-
-
-    .expertise .row .col-lg-6 .img-fluid {
-        position: relative;
-        height: 350px;
-    }
-
-    .expertise .row .col-lg-6 {
-        position: relative;
-        padding: 25px;
-    }
-
-    .offer {
-        padding: 20px;
-    }
-
-    .offer h2 {
-        font-size: 1.5rem;
-    }
-
-    .offer h1 {
-        font-size: 2rem;
-    }
-
-    .offer p {
-        font-size: 1.2rem;
-    }
-
-    .title-testimonial h1 {
-
-        font-size: 2rem;
-
-    }
-
-    .testim .col-lg-4 {
-        position: absolute;
-        right: 100px;
-        width: 40%;
-        padding: 10px;
-    }
-
 }
 
 @media screen and (max-width: 1000px) {
 
+    .topnav-right{
+        padding-left: 0px;
+        
+    }
 
+    .navbar .brand{
+        width:45%;
+    }
     .intro .video {
         margin-top: 40px;
         width: 50%;
@@ -741,6 +656,10 @@ img {
 
     .our-services .creative h1 {
         font-size: 3.5rem;
+    }
+    .work{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .work .col-lg-7 h1 {
@@ -829,6 +748,21 @@ img {
 
 @media screen and (max-width: 780px) {
 
+    .navbar{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .navbar .brand{
+
+        font-size: 1.3rem;
+
+    }
+
+    .topnav-right .nav-link{
+        font-size: 1.1rem;
+    }
+
     html,
     body {
         margin: 0;
@@ -836,9 +770,7 @@ img {
         overflow-x: hidden;
     }
 
-    .mb-3 .logo img {
-        width: 60%;
-    }
+   
 
     .intro {
         margin-top: 50px;
@@ -991,9 +923,14 @@ img {
 @media screen and (max-width: 580px) {
 
 
+    .topnav-right .nav-link{
+        font-size: 1.1rem;
+    }
+
     .intro {
         padding-left: 25px;
         padding-right: 25px;
+        margin-top: 120px;
         text-align: center;
 
     }

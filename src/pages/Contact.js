@@ -3,8 +3,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../style/Contact.css';
 import { useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagramSquare, faSquareGithub, faFacebookSquare, faSquareTwitter, faBehanceSquare, faPinterestSquare, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
-import { faCirclePlay,  faMailBulk, faPhone, faLocation, faMapLocation, faClock } from '@fortawesome/free-solid-svg-icons';
+import { faInstagramSquare, faSquareGithub, faFacebookSquare, faBehanceSquare, faPinterestSquare, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
+import { faCirclePlay,  faMailBulk, faPhone,faMapLocation, faClock } from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Helmet } from 'react-helmet-async';
@@ -60,8 +60,8 @@ const Contact = () => {
 
 
                             <p>
-                                The art of visual communication, creatively impacting the world
-                                arround us-one good design at a time, design like ou mean it!
+                            We would love to hear from you! Feel free to reach out
+                             to us with any questions, inquiries, or project ideas.
                             </p>
 
                         </div>
@@ -134,31 +134,7 @@ const Contact = () => {
                
             </div>
 
-            {/** Section */}
-
-
-
-            {/*<div id="container-fluid" className="container-fluid become-client">
-                <div className="row ">
-                    <div className="col-sm left">
-
-                    </div>
-                    <div className="col-sm ">
-                        <div className="right">
-                            <h1 className="display-2" data-aos="fade-left">
-                                Become A Client
-                            </h1>
-                            <p className="" data-aos="fade-left">
-                                Our clients get the best results when they have our team
-                                dedicated to their business for extended periods of time.
-                                This is why we are looking for ongoing collaboration where
-                                our professionals are like your team members who just happen
-                                to be remote. Ready to move forward?
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>*/}
+         
         </div>
     </>;
 }

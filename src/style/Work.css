@@ -9,7 +9,7 @@
 .portfolio {
     padding-bottom: 50px;
     margin-top: 120px;
-    background-color: #0A0A0A;
+    background-color: #000;
     color: #fff;
    
 }
@@ -27,7 +27,7 @@
 
 }
 .portfolio .row .col-lg-7{
-    opacity: 20%;
+    opacity: 100%;
 }
 .portfolio .row .col-lg-5{
     margin-top:10%;
@@ -39,7 +39,7 @@
 }
 .portfolio  h1, h2{
     color: #fff;
-    opacity: 20%;
+    opacity: 10%;
 
 }
 
