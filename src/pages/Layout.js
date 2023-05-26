@@ -8,18 +8,17 @@ import Logo from '../images/black-logo.png';
 
 
 const Layout = () => {
-    return (
-        <>
-             <Navbar className="navbar"  expand="lg">
-    
-        <Navbar.Brand href="#home" className="brand"><img src={Logo} alt="logo-image"/></Navbar.Brand>
+  return (
+    <>
+      <Navbar className="navbar" expand="lg">
+        <Navbar.Brand href="#home" className="brand"><img src={Logo} alt="logo-image" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="topnav-right">
-            <Nav.Link  href="#home">
+            <Nav.Link href="#home">
               <Link className="nav-link" to="/">Home</Link>
-              </Nav.Link>
-            <Nav.Link  className="nav-link" href="#link">
+            </Nav.Link>
+            <Nav.Link className="nav-link" href="#link">
               <Link className="nav-link" to="/services"> Services</Link></Nav.Link>
 
             <Nav.Link className="nav-link" href="#link">
@@ -35,15 +34,15 @@ const Layout = () => {
 
           </Nav>
         </Navbar.Collapse>
-    
-    </Navbar>
-       
+
+      </Navbar>
 
 
-            <Outlet />
 
-        </>
-    )
+      <Outlet />
+
+    </>
+  )
 };
 
 export default Layout;

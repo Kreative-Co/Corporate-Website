@@ -70,7 +70,6 @@ p {
     background-size: cover;
     border-top-left-radius: 20%;
     border-top-right-radius: 20%;
-
 }
 
 .intro-image .span {
@@ -138,7 +137,7 @@ p {
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #0A0A0A;
+    background-color: #101010;
     color: #fff;
 }
 
@@ -153,7 +152,7 @@ p {
     padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #000;
+    background-color: #0A0A0A;
     color: #fff;
 }
 
@@ -175,7 +174,7 @@ p {
 .new-services .our-services h1 {
     font-size: 5.2rem;
     font-weight: bold;
-    opacity: 10%;
+    opacity: 15%;
 }
 
 .new-services .our-services img {
@@ -185,7 +184,7 @@ p {
 
 .new-services .our-services p {
     width: 90%;
-    opacity: 10%;
+    opacity: 15%;
 }
 
 .new-services .our-services button {
@@ -201,7 +200,7 @@ p {
 
 }
 
-.new-services .our-services button:hover {}
+
 
 .new-item {
 
@@ -227,7 +226,7 @@ p {
 }
 
 .new-item tr:hover {
-    background-color: #0A0A0A;
+    background-color: #272727;
     opacity: 20%;
     cursor: pointer;
 
@@ -239,7 +238,7 @@ p {
 .creative {
     position: relative;
     margin-top: 70px;
-    background-color: #0A0A0A;
+    background-color: #272727;
     padding: 100px;
     opacity: 30%;
 }
@@ -314,6 +313,12 @@ p {
     height: fit-content;
     background-color: transparent;
 
+}
+
+.navbar-toggler{
+    color:#000;
+    border: none;
+    opacity: 100%;
 }
 
 
@@ -432,14 +437,14 @@ img {
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #000;
+    background-color: #0a0a0a;
 
 
 }
 
 .work .col-lg-7{
 
-    opacity: 10%;
+    opacity: 15%;
 
 }
 
@@ -463,7 +468,7 @@ img {
 /* New Contact */
 
 .new-contact {
-    background-color: #000;
+    background-color: #0A0A0A;
     padding-left: 100px;
     padding-right: 100px;
 
@@ -930,7 +935,6 @@ img {
     .intro {
         padding-left: 25px;
         padding-right: 25px;
-        margin-top: 120px;
         text-align: center;
 
     }
@@ -1095,3 +1099,31 @@ img {
 
 
 }
+
+@media screen and (max-width: 480px){
+
+    .our-services{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .intro{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .new-contact{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .work .title{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+}
+
+
+
+

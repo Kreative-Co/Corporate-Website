@@ -5,12 +5,12 @@
     margin-top: 130px;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #000;
+    background-color: #0A0A0A;
     padding-left: 100px;
 }
 
 .contact-formulaire .row {
-    opacity: 10%;
+    opacity: 15%;
 
 }
 
@@ -32,6 +32,7 @@ form input[type=text], input[type="email"]{
     border-bottom: 1px solid #fff;
     background-color: transparent;
     color: #fff;
+    opacity: 100%;
 }
 form textarea{
     background-color: transparent;
@@ -44,17 +45,18 @@ form textarea{
     font-size: 1.4rem;
     height:200px;
     color:#fff;
+    opacity: 100%;
 
 
 
     
 }
 form .btn{
-    background-color: #191919;
+    background-color: transparent;
     width: 25%;
     margin: 10px;
     padding: 10px;
-    border: none;
+    border:  1px solid #fff;
     color: #fff;
     cursor: pointer;
     font-size: 1.6rem;
@@ -62,9 +64,17 @@ form .btn{
     border-radius: 25px;
 
 }
+form .btn:hover{
+    background-color: transparent;
+    border:  1px solid #fff;
+    color:#fff;
+
+
+
+}
 
 .contact-formulaire .row .col-lg-6 .info-contact{
-    background-color: #0a0a0a;
+    background-color: #101010;
     padding: 50px;
     
   
@@ -173,7 +183,26 @@ form .btn{
    
 
 }
+
 @media screen and (max-width: 580px) {
+
+
+    .contact-formulaire h1{
+        font-size: 2.3rem;
+
+    }
+
+    
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .contact-formulaire{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
 
   
