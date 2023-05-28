@@ -52,7 +52,7 @@ const Home = () => {
                             </h1>
                             <div className="intro-button">
                                 <Link className="button" to="/work">View Work</Link>
-                                <Link className="button disappear" to="/work">Contact Us</Link>
+                                <Link className="button disappear" to="/contact">Contact Us</Link>
 
                             </div>
 
@@ -126,32 +126,26 @@ const Home = () => {
                         <Table responsive data-aos="fade-in" >
                             <tbody>
                                 <tr>
-
                                     <td>UI/UX Design</td>
                                     <td>
-                                        <Link className="icon-link" to="/servives">  <FontAwesomeIcon icon={faArrowUpRightDots} /></Link>
+                                        <Link className="icon-link" to="/services"><FontAwesomeIcon icon={faArrowUpRightDots} /></Link>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Web Development</td>
-
                                     <td>
                                         <Link className="icon-link" to="/services">
                                             <FontAwesomeIcon icon={faArrowUpRightDots} />
-
                                         </Link>
                                     </td>
-
                                 </tr>
                                 <tr>
-                                    <td>Maintenance</td>
-                                    
+                                    <td>Maintenance</td>                             
                                         <td>
-                                            <Link className="icon-link" to="services">
+                                            <Link className="icon-link" to="/services">
                                                 <FontAwesomeIcon icon={faArrowUpRightDots} />
                                             </Link>
-                                        </td>
-                                    
+                                        </td>                       
                                 </tr>
                                 <tr>
                                     <td>Consulting</td>
@@ -172,15 +166,8 @@ const Home = () => {
                             </h1>
                         </span>
                     </div>
-
-
-
                 </div>
-
             </div>
-
-          
-
             {/*Work*/}
             <div className="container-fluid work">
                 <div className="row" data-aos="fade-up">

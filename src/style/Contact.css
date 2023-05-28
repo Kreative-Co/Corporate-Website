@@ -68,9 +68,6 @@ form .btn:hover{
     background-color: transparent;
     border:  1px solid #fff;
     color:#fff;
-
-
-
 }
 
 .contact-formulaire .row .col-lg-6 .info-contact{
@@ -178,18 +175,17 @@ form .btn:hover{
     font-size: 3rem;
 }
 
-   
-
-   
-
 }
 
 @media screen and (max-width: 580px) {
 
 
-    .contact-formulaire h1{
+    .contact-formulaire .row .col-lg-6 h1{
         font-size: 2.3rem;
 
+    }
+    form .btn{
+        width:50%;
     }
 
     

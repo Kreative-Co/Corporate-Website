@@ -4,11 +4,7 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
-    "@fontsource/crimson-pro": "^4.5.11",
-    "@fontsource/marcellus": "^4.5.10",
-    "@fontsource/merriweather-sans": "^5.0.1",
     "@fontsource/montserrat": "^4.5.14",
-    "@fontsource/mukta": "^5.0.1",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",

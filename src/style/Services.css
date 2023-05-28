@@ -364,5 +364,10 @@ section .btn {
         padding-left: 20px;
         padding-right: 20px;
     }
+
+    .services-list .row .col-sm{
+        margin: 0px;
+        margin-bottom: 20px;
+    }
 }
 
