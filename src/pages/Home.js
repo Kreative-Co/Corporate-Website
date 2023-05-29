@@ -46,14 +46,12 @@ const Home = () => {
                 <div className="intro" >
                     <div className="row" data-aos="fade-in">
                         <div className="col-lg-7">
-
                             <h1>
                                 DIGITIZE IDEAS.
                             </h1>
                             <div className="intro-button">
                                 <Link className="button" to="/work">View Work</Link>
                                 <Link className="button disappear" to="/contact">Contact Us</Link>
-
                             </div>
 
                         </div>
