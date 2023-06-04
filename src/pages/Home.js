@@ -3,17 +3,19 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUpRightDots} from '@fortawesome/free-solid-svg-icons';
+import { faArrowUpRightDots } from '@fortawesome/free-solid-svg-icons';
 import Table from 'react-bootstrap/Table';
 import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import One from "../images/Coffee-Work-min.jpg";
+import One from "../images/Coffee-Work.JPG";
 import Two from "../images/aloe-green-min.JPG"
 import Three from "../images/lion-new-min.JPG";
 import Four from "../images/beauty-min.jpg";
 import Five from "../images/mercedes-min.jpg";
 import Eight from "../images/Joker-Work-min.jpg";
+import Six from "../images/Brixon-Work.JPG";
+import Seven from "../images/Design-Work.JPG";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import { EffectCards } from 'swiper';
@@ -138,17 +140,17 @@ const Home = () => {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Maintenance</td>                             
-                                        <td>
-                                            <Link className="icon-link" to="/services">
-                                                <FontAwesomeIcon icon={faArrowUpRightDots} />
-                                            </Link>
-                                        </td>                       
+                                    <td>Maintenance</td>
+                                    <td>
+                                        <Link className="icon-link" to="/services">
+                                            <FontAwesomeIcon icon={faArrowUpRightDots} />
+                                        </Link>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Consulting</td>
                                     <td>
-                                        <Link className="icon-link"  to="/services">
+                                        <Link className="icon-link" to="/services">
                                             <FontAwesomeIcon icon={faArrowUpRightDots} />
                                         </Link>
                                     </td>
@@ -191,6 +193,8 @@ const Home = () => {
                         className="mySwiper"
                         data-aos="zoom-in"
                     >
+                        <SwiperSlide><img className="img-fluid" src={Six} /></SwiperSlide>
+                        <SwiperSlide><img className="img-fluid" src={Seven} /></SwiperSlide>
                         <SwiperSlide><img className="img-fluid" src={One} /></SwiperSlide>
                         <SwiperSlide><img className="img-fluid" src={Two} /></SwiperSlide>
                         <SwiperSlide><img className="img-fluid" src={Four} /></SwiperSlide>
@@ -208,9 +212,9 @@ const Home = () => {
 
             {/* New Contact */}
 
-      <ContactForm/>
+            <ContactForm />
 
-            
+
         </div >
 
     </>;

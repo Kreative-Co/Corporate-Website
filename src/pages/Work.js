@@ -6,11 +6,12 @@ import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
-import One from "../images/Coffee-new-version.JPG";
+import One from "../images/Brixon-Work.JPG";
+import Five from "../images/Design-Work.JPG";
 import Two from "../images/Lion-new-version.JPG";
 import Three from "../images/Joker-new-version.JPG";
 import Four from "../images/Banking-new-version.JPG";
-
+import Six from "../images/Coffee-Work.JPG";
 import { Helmet } from 'react-helmet-async';
 import ContactForm from './ContactForm';
 
@@ -68,13 +69,40 @@ const Work = () => {
                             [DESIGN] [WEB] 2023
                         </h2>
                         <h1>
+                            BRIXON PHOTOGRAPY
+                        </h1>
+                    </div>
+                    <div className="col-lg-7">
+                        <img className="img-fluid" src={One} alt="Brixon Design" />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-lg-5 align-middle">
+                        <h2>
+                            [DESIGN] [WEB] 2023
+                        </h2>
+                        <h1>
                             BALTE COFFEE
                         </h1>
                     </div>
                     <div className="col-lg-7">
-                        <img className="img-fluid" src={One} alt="Coffee Shop Design" />
+                        <img className="img-fluid" src={Six} alt="Coffee Shop" />
                     </div>
                 </div>
+                <div className="row">
+                    <div className="col-lg-5 align-middle">
+                        <h2>
+                            [DESIGN] [WEB] 2023
+                        </h2>
+                        <h1>
+                            ART GALLERY
+                        </h1>
+                    </div>
+                    <div className="col-lg-7">
+                        <img className="img-fluid" src={Five} alt="Art Gallery" />
+                    </div>
+                </div>
+              
                 <div className="row">
                     <div className="col-lg-5">
                         <h2>
