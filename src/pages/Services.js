@@ -24,8 +24,13 @@ const Services = () => {
     return <>
 
         <Helmet>
-            <title> Services </title>
-            <meta name="description" content="Services of LK Enterprises & Co" />
+            <title>Services: Website Development, Maintenance, and UX/UI Design by Kreative Enterprises </title>
+            <meta name="description" content="Discover the comprehensive services offered by Kreative Enterprises,
+             including expert website development, meticulous maintenance, and cutting-edge UX/UI design.
+              Our team of skilled professionals is dedicated to delivering tailored solutions
+               that elevate your online presence, enhance user experience, and ensure seamless
+                functionality. Partner with us to transform your digital landscape and unlock 
+                the full potential of your business." />
             <link rel="canonical" href="/services" />
         </Helmet>
 
@@ -99,7 +104,7 @@ const Services = () => {
                     </div>
 
                     <div className="col-lg-5 droite">
-                        <img className="img-fluid" src={sectionImage} alt="service-image" />
+                        <img className="img-fluid" src={sectionImage} alt="service image" />
 
                     </div>
                 </div>

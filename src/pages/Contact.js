@@ -36,8 +36,11 @@ const Contact = () => {
 
 
         <Helmet>
-            <title> Contact </title>
-            <meta name="description" content="Contact page of LK Enterprise & Co" />
+            <title> Contact Kreative Enterprises: Reach Out for Professional Web Design Solutions </title>
+            <meta name="description" content="Get in touch with Kreative Enterprises to discuss your web design needs.
+             Our expert team is ready to provide professional solutions tailored to your business.
+              Contact us today to start a conversation and take the first step towards an exceptional online presence.
+             We look forward to hearing from you!" />
             <link rel="canonical" href="/contact" />
         </Helmet>
 

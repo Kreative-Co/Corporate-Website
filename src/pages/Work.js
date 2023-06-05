@@ -26,8 +26,12 @@ const Work = () => {
     return <>
 
         <Helmet>
-            <title> Work </title>
-            <meta name="description" content="Portfolio page of LK Enterprise & Co" />
+            <title> Portfolio: Showcasing the Excellence of Kreative Enterprises </title>
+            <meta name="description" content="Explore the impressive portfolio of Kreative Enterprises,
+             where we showcase our creative excellence in web design. Discover a collection of stunning websites
+             , captivating UI/UX designs, and successful digital projects that reflect our commitment to delivering
+              outstanding results. Immerse yourself in our portfolio and envision the possibilities for
+               your own digital success." />
             <link rel="canonical" href="/work" />
         </Helmet>
         <div className="">
@@ -46,7 +50,7 @@ const Work = () => {
                                 <FontAwesomeIcon className="icon" icon={faCirclePlay}></FontAwesomeIcon>
                             </div>
                             <p>
-                                Our web agency takes great pride in our extensive and diverse web design portfolio.
+                            We take digital experiences to the next level.
                             </p>
                         </div>
                     </div>

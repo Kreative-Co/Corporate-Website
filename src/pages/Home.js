@@ -37,8 +37,11 @@ const Home = () => {
     return <>
 
         <Helmet>
-            <title> Home </title>
-            <meta name="description" content="Home page of LK Enterprises & Co" />
+            <title> Kreative Enterprises: Professional Web Design Agency Transforming Online Presence</title>
+            <meta name="description" content="Kreative Enterprises: Unlocking the Power of Creativity in Web Design.
+             We are a dynamic web design agency that specializes in crafting visually stunning and user-friendly websites.
+              From concept to execution, our team of talented designers and developers will bring your brand to life online. 
+            Discover the limitless possibilities with Kreative Enterprises" />
             <link rel="canonical" href="/" />
         </Helmet>
 
@@ -65,8 +68,7 @@ const Home = () => {
 
 
                             <p>
-                                The art of visual communication, creatively impacting the world
-                                arround us-one good design at a time, design like ou mean it!
+                            Professional Web Design Agency Transforming Online Presence.
                             </p>
 
                         </div>

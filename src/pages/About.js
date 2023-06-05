@@ -24,8 +24,14 @@ const About = () => {
     return <>
 
         <Helmet>
-            <title> About Us </title>
-            <meta name="description" content="About the web agency LK Enterprise & Co" />
+            <title> About Kreative Enterprises: Empowering Businesses with Innovative Web Design Solutions </title>
+            <meta name="description" content="Discover the story behind Kreative Enterprises, a leading web design
+             agency dedicated to empowering businesses with innovative digital solutions.
+              Learn about our team of talented designers, our passion for creativity,
+               and our commitment to delivering exceptional web design services.
+                Explore how our expertise and industry knowledge can elevate your
+                 online presence and drive your business forward. Partner with Kreative 
+                 Enterprises and unlock the potential of impactful web design." />
             <link rel="canonical" href="/about" />
         </Helmet>
 
