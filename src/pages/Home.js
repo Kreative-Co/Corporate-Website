@@ -42,7 +42,7 @@ const Home = () => {
              We are a dynamic web design agency that specializes in crafting visually stunning and user-friendly websites.
               From concept to execution, our team of talented designers and developers will bring your brand to life online. 
             Discover the limitless possibilities with Kreative Enterprises" />
-            <link rel="canonical" href="/" />
+            <link rel="canonical" href="/Home" />
         </Helmet>
 
         <div className="content">
