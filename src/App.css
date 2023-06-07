@@ -135,7 +135,7 @@ p {
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #000;
+    background-color: #0A0A0A;
     color:#fff;
 
 }
@@ -176,7 +176,7 @@ p {
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #0a0a0a;
+    background-color: #101010;
     color: #fff;
 }
 
@@ -191,7 +191,7 @@ p {
     padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #000;
+    background-color: #0A0A0A;
     color: #fff;
 }
 
@@ -277,7 +277,7 @@ p {
 .creative {
     position: relative;
     margin-top: 70px;
-    background-color: #0a0a0a;
+    background-color: #272727;
     padding: 100px;
     opacity: 30%;
 }
@@ -334,11 +334,6 @@ p {
     color:#000;
 }
 
-.navbar .brand{
-  /*  font-size: 1.6rem;
-    font-weight: bold;*/
-}
- 
 
 .mb-3 {
     overflow: hidden;
@@ -476,15 +471,11 @@ img {
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #000;
-
-
+    background-color: #0A0A0A;
 }
 
 .work .col-lg-7{
-
     opacity: 15%;
-
 }
 
 .work h1 {
@@ -500,22 +491,14 @@ img {
 .work .img-fluid {
     height: 600px;
 }
-
-
-
-
 /* New Contact */
-
 .new-contact {
-    background-color: #000;
+    background-color: #0a0a0a;
     padding-left: 100px;
     padding-right: 100px;
-
 }
-
-
 .contact-intro {
-    background-color: #0a0a0a;
+    background-color: #272727;
 
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
@@ -840,25 +823,18 @@ img {
         padding: 0;
         overflow-x: hidden;
     }
-
-   
-
     .intro {
         margin-top: 50px;
         padding-left: 50px;
         padding-right: 50px;
     }
-
-
     .intro h1 {
         font-size: 4rem;
         text-align: left;
     }
 
     .intro p {
-
         font-size: 1.2rem;
-
     }
 
     .intro-image {
@@ -876,10 +852,6 @@ img {
         padding: 12px 35px 12px 35px;
     }
 
-    .new-services .about-us{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
 
 
 
@@ -887,17 +859,13 @@ img {
     .marquee span {
         font-size: 3.5rem;
     }
-    .new-services .about-us{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
+  
     .new-services .about-us .col-lg-7 p{
         font-size: 1.2rem;
     }
 
 
-    .new-services .about-us .row {
+    .new-services .about-us .row{
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -1014,15 +982,10 @@ img {
     }
 
     .contact-form {
-
         position: relative;
         margin-left: 20px;
         margin-right: 20px;
     }
-
-
-
-
 }
 
 @media screen and (max-width: 580px) {
@@ -1036,12 +999,12 @@ img {
         padding-left: 25px;
         padding-right: 25px;
         text-align: center;
-
     }
 
     .intro .row .col-lg-7 {
         width: 100%;
     }
+
 
     .intro h1 {
         font-size: 4rem;
