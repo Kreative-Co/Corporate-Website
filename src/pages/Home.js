@@ -42,7 +42,7 @@ const Home = () => {
              We are a dynamic web design agency that specializes in crafting visually stunning and user-friendly websites.
               From concept to execution, our team of talented designers and developers will bring your brand to life online. 
             Discover the limitless possibilities with Kreative Enterprises" />
-            <link rel="canonical" href="/Home" />
+            <link rel="canonical" href="/" />
         </Helmet>
 
         <div className="content">
@@ -68,7 +68,7 @@ const Home = () => {
 
 
                             <p>
-                            Professional Web Design Agency Transforming Online Presence.
+                                Professional Web Design Agency Transforming Online Presence.
                             </p>
 
                         </div>
@@ -93,12 +93,31 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+
             {/** Services */}
             <div className="new-services">
                 <div className="service-intro">
                     <div className="marquee-w">
                         <div className="marquee">
                             <span>DISCUSS YOUR IDEAS</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="about-us">
+                    <div className="row">
+                        <div className="col-lg-7">
+                            <p className="display-4">We are a dynamic web agency specializing in custom web development,
+                                empowering businesses to establish a strong online presence and achieve
+                                their digital goals.
+
+                            </p>
+
+
+                        </div>
+                        <div className="col-lg-4">
+                            <h1 className="display-1">Kreative Digital Agency</h1>
+                            <Link to="/about" className="link"> Learn More</Link>
 
                         </div>
 
@@ -115,8 +134,7 @@ const Home = () => {
                             </span>
 
                             <p>
-                                Every one of us love something different. So explore the world through
-                                the lens of visual capabilities, and find what you love.
+                            By investing in our design solutions, you position your business for long-term success, a loyal customer base, and driving growth in your industry.
                             </p>
 
                         </div>
@@ -160,11 +178,10 @@ const Home = () => {
                             </tbody>
                         </Table>
                     </div>
+
                     <div className="creative" data-aos="zoom-in">
                         <span>
-                            <h1> A creative
-                                mind knows how to do the right thing
-                                at the <FontAwesomeIcon icon={faArrowUpRightDots} /> right place and at the  right time
+                            <h1 style={{fontSize:"4.7rem"}}> We understand that each business is distinct, with its own goals, <FontAwesomeIcon icon={faArrowUpRightDots} />  target audience, and branding requirements.
                             </h1>
                         </span>
                     </div>

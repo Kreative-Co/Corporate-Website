@@ -128,6 +128,45 @@ p {
 
 }
 
+.new-services .about-us{
+
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #000;
+    color:#fff;
+
+}
+
+.new-services .about-us .col-lg-4{
+    position: relative;
+    padding-left: 60px;
+
+
+}
+.new-services .about-us .col-lg-4 h1{
+    font-weight: bold;
+    opacity: 15%;
+}
+.new-services .about-us .col-lg-4 .link{
+    position: relative;
+    font-size: 1.4rem;
+    padding: 15px 40px 15px 40px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 15%;
+    top: 25px;
+
+
+}.new-services .about-us .col-lg-7 p{
+    opacity: 15%;
+}
 .new-services {
     position: relative;
 
@@ -137,7 +176,7 @@ p {
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #101010;
+    background-color: #0a0a0a;
     color: #fff;
 }
 
@@ -152,7 +191,7 @@ p {
     padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #0A0A0A;
+    background-color: #000;
     color: #fff;
 }
 
@@ -238,13 +277,13 @@ p {
 .creative {
     position: relative;
     margin-top: 70px;
-    background-color: #272727;
+    background-color: #0a0a0a;
     padding: 100px;
     opacity: 30%;
 }
 
-.creative h1 {
-    font-size: 5rem;
+.creative span h1 {
+    font-size: 4.5rem;
     text-transform: uppercase;
     font-weight: 700;
     color: #fff;
@@ -437,7 +476,7 @@ img {
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #0a0a0a;
+    background-color: #000;
 
 
 }
@@ -468,7 +507,7 @@ img {
 /* New Contact */
 
 .new-contact {
-    background-color: #0A0A0A;
+    background-color: #000;
     padding-left: 100px;
     padding-right: 100px;
 
@@ -476,7 +515,7 @@ img {
 
 
 .contact-intro {
-    background-color: #272727;
+    background-color: #0a0a0a;
 
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
@@ -559,6 +598,10 @@ img {
         margin-right: auto;
 
     }
+    .new-services .about-us .col-lg-7 p{
+        font-size: 2.7rem;
+
+    }
 
     .intro h1 {
         font-size: 6rem;
@@ -592,11 +635,22 @@ img {
     .intro .video .icon {
         font-size: 70px;
     }
+    
+
 
     .intro p {
         font-size: 1.1rem;
         width: 100%;
     }
+    .new-services .about-us .col-lg-4{
+        padding-left: 0px;
+    }
+
+    .new-services .about-us .col-lg-7 p{
+        font-size: 2.4rem;
+
+    }
+
     .work .container .row h1 {
         padding-bottom: 50px;
         font-size: 2.4rem;
@@ -634,6 +688,11 @@ img {
         padding-top: 50px;
         padding-bottom: 50px;
     }
+    .new-services .about-us .col-lg-7 p{
+        font-size: 2.3rem;
+
+    }
+   
 
     .marquee span {
         font-size: 4rem;
@@ -642,6 +701,13 @@ img {
     .our-services {
         padding-left: 50px;
         padding-right: 50px;
+    }
+    .new-services .about-us{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .new-services .about-us .col-lg-7 p{
+        font-size: 1.6rem;
     }
 
     .our-services .row .col-lg-7 h1 {
@@ -810,12 +876,45 @@ img {
         padding: 12px 35px 12px 35px;
     }
 
+    .new-services .about-us{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 
 
 
     .marquee span {
         font-size: 3.5rem;
     }
+    .new-services .about-us{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .new-services .about-us .col-lg-7 p{
+        font-size: 1.2rem;
+    }
+
+
+    .new-services .about-us .row {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .new-services .about-us .col-lg-4{
+        padding-left: 0px;
+    }
+
+  
+   .new-services .about-us .col-lg-4 h1{
+    display: none;
+   }
+   .new-services .about-us .col-lg-4 .link{
+    font-size: 1.2rem;
+    padding: 12px 35px 12px 35px;
+    margin-left: 10px;
+   }
+
 
     .our-services .row .col-lg-7 h1 {
         font-size: 2.5rem;
@@ -837,6 +936,7 @@ img {
         padding-left: 20px;
         padding-right: 20px;
     }
+
 
     .work .row .col-lg-7 h1 {
         font-size: 2.5rem;

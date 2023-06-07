@@ -4,7 +4,7 @@
 }
 
 .section{
-    background-color: #0A0A0A;
+    background-color: #000;
     color: #fff;
     margin-top: 120px;
     padding-left: 0px;
@@ -14,7 +14,7 @@
     margin-top: 0px;
 }
 .section .row .col-lg-5{
-    opacity: 50%;
+    opacity: 100%;
 }
 
 .section .row .col-lg-5 .img-fluid{
@@ -72,7 +72,7 @@ section .btn {
 /* Services Cards */
 
 .services-list{
-    background-color: #0a0a0a;
+    background-color: #000;
     padding-left: 100px;
     padding-right: 100px;
    
@@ -110,7 +110,7 @@ section .btn {
 
 
 .service-why{
-    background-color: #0a0a0a;
+    background-color: #000;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 100px;
