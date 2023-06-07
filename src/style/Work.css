@@ -22,6 +22,9 @@
 
 
 }
+.portfolio .row .title h1{
+    opacity: 15%;
+}
 .portfolio .row .col-lg-7{
     opacity: 100%;
 }
@@ -31,11 +34,12 @@
 
 .portfolio .row .col-lg-5 h1{
     font-size: 4rem;
+    opacity: 100%;
    
 }
-.portfolio  h1, h2{
+.portfolio   h2{
     color: #fff;
-    opacity: 15%;
+    opacity: 100%;
 
 }
 
@@ -48,7 +52,9 @@
 .portfolio .title h1{
     font-size: 5.2rem;
     font-weight: bold;
+    opacity: 15%;
 }
+
 
 
 .portfolio .col-sm h2 {

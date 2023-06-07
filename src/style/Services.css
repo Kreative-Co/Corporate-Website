@@ -4,7 +4,7 @@
 }
 
 .section{
-    background-color: #0a0a0a;
+    background-color: #000;
     color: #fff;
     margin-top: 120px;
     padding-left: 0px;
@@ -27,13 +27,14 @@
     position: relative;
     padding-left: 100px;
     padding-right: 50px;
-    opacity: 15%;
 }
 
 .data h1{
     font-size: 5.2rem;
     font-weight: bold;
     text-transform: uppercase;
+    opacity: 15%;
+
 }
 
 section .btn {
@@ -51,6 +52,7 @@ section .btn {
 .section .progress {
     border-radius: 0;
     height: 7px;
+    opacity: 50%;
 }
 
 .section .progress-sec {
@@ -61,7 +63,7 @@ section .btn {
 .section  h2 {
     font-size: 2rem;
     color: #fff;
-    opacity: 100%;
+    opacity: 15%;
     
 }
 
@@ -72,7 +74,7 @@ section .btn {
 /* Services Cards */
 
 .services-list{
-    background-color: #0a0a0a;
+    background-color: #000;
     padding-left: 100px;
     padding-right: 100px;
    
@@ -110,7 +112,7 @@ section .btn {
 
 
 .service-why{
-    background-color: #0a0a0a;
+    background-color: #000;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 100px;
@@ -118,19 +120,19 @@ section .btn {
     
 
 }
-.container-fluid .col-lg-12{
-    opacity: 15%;
-}
+
 .container-fluid .col-lg-12 h1{
     font-size: 5.2rem;
     font-weight: bold;
     color:#fff;
+    opacity: 15%;
+
 }
 .container-fluid .col-lg-12 p{
     color:#fff;
 }
 .container-fluid .col-lg-12 tr:hover {
-    background-color: #272727;
+    background-color: #0a0a0a;
     opacity: 20%;
     cursor: pointer;
 
@@ -139,7 +141,7 @@ section .btn {
 .container-fluid tbody td{
     font-size: 3rem;
     color:#fff;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-weight: 900;
     padding-top: 40px;
     padding-bottom: 40px;

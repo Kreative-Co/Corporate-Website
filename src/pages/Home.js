@@ -212,9 +212,7 @@ const Home = () => {
                         className="mySwiper"
                         data-aos="zoom-in"
                     >
-                        <SwiperSlide><img className="img-fluid" src={Six} /></SwiperSlide>
-                        <SwiperSlide><img className="img-fluid" src={Seven} /></SwiperSlide>
-                        <SwiperSlide><img className="img-fluid" src={One} /></SwiperSlide>
+                        
                         <SwiperSlide><img className="img-fluid" src={Two} /></SwiperSlide>
                         <SwiperSlide><img className="img-fluid" src={Four} /></SwiperSlide>
                         <SwiperSlide><img className="img-fluid" src={Five} /></SwiperSlide>

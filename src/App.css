@@ -135,7 +135,7 @@ p {
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #0A0A0A;
+    background-color: #000;
     color:#fff;
 
 }
@@ -160,12 +160,12 @@ p {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    opacity: 15%;
+    opacity: 100%;
     top: 25px;
 
 
 }.new-services .about-us .col-lg-7 p{
-    opacity: 15%;
+    opacity: 100%;
 }
 .new-services {
     position: relative;
@@ -191,7 +191,7 @@ p {
     padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #0A0A0A;
+    background-color: #000;
     color: #fff;
 }
 
@@ -223,7 +223,7 @@ p {
 
 .new-services .our-services p {
     width: 90%;
-    opacity: 15%;
+    opacity: 100%;
 }
 
 .new-services .our-services button {
@@ -256,28 +256,26 @@ p {
 .new-item td {
     font-size: 3rem;
     color: #fff;
-    opacity: 10%;
+    opacity: 100%;
     font-weight: 900;
     padding-top: 40px;
     padding-bottom: 40px;
+    text-transform: uppercase;
 
 
 }
 
 .new-item tr:hover {
-    background-color: #272727;
+    background-color: #0a0a0a;
     opacity: 20%;
     cursor: pointer;
 
 }
 
-
-
-
 .creative {
     position: relative;
     margin-top: 70px;
-    background-color: #272727;
+    background-color: #0a0a0a;
     padding: 100px;
     opacity: 30%;
 }
@@ -471,11 +469,11 @@ img {
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #0A0A0A;
+    background-color: #000;
 }
 
 .work .col-lg-7{
-    opacity: 15%;
+    opacity: 100%;
 }
 
 .work h1 {
@@ -493,7 +491,7 @@ img {
 }
 /* New Contact */
 .new-contact {
-    background-color: #0a0a0a;
+    background-color: #000;
     padding-left: 100px;
     padding-right: 100px;
 }

@@ -6,12 +6,14 @@ import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
-import One from "../images/Brixon-Work.JPG";
+import One from "../images/Brixton-Work.JPG";
 import Five from "../images/Design-Work.JPG";
 import Two from "../images/Lion-new-version.JPG";
 import Three from "../images/Joker-new-version.JPG";
 import Four from "../images/Banking-new-version.JPG";
-import Six from "../images/Coffee-Work.JPG";
+import Six from "../images/space.JPG";
+import Seven from "../images/Ok.JPG";
+
 import { Helmet } from 'react-helmet-async';
 import ContactForm from './ContactForm';
 
@@ -86,11 +88,24 @@ const Work = () => {
                             [DESIGN] [WEB] 2023
                         </h2>
                         <h1>
-                            BALTE COFFEE
+                            Ok DRINK
                         </h1>
                     </div>
                     <div className="col-lg-7">
-                        <img className="img-fluid" src={Six} alt="Coffee Shop" />
+                        <img className="img-fluid" src={Seven} alt="Ok Drink" />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-lg-5 align-middle">
+                        <h2>
+                            [DESIGN] [WEB] 2023
+                        </h2>
+                        <h1>
+                            INTERIOR DESIGN
+                        </h1>
+                    </div>
+                    <div className="col-lg-7">
+                        <img className="img-fluid" src={Six} alt="Space Design" />
                     </div>
                 </div>
                 <div className="row">
