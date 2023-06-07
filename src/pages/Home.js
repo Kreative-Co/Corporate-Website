@@ -181,7 +181,7 @@ const Home = () => {
 
                     <div className="creative" data-aos="zoom-in">
                         <span>
-                            <h1 style={{fontSize:"4.7rem"}}> We understand that each business is distinct, with its own goals, <FontAwesomeIcon icon={faArrowUpRightDots} />  target audience, and branding requirements.
+                            <h1> We understand that each business is distinct, with its own goals, <FontAwesomeIcon icon={faArrowUpRightDots} />  target audience, and branding requirements.
                             </h1>
                         </span>
                     </div>
