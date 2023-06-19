@@ -9,7 +9,37 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Helmet } from 'react-helmet-async';
 import emailjs from "@emailjs/browser";
+import { motion } from 'framer-motion';
+
+
+
+
 const Contact = () => {
+
+
+    const line1 = "LET'S"
+    const line2 = "TALK"
+
+    const sentence = {
+        hidden: { opacity: 1 },
+        visible: {
+            opacity: 1,
+            transition: {
+                delay: 0.5,
+                staggerChildren: 0.08,
+            },
+        },
+    }
+
+    const letter = {
+        hidden: { opacity: 0, y: 50 },
+        visible: {
+            opacity: 1,
+            y: 0,
+        },
+    }
+
+
     useEffect(() => {
         AOS.init();
         AOS.refresh();
@@ -50,15 +80,39 @@ const Contact = () => {
                     <div className="row">
                         <div className="col-lg-7">
 
-                            <h1>
-                                LET'S TALK
-                            </h1>
+                            <motion.h1
+                                className="load-screen-message"
+                                variants={sentence}
+                                initial="hidden"
+                                animate="visible"
+                            >
+                                {line1.split("").map((char, index) => {
+                                    return (
+                                        <motion.span key={char + "-" + index} variants={letter}>
+                                            {char}
+                                        </motion.span>
+                                    )
+                                })}
+                                <br />
+                                {line2.split("").map((char, index) => {
+                                    return (
+                                        <motion.span key={char + "-" + index} variants={letter}>
+                                            {char}
+                                        </motion.span>
+                                    )
+                                })}
+
+
+                            </motion.h1>
 
                         </div>
-                        <div className="col-lg-4">
+                        <motion.div
+                            initial={{ scale: 0 }}
+                            animate={{ scale: 1 }}
+                            transition={{ ease: [0.6, 0.01, -0.05, 0.95], duration: 1, delay: 1 }}
+                            className="col-lg-4">
                             <div className="video">
                                 <FontAwesomeIcon className="icon" icon={faCirclePlay}></FontAwesomeIcon>
-
                             </div>
 
 
@@ -67,7 +121,7 @@ const Contact = () => {
                                 to us with any questions, inquiries, or project ideas.
                             </p>
 
-                        </div>
+                        </motion.div>
                     </div>
 
                 </div>
@@ -83,10 +137,7 @@ const Contact = () => {
                         <h1>
                             CONTACT US
                         </h1>
-                        <p>
-                            Feel free to contact us any time. We will get back to you
-                            as soon as we can!
-                        </p>
+
                         <form ref={form} onSubmit={sendEmail}>
                             <input data-aos="fade-left" type="text" name="user_name" placeholder='Name' />
                             <input data-aos="fade-left" type='email' name="user_email" placeholder='Email' />

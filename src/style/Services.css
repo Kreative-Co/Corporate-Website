@@ -1,3 +1,12 @@
+
+
+
+
+
+.service{
+    margin-top: 120px;
+
+}
 .section .row{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -6,8 +15,9 @@
 .section{
     background-color: #000;
     color: #fff;
-    margin-top: 120px;
     padding-left: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .section .row .col-lg-7{
     padding-top: 0px;
@@ -25,8 +35,7 @@
 }
 .data {
     position: relative;
-    padding-left: 100px;
-    padding-right: 50px;
+  
 }
 
 .data h1{
@@ -57,14 +66,25 @@ section .btn {
 
 .section .progress-sec {
     position: relative;
-    padding-bottom: 35px;
+    padding-bottom: 70px;
 }
 
 .section  h2 {
     font-size: 2rem;
     color: #fff;
     opacity: 15%;
+    text-transform: uppercase;
     
+}
+
+.section .row .col-lg-6 h1{
+    font-weight: 900;
+
+}
+.section .row .col-lg-6 img{
+    width:550px;
+    float:right;
+
 }
 
 
@@ -80,31 +100,32 @@ section .btn {
    
 }
 .services-list .row{
-    opacity: 15%;
     padding-top: 50px;
     padding-bottom: 50px;
+
 }
 .services-list .row .col-sm{
-    background-color: #191919;
+    background-color: #272727;
     margin: 10px;
     padding: 20px;
-
+    opacity: 15%;
 }
 
 .services-list .row .col-sm h1{
-    font-size: 1.7rem ;
+    font-size: 2rem ;
     font-weight: bold;
     color:#fff;
     padding-top: 25px;
+
 }
 .services-list .row .col-sm p{
     color:#fff;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding-top: 25px;
     width: 100%;
 }
 .services-list .row .col-sm .icons{
-    font-size: 50px;
+    font-size: 6rem;
     color:#fff;
     padding-top: 25px;
 }
@@ -126,6 +147,7 @@ section .btn {
     font-weight: bold;
     color:#fff;
     opacity: 15%;
+    text-align: right;
 
 }
 .container-fluid .col-lg-12 p{
@@ -184,6 +206,8 @@ section .btn {
 
 @media screen and (max-width: 1280px) {
 
+    
+
     .service .row .col-lg-7 .data h1{
         font-size: 3.5rem;
     }
@@ -201,8 +225,15 @@ section .btn {
         font-size: 3.5rem;
     }
 
-    .service-why tbody td{
+    .accordion-button{
+        background-color: #000;
         font-size: 2.3rem;
+        font-weight: 900;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        color: #fff;
+    
+    
     }
 
 
@@ -216,28 +247,35 @@ section .btn {
         padding-left: 0;
     }
 
-    .service .row{
+
+    .section .row{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .section .row .col-lg-6 .img-fluid{
+        display: block;
+        position: relative;
+       
+    }
+    .section{
         padding-left: 25px;
         padding-right: 25px;
     }
 
+    .section .row  .col-lg-6 h1{
+        display: none;
+    }
+
+    
+
     .service .row .col-lg-7 .data h1{
-        font-size: 3.5rem;
+        font-size: 2.3rem;
     }
     .service .row .col-lg-7 .data p{
         font-size: 1.3rem;
     }
 
-    .service .row .col-lg-5 .img-fluid{
-        display: block;
-        width: 70%;
-        padding-top: 40px;
-        margin-left: auto;
-        margin-right: auto;
-        height: 400px;
-
-
-    }
+    
     .service .row .col-lg-7 .data h2{
         font-size: 1.5rem;
     }
@@ -342,21 +380,18 @@ section .btn {
         padding-left: 0;
         padding-right: 0;
     }
-    .service-why .row .col-lg-12 h1{
-        font-size: 4rem;
-    }
+   
     .service-why .row .col-lg-12 h1{
         font-size: 2.3rem;
+        text-align: center;
+        padding-bottom: 25px;
     }
 
 
 }
 @media screen and (max-width: 580px) {
 
-    .data{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+    
     .services-list{
         padding-left: 20px;
         padding-right: 20px;
