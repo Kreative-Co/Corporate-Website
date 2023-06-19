@@ -17,8 +17,10 @@ import { motion } from 'framer-motion';
 const Contact = () => {
 
 
+
     const line1 = "LET'S"
     const line2 = "TALK"
+    const line3 = "FOLLOW US"
 
     const sentence = {
         hidden: { opacity: 1 },
@@ -162,11 +164,22 @@ const Contact = () => {
             </div>
             <div className="new-contact">
                 <div className="contact-intro">
-                    <h1 className="text-center">
-                        FOLLOW US
-                    </h1>
-                    <div className="text-center">
-                        <span>
+                    <motion.h1
+                        variants={sentence}
+                        initial="hidden"
+                        whileInView="visible"
+                        className="text-center">
+                        {line3.split("").map((char, index) => {
+                            return (
+                                <motion.span key={char + "-" + index} variants={letter}>
+                                    {char}
+                                </motion.span>
+                            )
+                        })}
+                    </motion.h1>
+                    <div className="text-center" data-aos="fade-in">
+
+                        <span >
                             <a href="https://www.facebook.com/profile.php?id=100092579767183"> <FontAwesomeIcon className="contact-icon" icon={faFacebookSquare} /></a>
                             <a href="https://www.instagram.com/kreative__co/">   <FontAwesomeIcon className="contact-icon" icon={faInstagramSquare} /></a>
                             <a href="https://www.behance.net/linokhan"><FontAwesomeIcon className="contact-icon" icon={faBehanceSquare} /> </a>

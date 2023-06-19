@@ -32,10 +32,10 @@ const ContactForm = () => {
         },
     }
 
-    const button ={
-        hidden: {opacity:0},
-        visible:{
-            opacity:1,
+    const button = {
+        hidden: { opacity: 0 },
+        visible: {
+            opacity: 1,
             transition: {
                 delay: 0.9,
                 staggerChildren: 0.08,
@@ -70,27 +70,24 @@ const ContactForm = () => {
     return (
         <div className="new-contact">
             <div className="contact-intro">
-            <motion.h1
-                                className="text-center"
-                                variants={sentence}
-                                initial="hidden"
-                                whileInView="visible"
-                            >
-                                {line1.split("").map((char, index) => {
-                                    return (
-                                        <motion.span key={char + "-" + index} variants={letter}>
-                                            {char}
-                                        </motion.span>
-                                    )
-                                })}
-                                <br />
-                              
+                <motion.h1
+                    className="text-center"
+                    variants={sentence}
+                    initial="hidden"
+                    whileInView="visible"
+                >
+                    {line1.split("").map((char, index) => {
+                        return (
+                            <motion.span key={char + "-" + index} variants={letter}>
+                                {char}
+                            </motion.span>
+                        )
+                    })}
+                    <br />
+                </motion.h1>
+                <div className="contact-btn text-center" data-aos="fade-in">
 
-
-                            </motion.h1>
-                <div className="contact-btn text-center">
-                    
-                <Link to="/contact" className="button">  START NOW  </Link>
+                    <Link to="/contact" className="button">  START NOW  </Link>
 
                     <Link to="/contact" className="button disappear"> FOLLOW US  </Link>
                 </div>
