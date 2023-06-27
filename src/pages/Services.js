@@ -155,10 +155,10 @@ const Services = () => {
 
                 <div className="row" data-aos="fade-up">
                     <div className="col-lg-6">
-                            <p>
-                                By investing in our design solutions, you position your business for long-term success,
-                                a loyal customer base, and driving growth in your industry.
-                            </p>                   
+                        <p>
+                            By investing in our design solutions, you position your business for long-term success,
+                            a loyal customer base, and driving growth in your industry.
+                        </p>
                     </div>
                     <div className="col-lg-6">
                         <h1 className="display-1 text-end">
@@ -171,16 +171,16 @@ const Services = () => {
                         <div className="data">
 
                             <div className="progress-sec">
-                                <h2>Web Design</h2>
-                                <ProgressBar className='progress' variant="warning" now={90} />
+                                <h2>UX & UI</h2>
+                                <ProgressBar className='progress' variant="warning" now={100} />
                             </div>
                             <div className="progress-sec">
-                                <h2>Development</h2>
-                                <ProgressBar className='progress' variant="warning" now={90} />
+                                <h2>Marketing Website</h2>
+                                <ProgressBar className='progress' variant="warning" now={100} />
                             </div>
                             <div className="progress-sec">
-                                <h2>Consulting</h2>
-                                <ProgressBar className='progress' variant="warning" now={75} />
+                                <h2>Branding</h2>
+                                <ProgressBar className='progress' variant="warning" now={100} />
                             </div>
                         </div>
                     </div>
@@ -199,50 +199,40 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-            {/** Services List */}          
+            {/** Services List */}
             <div class="services-list">
 
 
-                <div className="row">
-                    <div className="col-sm text-center">
-                        <FontAwesomeIcon icon={faCode} className="icons" />
-                        <h1>WEB DEVELOPMENT</h1>
-                        <p>
-                            Websties solutions from corporate business websites
-                            to e-commerce solutions for your business.
-                        </p>
-
-                    </div>
-                    <div className="col-sm text-center">
-                        <FontAwesomeIcon icon={faFigma} className="icons" />
-                        <h1>UI/UX DESIGN</h1>
-                        <p>
-                            User interfaces for machines and software, such as computers,
-                            home applications, with a focus on maximizing usability and user experience.
-                        </p>
-
-                    </div>
-                    <div className="row">
-                    <div className="col-sm text-center">
-                        <FontAwesomeIcon icon={faHandshakeSimple} className="icons" />
-
-                        <h1>CONSULTING</h1>
-                        <p>
-                            Consulting services to businesses and individuals on a given topic or area.
-                        </p>
-
-                    </div>
-                    <div className="col-sm text-center">
-                        <FontAwesomeIcon icon={faScrewdriverWrench} className="icons" />
-                        <h1>WEB MAINTENANCE</h1>
-                        <p>
-                            Maintenance packages for websites and web applications, consisting of ensuring the solutions provided perform at peak performance and remain error-free.
-                        </p>
-
-                    </div>
-                    </div>
-                   
-                </div>
+              
+                <MDBAccordion flush initialActive={1} className="bg-dark">
+                    <MDBAccordionItem collapseId={1} headerTitle='UI & UX DESIGN' className="accordionItem">
+                        User interfaces for web products that increase conversion, reduce cost of maintenance and build consistent user experience.
+                        Our UI & UX design experts work closely with clients to understand their target audience,
+                        business goals, and brand identity. Through meticulous research and user-centric design principles,
+                        we create intuitive interfaces and seamless user experiences that leave a lasting impression on visitors
+                    </MDBAccordionItem>
+                    <MDBAccordionItem collapseId={2} headerTitle='WEB DESIGN'>
+                        Our agency builds corporate business websites and landing pages
+                        that help to tell brand stories, increase conversion and build trust.
+                        We believe in pushing boundaries and creating websites that are not only
+                        visually stunning but also highly functional and scalable.
+                        Our team of skilled designers and developers employs the latest technologies
+                        and industry best practices to build custom websites tailored to the unique
+                        needs of each client. We strive to strike the perfect balance between aesthetics
+                        and functionality, delivering websites that are not only visually appealing but
+                        also optimized for performance and user engagement.
+                    </MDBAccordionItem>
+                    <MDBAccordionItem collapseId={3} headerTitle='BRANDING'>
+                        Our agency helps new businesses to establish a distinctive and compelling
+                        brand identity to effectively engage their target audience.
+                        Branding is a crucial aspect of any business's identity, and our agency excels
+                        at creating cohesive and impactful brand experiences. We collaborate closely
+                        with clients to develop brand strategies that reflect their core values and
+                        resonate with their target market. Our branding services encompass logo design,
+                        color palette selection, typography, and visual guidelines, ensuring consistency
+                        across all digital touchpoints.
+                    </MDBAccordionItem>
+                </MDBAccordion>
             </div>
             {/** Unique Solution */}
             <div className="container-fluid service-why">
@@ -253,20 +243,20 @@ const Services = () => {
                                 WHY CHOOSE US
                             </h1>
                             <MDBAccordion flush initialActive={1} className="bg-dark">
-                    <MDBAccordionItem collapseId={1} headerTitle='CUSTOMIZATION' className="accordionItem">
-                    We create custom web design solutions tailored to the client's specific needs and goals.
-                    </MDBAccordionItem>
-                    <MDBAccordionItem collapseId={2} headerTitle='VALUE'>
-                    We provide high-quality web design solutions at a competitive price, offering excellent value for clients ' investment.
-                    </MDBAccordionItem>
-                    <MDBAccordionItem collapseId={3} headerTitle='COLLABORATION'>
-                    We work closely with clients to ensure that their vision is fully realized and that their website meets their expectations.
-                    </MDBAccordionItem>
-                    <MDBAccordionItem collapseId={3} headerTitle='lONG-TERM RELATIONSHIP'>
-                    We are committed to building long-term relationships with clients, providing ongoing support and maintenance services to ensure the continued success of their website.
-                    </MDBAccordionItem>
-                </MDBAccordion>
-                           
+                                <MDBAccordionItem collapseId={1} headerTitle='CUSTOMIZATION' className="accordionItem">
+                                    We create custom web design solutions tailored to the client's specific needs and goals.
+                                </MDBAccordionItem>
+                                <MDBAccordionItem collapseId={2} headerTitle='VALUE'>
+                                    We provide high-quality web design solutions at a competitive price, offering excellent value for clients ' investment.
+                                </MDBAccordionItem>
+                                <MDBAccordionItem collapseId={3} headerTitle='COLLABORATION'>
+                                    We work closely with clients to ensure that their vision is fully realized and that their website meets their expectations.
+                                </MDBAccordionItem>
+                                <MDBAccordionItem collapseId={3} headerTitle='lONG-TERM RELATIONSHIP'>
+                                    We are committed to building long-term relationships with clients, providing ongoing support and maintenance services to ensure the continued success of their website.
+                                </MDBAccordionItem>
+                            </MDBAccordion>
+
                         </div>
                     </div>
                 </div>

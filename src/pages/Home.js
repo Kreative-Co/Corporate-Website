@@ -42,11 +42,11 @@ const Home = () => {
     const line2 = "IDEAS."
     const line = "LET'S DICUSS YOUR IDEAS"
     const about_line = "About"
-    const about_line1 = "We are a dynamic web agency "
-    const about_line2 = "specializing in custom web"
-    const about_line3 = "development, empowering"
-    const about_line4 = "businesses to establish a strong"
-    const about_line5 = "online presence and achieve their"
+    const about_line1 = "Web design agency specializing in "
+    const about_line2 = "providing exceptional UI & UX design,"
+    const about_line3 = "branding solutions, and custom web"
+    const about_line4 = "design services to startups and small"
+    const about_line5 = "businesses."
     const about_line6 = "digital goals."
 
     const sentence = {
@@ -229,7 +229,7 @@ const Home = () => {
                                 <FontAwesomeIcon className="icon" icon={faCirclePlay}></FontAwesomeIcon>
                             </div>
                             <p>
-                                Professional Web Design Agency Transforming Online Presence.
+                                Digital product and brand agency for startups and small businesses!
                             </p>
                         </motion.div>
                     </div>
@@ -262,8 +262,6 @@ const Home = () => {
                     </motion.div>
                 </div>
             </section>
-
-
             {/** Services */}
             <div className="new-services">
                 <div className="service-intro">
@@ -274,7 +272,6 @@ const Home = () => {
                     </div>
                 </div>
                 <section className={"about-us"}>
-
                     <SectionHeader title="about" />
 
                     <motion.p
@@ -320,16 +317,6 @@ const Home = () => {
                         {about_line5}
                         <br />
                     </motion.p>
-                    <motion.p
-                        variants={about_sentence2}
-                        initial="hidden"
-                        whileInView="visible"
-                    >
-
-                        {about_line6}
-                        <br />
-                    </motion.p>
-
                 </section>
                 <div className="our-services">
                     <div className="row" data-aos="fade-up">
@@ -342,7 +329,6 @@ const Home = () => {
                             </p>
                         </div>
                         <div className="col-lg-6">
-
                             <span>
                                 <h1
                                     className="display-1 reveal">
@@ -390,7 +376,7 @@ const Home = () => {
                                     <FontAwesomeIcon className="dot circle-center" icon={faCircle} />
                                     <FontAwesomeIcon className="dot circle-right" icon={faCircle} />
                                 </span>*/}
-                                <h1> CONSULTING </h1>
+                                <h1> BRAND IDENTITY </h1>
 
                             </div>
                         </div>

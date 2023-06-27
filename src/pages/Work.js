@@ -10,7 +10,7 @@ import One from "../images/Brixton-Work.JPG";
 import Five from "../images/Design-Work.JPG";
 import Two from "../images/Lion-new-version.JPG";
 import Three from "../images/Joker-new-version.JPG";
-import Four from "../images/Banking-new-version.JPG";
+import Four from "../images/Art.JPG";
 import Six from "../images/space.JPG";
 import Seven from "../images/Ok.JPG";
 import { motion } from 'framer-motion';
@@ -29,7 +29,7 @@ const Work = () => {
     const woodside = "[WOOSIDE DESIGN]"
     const interior = "[SPACE DESIGN]"
     const nationalgeo = "[NATIONAL GEOGRAPHY]"
-    const banking = "[BANKING]"
+    const banking = "[ART STATION]"
     const joker = "[THE JOKER]"
 
     const brixon = "BRIXON PHOTOGRAPY"
