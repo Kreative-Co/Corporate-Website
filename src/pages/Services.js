@@ -4,9 +4,7 @@ import '../style/Services.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from "react-router-dom";
 import { faHandshakeSimple, faCirclePlay, faScrewdriverWrench, faCode, faArrowUpRightDots } from '@fortawesome/free-solid-svg-icons';
-import { faFigma } from '@fortawesome/free-brands-svg-icons'
 import ProgressBar from 'react-bootstrap/ProgressBar';
-import Table from 'react-bootstrap/Table';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import sectionImage from "../images/photo-5.avif";
@@ -14,7 +12,6 @@ import { Helmet } from 'react-helmet-async';
 import ContactForm from './ContactForm';
 import 'swiper/swiper-bundle.css';
 import { motion } from 'framer-motion';
-import Card from './Card';
 import { MDBAccordion, MDBAccordionItem } from 'mdb-react-ui-kit';
 
 
@@ -195,7 +192,7 @@ const Services = () => {
                                 delay: 0.1,
                                 ease: [0, 0.71, 0.2, 1.01]
                             }}
-                            className="img-fluid" src={sectionImage} />
+                            className="img-fluid" src={sectionImage} alt="service image" />
                     </div>
                 </div>
             </div>

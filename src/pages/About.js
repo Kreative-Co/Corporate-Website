@@ -1,12 +1,10 @@
 
 import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import Table from 'react-bootstrap/Table';
-import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import '../style/About.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCirclePlay, faArrowUpRightDots } from '@fortawesome/free-solid-svg-icons';
+import { faCirclePlay} from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import process1 from "../images/process1.png";
@@ -20,14 +18,12 @@ import process8 from "../images/process8.png";
 import process9 from "../images/process9.png";
 import reactImage from "../images/photo-5.avif";
 
-
 import { Helmet } from 'react-helmet-async';
 import ContactForm from './ContactForm';
 import { motion } from 'framer-motion';
 import { MDBAccordion, MDBAccordionItem } from 'mdb-react-ui-kit';
 import "@fontsource/marcellus";
 //import "@fontsource/montserrat"; // Defaults to weight 400
-
 
 
 const line1 = "ABOUT"
@@ -207,7 +203,7 @@ const About = () => {
                                 delay: 0.1,
                                 ease: [0, 0.71, 0.2, 1.01]
                             }}
-                            className="img-fluid" src={reactImage} />
+                            className="img-fluid" src={reactImage} alt="about image" />
                     </div>
                 </div>
                 <div className="row process">
@@ -220,21 +216,21 @@ const About = () => {
 
                     <div className="row">
                         <div className="col-sm">
-                            <img className="testing" src={process1} />
+                            <img className="testing" src={process1} alt="client discovery image" />
                             <h1 className="text-white">Client Consulation & Discovery</h1>
                             <h6>Kreative Co</h6>
 
                         </div>
 
                         <div className="col-sm">
-                            <img className="testing" src={process2} />
+                            <img className="testing" src={process2} alt="strategy image" />
                             <h1 className="text-white">Strategy and Planning</h1>
                             <h6>Kreative Co</h6>
 
                         </div>
 
                         <div className="col-sm">
-                            <img className="testing" src={process3} />
+                            <img className="testing" src={process3} alt="initial payment image" />
                             <h1 className="text-white">Initial Payment 50%</h1>
                             <h6>Kreative Co</h6>
 
@@ -243,19 +239,19 @@ const About = () => {
                     </div>
                     <div className="row">
                         <div className="col-sm">
-                            <img className="testing" src={process4} />
+                            <img className="testing" src={process4} alt="devlopment image" />
                             <h1 className="text-white">Development / Creation</h1>
                             <h6>Kreative Co</h6>
 
                         </div>
                         <div className="col-sm">
-                            <img className="testing" src={process5} />
+                            <img className="testing" src={process5} alt="testing image" />
                             <h1 className="text-white">Testing and Quality Assurance</h1>
                             <h6>Kreative Co</h6>
 
                         </div>
                         <div className="col-sm">
-                            <img className="testing" src={process6} />
+                            <img className="testing" src={process6} alt="payment milestone image" />
                             <h1 className="text-white">Milestone Payment 25%</h1>
                             <h6>Kreative Co</h6>
                         </div>
@@ -263,17 +259,17 @@ const About = () => {
 
                     <div className="row">
                         <div className="col-sm">
-                            <img className="testing" src={process7} />
+                            <img className="testing" src={process7} alt="launch image" />
                             <h1 className="text-white">Launch and Implemention</h1>
                             <h6>Kreative Co</h6>
                         </div>
                         <div className="col-sm">
-                            <img className="testing" src={process8} />
+                            <img className="testing" src={process8} alt="post-launch image" />
                             <h1 className="text-white">Post-Launch Support and Optimization</h1>
                             <h6>Kreative Co</h6>
                         </div>
                         <div className="col-sm">
-                            <img className="testing" src={process9} />
+                            <img className="testing" src={process9} alt="final payment image" />
                             <h1 className="text-white">Final Payment 25%</h1>
                             <h6>Kreative Co</h6>
                         </div>

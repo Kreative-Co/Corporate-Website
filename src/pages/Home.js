@@ -1,6 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { useRef } from 'react';
-import { MDBCarousel, MDBCarouselItem } from 'mdb-react-ui-kit';
+import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.scss';
 import SectionHeader from './SectionHeader';
@@ -8,23 +6,14 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faYoast } from '@fortawesome/free-brands-svg-icons';
 import { faArrowUpRightDots, faScrewdriverWrench, faCircle } from '@fortawesome/free-solid-svg-icons';
-import Table from 'react-bootstrap/Table';
 import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import client from "../images/client.jpg";
 import uiux from "../images/Wooside-work.JPG";
-import vogue from "../images/Vogue.JPG";
-import web_design from "../images/Web-Design.jpg";
-import consult from "../images/consult.jpeg";
-import One from "../images/Coffee-Work.JPG";
-import Two from "../images/aloe-green-min.JPG"
 import Three from "../images/web-project.jpg";
-import Four from "../images/beauty-min.jpg";
 import Five from "../images/zeen.jpg";
 import Eight from "../images/Joker-Work-min.jpg";
-import Six from "../images/Brixon-Work.JPG";
-import Seven from "../images/Design-Work.JPG";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import { EffectCards } from 'swiper';
@@ -429,7 +418,7 @@ const Home = () => {
                      
                 <div className="row clients">
                     <div className="col-lg-4">
-                        <img className="img-fluid" src={client} alt="" />
+                        <img className="img-fluid" src={client} alt="client image" />
                     </div>
 
                     <div className="col-lg-7">
