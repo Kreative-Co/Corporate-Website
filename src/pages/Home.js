@@ -5,7 +5,7 @@ import SectionHeader from './SectionHeader';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faYoast } from '@fortawesome/free-brands-svg-icons';
-import { faArrowUpRightDots, faScrewdriverWrench, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUpRightDots} from '@fortawesome/free-solid-svg-icons';
 import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -13,7 +13,6 @@ import client from "../images/client.jpg";
 import uiux from "../images/Wooside-work.JPG";
 import Three from "../images/web-project.jpg";
 import Five from "../images/zeen.jpg";
-import Eight from "../images/Joker-Work-min.jpg";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import { EffectCards } from 'swiper';
@@ -404,7 +403,6 @@ const Home = () => {
                         <SwiperSlide><img className="img-fluid" src={uiux} /></SwiperSlide>
                         <SwiperSlide><img className="img-fluid" src={Five} /></SwiperSlide>
                         <SwiperSlide><img className="img-fluid" src={Three} /></SwiperSlide>
-                        <SwiperSlide><img className="img-fluid" src={Eight} /></SwiperSlide>
                     </Swiper>
                 </Container>
             </div>
