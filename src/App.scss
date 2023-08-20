@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    color: #000;
+    color: #040402;
     font-family: 'Montserrat';
 }
 
@@ -18,6 +18,58 @@ p {
     font-size: 1.3rem;
 
 }
+
+/* Testimonials */
+
+.testimonials-new {
+    position: relative;
+    background-color: #040402;
+    color: #fff;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.testimonials-new .title {
+    position: relative;
+    padding-top: 50px;
+
+    h1 {
+        font-size: 5.2rem;
+        font-weight: bold;
+        text-align: right;
+        color: #fff;
+    }
+}
+
+.testimonials-new .clients {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 120px;
+
+    h1 {
+        font-size: 5.2rem;
+        font-weight: bold;
+        text-align: right;
+        color: #fff;
+    }
+
+    img {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+    }
+
+    .col-lg-7 {
+        padding-left: 75px;
+        padding-top: 90px;
+
+    }
+
+}
+
+
+
+
 
 /* Main Section */
 .intro {
@@ -57,12 +109,12 @@ p {
 
 .intro .button {
     font-size: 1.4rem;
-    padding: 15px 40px 15px 40px;
-    border-radius: 50px;
-    border: 1px solid #101010;
+    padding: 20px 40px 20px 40px;
+    background-color: #040402;
+    border: 1px solid #040402;
     margin-right: 20px;
     text-decoration: none;
-    color: #101010;
+    color: #fff;
     text-transform: uppercase;
 
 }
@@ -71,7 +123,7 @@ p {
     position: relative;
     margin-top: 150px;
     height: 650px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./images/web11.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./images/photo1.avif");
     background-size: cover;
     border-top-left-radius: 20%;
     border-top-right-radius: 20%;
@@ -83,7 +135,7 @@ p {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-color: #000;
+    background-color: #040402;
 }
 
 
@@ -140,7 +192,7 @@ p {
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #000;
+    background-color: #040402;
     color: #fff;
 
 }
@@ -159,7 +211,8 @@ p {
 
 
 }
-.our-services .row .reveal{
+
+.our-services .row .reveal {
     text-align: right;
 
 }
@@ -190,13 +243,16 @@ p {
     font-weight: 900;
     text-align: right;
 }
-.our-services .row .col-lg-6 .hide{
+
+.our-services .row .col-lg-6 .hide {
     display: none;
 }
+
 .our-services .new-item .row .ui-ux {
     width: 400px;
     height: 293px;
 }
+
 .our-services .new-item .row .design {
     background-color: #272727;
     opacity: 30%;
@@ -268,7 +324,8 @@ p {
     color: #fff;
     font-size: 3rem;
 }
-.our-services .new-item .row .hide{
+
+.our-services .new-item .row .hide {
     display: none;
 }
 
@@ -289,7 +346,7 @@ p {
     padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #000;
+    background-color: #040402;
     color: #fff;
 }
 
@@ -349,7 +406,7 @@ p {
 .creative {
     position: relative;
     margin-top: 70px;
-    background-color: #0a0a0a;
+    background-color: #272727;
     padding: 100px;
     opacity: 30%;
 }
@@ -542,7 +599,7 @@ img {
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #000;
+    background-color: #040402;
 }
 
 .work .col-lg-7 {
@@ -565,7 +622,7 @@ img {
 
 /* New Contact */
 .new-contact {
-    background-color: #000;
+    background-color: #040402;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -612,7 +669,6 @@ img {
 .contact-intro .contact-btn .button {
     font-size: 1.6rem;
     padding: 15px 40px 15px 40px;
-    border-radius: 50px;
     border: 1px solid #fff;
     margin-right: 20px;
     text-decoration: none;
@@ -656,8 +712,6 @@ img {
         margin-right: auto;
 
     }
-
-   
 
     .our-services .new-item .row .col-lg-7 h1 {
         font-size: 2.5rem;
@@ -713,6 +767,7 @@ img {
         font-size: 1.1rem;
         width: 100%;
     }
+
     .new-services .about-us {
 
         p {
@@ -720,13 +775,13 @@ img {
             line-height: 1.12;
             letter-spacing: 1.6;
             font-weight: 300;
-    
+
         }
-    
-    
+
+
     }
 
-   
+
 
     .our-services .new-item .row .ui-ux {
         width: 370px;
@@ -752,17 +807,17 @@ img {
 
 
 
-    .our-services .row .col-lg-6{
+    .our-services .row .col-lg-6 {
 
-        h1{
+        h1 {
             font-size: 2.4rem;
             text-align: center;
         }
-        p{
 
-        }
-       
+        p {}
+
     }
+
     .new-services .about-us .col-lg-4 {
         padding-left: 0px;
     }
@@ -779,20 +834,20 @@ img {
         padding: 90px;
         opacity: 30%;
     }
-    
+
     .creative span #creative-text {
         font-size: 3.5rem;
         text-transform: uppercase;
         font-weight: 700;
         color: #fff;
         opacity: 10%;
-    
+
         #creative-icon {
             opacity: 100%;
         }
-    
+
     }
-    
+
     .creative span #creative-icon {
         color: #fff;
         opacity: 100%;
@@ -803,17 +858,47 @@ img {
         font-size: 2.4rem;
     }
 
+
+
     .mySwiper {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 70%;
     }
+
+    .testimonials-new .row .title {
+
+
+        h1 {
+            font-weight: bold;
+            text-align: right;
+        }
+    }
+
+    .testimonials-new .clients {
+
+
+
+        img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+        }
+
+        .col-lg-7 {
+            padding-left: 75px;
+            padding-top: 25px;
+
+        }
+
+    }
+
 }
 
 @media screen and (max-width: 1180px) {
 
-    
+
 
     /*.our-services .new-item .row .ui-ux {
         width: 300px;
@@ -836,12 +921,49 @@ img {
 
     }
 
+    .testimonials-new .row .title {
+
+
+        h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+
+
+    .testimonials-new .clients {
+
+
+
+        img {
+            width: 300px;
+            height: 300px;
+            padding-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 50%;
+        }
+
+        .col-lg-7 {
+            padding-left: 75px;
+            padding-top: 25px;
+
+        }
+
+    }
+
+
 }
 
 @media screen and (max-width: 1000px) {
 
-    
-    .our-services .row .col-lg-6, .col-lg-7, .col-lg-4, .col-lg-5{
+
+    .our-services .row .col-lg-6,
+    .col-lg-7,
+    .col-lg-4,
+    .col-lg-5 {
         width: 100%;
     }
 
@@ -860,28 +982,33 @@ img {
         margin-top: 40px;
         width: 50%;
     }
+
     .intro-image {
         height: 450px;
     }
+
     .service-intro {
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
     .new-services .about-us .col-lg-7 p {
         font-size: 2.3rem;
 
     }
+
     .marquee span {
         font-size: 4rem;
     }
+
     .new-services .about-us {
         p {
             font-size: 40px;
             line-height: 1.12;
             letter-spacing: 1.6;
             font-weight: 300;
-    
-        }  
+
+        }
     }
 
 
@@ -891,13 +1018,16 @@ img {
         padding-right: 50px;
 
     }
-    .our-services .row .col-lg-6 .hide{
+
+    .our-services .row .col-lg-6 .hide {
         display: block;
         text-align: left;
     }
-    .our-services .row .col-lg-6 .reveal{
+
+    .our-services .row .col-lg-6 .reveal {
         display: none;
     }
+
     .creative {
         position: relative;
         margin-top: 70px;
@@ -905,18 +1035,18 @@ img {
         padding: 90px;
         opacity: 30%;
     }
-    
+
     .creative span #creative-text {
         font-size: 3.2rem;
         text-transform: uppercase;
         font-weight: 700;
         color: #fff;
         opacity: 10%;
-    
+
         #creative-icon {
             opacity: 100%;
         }
-    
+
     }
 
     .our-services .new-item .row .ui-ux {
@@ -927,28 +1057,30 @@ img {
         margin-right: auto;
         margin-top: 20px;
     }
-    
+
 
     .our-services .new-item .row .col-lg-4 {
         display: block;
-       width: 70%;
-       margin-left: auto;
-       margin-right: auto;
-       margin-top: 20px;
-      
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+
 
     }
+
     .our-services .new-item .row .col-lg-4 {
         .react {
             font-size: 7rem;
         }
     }
 
-    .our-services .new-item .row .col-lg-7 .hide{
+    .our-services .new-item .row .col-lg-7 .hide {
         display: block;
 
     }
-    .our-services .new-item .row .col-lg-7 .reveal{
+
+    .our-services .new-item .row .col-lg-7 .reveal {
         display: none;
     }
 
@@ -958,7 +1090,7 @@ img {
 
     }
 
-    .our-services .new-item .row .col-lg-5{
+    .our-services .new-item .row .col-lg-5 {
         display: block;
         width: 70%;
         margin-left: auto;
@@ -1093,6 +1225,12 @@ img {
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
+    .testimonials-new {
+        position: relative;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 
 @media screen and (max-width: 780px) {
@@ -1156,7 +1294,7 @@ img {
     .marquee span {
         font-size: 3.5rem;
     }
-    
+
     .new-services .about-us {
 
         p {
@@ -1164,10 +1302,10 @@ img {
             line-height: 1.12;
             letter-spacing: 1.6;
             font-weight: 300;
-    
+
         }
-    
-    
+
+
     }
 
     .new-services .about-us .col-lg-7 p {
@@ -1181,18 +1319,18 @@ img {
         padding: 90px;
         opacity: 30%;
     }
-    
+
     .creative span #creative-text {
         font-size: 3rem;
         text-transform: uppercase;
         font-weight: 700;
         color: #fff;
         opacity: 10%;
-    
+
         #creative-icon {
             opacity: 100%;
         }
-    
+
     }
 
     .our-services {
@@ -1209,38 +1347,40 @@ img {
         margin-right: auto;
         margin-top: 20px;
     }
-    
+
 
     .our-services .new-item .row .col-lg-4 {
         display: block;
-       width: 90%;
-       margin-left: auto;
-       margin-right: auto;
-       margin-top: 20px;
-      
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+
 
     }
+
     .our-services .new-item .row .col-lg-4 {
         .react {
             font-size: 7rem;
         }
     }
 
-    .our-services .new-item .row .col-lg-7 .hide{
+    .our-services .new-item .row .col-lg-7 .hide {
         display: block;
 
     }
-    .our-services .new-item .row .col-lg-7 .reveal{
+
+    .our-services .new-item .row .col-lg-7 .reveal {
         display: none;
     }
 
     .our-services .new-item .row .col-lg-7 h1 {
         font-size: 2.5rem;
-        text-align:center;
+        text-align: center;
 
     }
 
-    .our-services .new-item .row .col-lg-5{
+    .our-services .new-item .row .col-lg-5 {
         display: block;
         width: 90%;
         margin-left: auto;
@@ -1381,6 +1521,52 @@ img {
         margin-left: 20px;
         margin-right: 20px;
     }
+
+    .testimonials-new .row .title {
+        h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+
+    .testimonials-new .clients {
+
+        position: relative;
+        padding-bottom: 25px;
+
+
+        h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            color: #fff;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+            padding-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 50%;
+        }
+
+        .col-lg-7 {
+            position: relative;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 25px;
+
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+    }
+
 }
 
 @media screen and (max-width: 580px) {
@@ -1418,18 +1604,18 @@ img {
         padding: 90px;
         opacity: 30%;
     }
-    
+
     .creative span #creative-text {
         font-size: 2rem;
         text-transform: uppercase;
         font-weight: 700;
         color: #fff;
         opacity: 10%;
-    
+
         #creative-icon {
             opacity: 100%;
         }
-    
+
     }
 
     .intro p {
@@ -1477,6 +1663,7 @@ img {
         color: #fff;
         font-size: 1.2rem;
     }
+
     .new-services .about-us {
 
         p {
@@ -1484,10 +1671,10 @@ img {
             line-height: 1.12;
             letter-spacing: 1.6;
             font-weight: 300;
-    
+
         }
-    
-    
+
+
     }
 
     .new-services .our-services .row .col-lg-7 h1 {
@@ -1592,10 +1779,37 @@ img {
 
     }
 
+    .testimonials-new {
+        position: relative;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .testimonials-new .row .title {
+        h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+
 
 }
 
 @media screen and (max-width: 480px) {
+
+
+    .new-services .about-us {
+
+        position: relative;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #040402;
+        color: #fff;
+    
+    }
 
     .our-services {
         padding-left: 20px;
@@ -1616,6 +1830,7 @@ img {
         padding-left: 20px;
         padding-right: 20px;
     }
+
     .new-services .about-us {
 
         p {
@@ -1623,11 +1838,12 @@ img {
             line-height: 1.12;
             letter-spacing: 1.6;
             font-weight: 300;
-    
+
         }
-    
-    
+
+
     }
+
     .creative {
         position: relative;
         margin-top: 70px;
@@ -1635,18 +1851,18 @@ img {
         padding: 90px;
         opacity: 30%;
     }
-    
+
     .creative span #creative-text {
         font-size: 2rem;
         text-transform: uppercase;
         font-weight: 700;
         color: #fff;
         opacity: 10%;
-    
+
         #creative-icon {
             opacity: 100%;
         }
-    
+
     }
 
 }

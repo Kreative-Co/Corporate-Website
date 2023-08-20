@@ -1,32 +1,34 @@
 import React, { useState, useEffect } from 'react';
 import { useRef } from 'react';
+import { MDBCarousel, MDBCarouselItem } from 'mdb-react-ui-kit';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.scss';
 import SectionHeader from './SectionHeader';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faYoast } from '@fortawesome/free-brands-svg-icons';
 import { faArrowUpRightDots, faScrewdriverWrench, faCircle } from '@fortawesome/free-solid-svg-icons';
 import Table from 'react-bootstrap/Table';
 import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import client from "../images/client.jpg";
 import uiux from "../images/Wooside-work.JPG";
 import vogue from "../images/Vogue.JPG";
 import web_design from "../images/Web-Design.jpg";
 import consult from "../images/consult.jpeg";
 import One from "../images/Coffee-Work.JPG";
 import Two from "../images/aloe-green-min.JPG"
-import Three from "../images/lion-new-min.JPG";
+import Three from "../images/web-project.jpg";
 import Four from "../images/beauty-min.jpg";
-import Five from "../images/mercedes-min.jpg";
+import Five from "../images/zeen.jpg";
 import Eight from "../images/Joker-Work-min.jpg";
 import Six from "../images/Brixon-Work.JPG";
 import Seven from "../images/Design-Work.JPG";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import { EffectCards } from 'swiper';
-import { Container } from 'react-bootstrap';
+import {  Container } from 'react-bootstrap';
 import { Helmet } from 'react-helmet-async';
 import "react-multi-carousel/lib/styles.css";
 import ContactForm from './ContactForm';
@@ -42,11 +44,11 @@ const Home = () => {
     const line2 = "IDEAS."
     const line = "LET'S DICUSS YOUR IDEAS"
     const about_line = "About"
-    const about_line1 = "Web design agency specializing in "
-    const about_line2 = "providing exceptional UI & UX design,"
+    const about_line1 = "Digital product and brand agency "
+    const about_line2 = "providing UX UI web design,"
     const about_line3 = "branding solutions, and custom web"
-    const about_line4 = "design services to startups and small"
-    const about_line5 = "businesses."
+    const about_line4 = "design services to startups, small"
+    const about_line5 = "businesses and enterprises."
     const about_line6 = "digital goals."
 
     const sentence = {
@@ -229,7 +231,7 @@ const Home = () => {
                                 <FontAwesomeIcon className="icon" icon={faCirclePlay}></FontAwesomeIcon>
                             </div>
                             <p>
-                                Digital product and brand agency for startups and small businesses!
+                                Digital product and brand agency for startups, small businesses and enterprises!
                             </p>
                         </motion.div>
                     </div>
@@ -360,22 +362,18 @@ const Home = () => {
                                 </div>
                                 <div className="row second">
                                     <div className="col-lg-7">
-                                        <h1 className="web"> WEB MAINTENANCE </h1>
+                                        <h1 className="web"> SEARCH ENGINE OPTIMIZATION </h1>
 
                                     </div>
                                     <div className="col-lg-4 design ">
-                                        <FontAwesomeIcon className="react" icon={faScrewdriverWrench} />
+                                        <FontAwesomeIcon className="react" icon={faYoast} />
 
                                     </div>
                                 </div>
 
                             </div>
                             <div className="col-lg-5 consulting">
-                                {/* <span className="circle text-center">
-                                    <FontAwesomeIcon className="dot circle-left" icon={faCircle} />
-                                    <FontAwesomeIcon className="dot circle-center" icon={faCircle} />
-                                    <FontAwesomeIcon className="dot circle-right" icon={faCircle} />
-                                </span>*/}
+
                                 <h1> BRAND IDENTITY </h1>
 
                             </div>
@@ -420,6 +418,34 @@ const Home = () => {
                         <SwiperSlide><img className="img-fluid" src={Eight} /></SwiperSlide>
                     </Swiper>
                 </Container>
+            </div>
+            <div className="testimonials-new">
+
+                <div className="row">
+                    <div className="title">
+                        <h1>OUR CLIENTS</h1>
+                    </div>
+                </div>
+                     
+                <div className="row clients">
+                    <div className="col-lg-4">
+                        <img className="img-fluid" src={client} alt="" />
+                    </div>
+
+                    <div className="col-lg-7">
+                        <p>
+                            "I'm thrilled to share my utmost satisfaction with Kreative Co for their outstanding work on Ceffie
+                            Network's brand design and website development.
+                            <br/><br/>
+                            Their creativity, professionalism, and attention
+                            to detail have exceeded our expectations. Highly recommended!"
+                        </p>
+                        <h6>
+                            Mark Richard, CEO Ceffie Network
+                        </h6>
+                    </div>
+
+                </div>
             </div>
             {/* New Contact */}
             <ContactForm />

@@ -3,21 +3,14 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../style/Contact.css';
 import { useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagramSquare, faSquareGithub, faFacebookSquare, faBehanceSquare, faPinterestSquare, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
+import { faInstagramSquare, faFacebookSquare, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faCirclePlay, faMailBulk, faPhone, faMapLocation, faClock } from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Helmet } from 'react-helmet-async';
 import emailjs from "@emailjs/browser";
 import { motion } from 'framer-motion';
-
-
-
-
 const Contact = () => {
-
-
-
     const line1 = "LET'S"
     const line2 = "TALK"
     const line3 = "FOLLOW US"
@@ -113,7 +106,7 @@ const Contact = () => {
                             animate={{ scale: 1 }}
                             transition={{ ease: [0.6, 0.01, -0.05, 0.95], duration: 1, delay: 1 }}
                             className="col-lg-4">
-                            <div className="video">
+                            <div className="video" id="video-contact">
                                 <FontAwesomeIcon className="icon" icon={faCirclePlay}></FontAwesomeIcon>
                             </div>
 
@@ -144,7 +137,7 @@ const Contact = () => {
                             <input data-aos="fade-left" type="text" name="user_name" placeholder='Name' />
                             <input data-aos="fade-left" type='email' name="user_email" placeholder='Email' />
                             <textarea data-aos="fade-left" name="message" placeholder='Message'></textarea>
-                            <input data-aos="fade-left" type='submit' value="Send" className='btn' />
+                            <input data-aos="fade-left" type='submit' value="Send" className='button' />
                         </form>
                     </div>
                     <div className="col-lg-6">
@@ -152,7 +145,7 @@ const Contact = () => {
                             <h2>Info</h2>
 
                             <p data-aos="fade-up"><FontAwesomeIcon className="form-icon" icon={faPhone} /> 0027 590 5100</p>
-                            <p data-aos="fade-up"><FontAwesomeIcon className="form-icon" icon={faMailBulk} /> linokhan1@gmail.com</p>
+                            <p data-aos="fade-up"><FontAwesomeIcon className="form-icon" icon={faMailBulk} /> linokhan@kreative-enterprises.com</p>
                             <p data-aos="fade-up"><FontAwesomeIcon className="form-icon" icon={faMapLocation} /> Cape Town, South Africa 8001</p>
                             <p data-aos="fade-up"><FontAwesomeIcon className="form-icon" icon={faClock} />Mon - Fri 8 AM - 5 PM</p>
 
@@ -182,9 +175,7 @@ const Contact = () => {
                         <span >
                             <a href="https://www.facebook.com/profile.php?id=100092579767183"> <FontAwesomeIcon className="contact-icon" icon={faFacebookSquare} /></a>
                             <a href="https://www.instagram.com/kreative__co/">   <FontAwesomeIcon className="contact-icon" icon={faInstagramSquare} /></a>
-                            <a href="https://www.behance.net/linokhan"><FontAwesomeIcon className="contact-icon" icon={faBehanceSquare} /> </a>
-                            <a href="https://za.pinterest.com/Kreative__Co/"> <FontAwesomeIcon className="contact-icon" icon={faPinterestSquare} /></a>
-                            <a href="https://github.com/orgs/Kreative-Co/dashboard"> <FontAwesomeIcon className="contact-icon" icon={faSquareGithub} /></a>
+                            <a href="https://www.linkedin.com/company/kreative-co-1"><FontAwesomeIcon className="contact-icon" icon={faLinkedinIn}> </FontAwesomeIcon></a>
                         </span>
                     </div>
                 </div>

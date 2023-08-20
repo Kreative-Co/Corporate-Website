@@ -2,13 +2,25 @@
 import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Table from 'react-bootstrap/Table';
+import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import '../style/About.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePlay, faArrowUpRightDots } from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import process1 from "../images/process1.png";
+import process2 from "../images/process2.png";
+import process3 from "../images/process3.png";
+import process4 from "../images/process4.png";
+import process5 from "../images/process5.png";
+import process6 from "../images/process6.png";
+import process7 from "../images/process7.png";
+import process8 from "../images/process8.png";
+import process9 from "../images/process9.png";
 import reactImage from "../images/photo-5.avif";
+
+
 import { Helmet } from 'react-helmet-async';
 import ContactForm from './ContactForm';
 import { motion } from 'framer-motion';
@@ -136,8 +148,6 @@ const About = () => {
                                 <FontAwesomeIcon className="icon" icon={faCirclePlay}></FontAwesomeIcon>
 
                             </div>
-
-
                             <p>
                                 We are committed to building long-term relationships with our customers.
                             </p>
@@ -198,44 +208,107 @@ const About = () => {
                                 ease: [0, 0.71, 0.2, 1.01]
                             }}
                             className="img-fluid" src={reactImage} />
+                    </div>
+                </div>
+                <div className="row process">
+                    <div className="title" data-aos="fade-up">
 
+                        <h1 className="text-light">
+                            HOW WE WORK
+                        </h1>
+                    </div>
 
+                    <div className="row">
+                        <div className="col-sm">
+                            <img className="testing" src={process1} />
+                            <h1 className="text-white">Client Consulation & Discovery</h1>
+                            <h6>Kreative Co</h6>
 
+                        </div>
 
+                        <div className="col-sm">
+                            <img className="testing" src={process2} />
+                            <h1 className="text-white">Strategy and Planning</h1>
+                            <h6>Kreative Co</h6>
+
+                        </div>
+
+                        <div className="col-sm">
+                            <img className="testing" src={process3} />
+                            <h1 className="text-white">Initial Payment 50%</h1>
+                            <h6>Kreative Co</h6>
+
+                        </div>
+
+                    </div>
+                    <div className="row">
+                        <div className="col-sm">
+                            <img className="testing" src={process4} />
+                            <h1 className="text-white">Development / Creation</h1>
+                            <h6>Kreative Co</h6>
+
+                        </div>
+                        <div className="col-sm">
+                            <img className="testing" src={process5} />
+                            <h1 className="text-white">Testing and Quality Assurance</h1>
+                            <h6>Kreative Co</h6>
+
+                        </div>
+                        <div className="col-sm">
+                            <img className="testing" src={process6} />
+                            <h1 className="text-white">Milestone Payment 25%</h1>
+                            <h6>Kreative Co</h6>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-sm">
+                            <img className="testing" src={process7} />
+                            <h1 className="text-white">Launch and Implemention</h1>
+                            <h6>Kreative Co</h6>
+                        </div>
+                        <div className="col-sm">
+                            <img className="testing" src={process8} />
+                            <h1 className="text-white">Post-Launch Support and Optimization</h1>
+                            <h6>Kreative Co</h6>
+                        </div>
+                        <div className="col-sm">
+                            <img className="testing" src={process9} />
+                            <h1 className="text-white">Final Payment 25%</h1>
+                            <h6>Kreative Co</h6>
+                        </div>
                     </div>
 
 
                 </div>
             </div>
             <div className="core-values">
-
-            <div className="title">
+                <div className="title">
                     <h1 className="display-1 text-end" data-aos="fade-up"  > What We Stand For  </h1>
                 </div>
-
                 <MDBAccordion flush initialActive={1} className="bg-dark">
                     <MDBAccordionItem collapseId={1} headerTitle='INTEGRITY' className="accordionItem">
-                    Integrity is at the core of everything we do at our company. We believe that honesty, 
-                    transparency, and ethical behavior are essential to building trust and establishing
-                     strong relationships with our customers, partners, and employees.
+                        Integrity is at the core of everything we do at our company. We believe that honesty,
+                        transparency, and ethical behavior are essential to building trust and establishing
+                        strong relationships with our customers, partners, and employees.
                     </MDBAccordionItem>
                     <MDBAccordionItem collapseId={2} headerTitle='WORK ETHIC'>
-                    We take pride in our strong work ethic and commitment to excellence. We believe that hard work,
-                     dedication, and attention to detail are essential to achieving success and delivering exceptional
-                      results for our customers.
+                        We take pride in our strong work ethic and commitment to excellence. We believe that hard work,
+                        dedication, and attention to detail are essential to achieving success and delivering exceptional
+                        results for our customers.
                     </MDBAccordionItem>
                     <MDBAccordionItem collapseId={3} headerTitle='EFFICIENCY'>
-                    We are committed to delivering efficient solutions that meet our customers' needs quickly and
-                     effectively. We understand that time is a valuable commodity, and we strive to provide solutions
-                      that help our customers save time and increase productivity.
+                        We are committed to delivering efficient solutions that meet our customers' needs quickly and
+                        effectively. We understand that time is a valuable commodity, and we strive to provide solutions
+                        that help our customers save time and increase productivity.
                     </MDBAccordionItem>
                 </MDBAccordion>
 
             </div>
 
-          
 
-          
+
+
             <ContactForm />
 
         </div>

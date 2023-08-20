@@ -123,7 +123,7 @@ const Services = () => {
                         transition={{ ease: [0.6, 0.01, -0.05, 0.95], duration: 1, delay: 1 }}
 
                         className="col-lg-4">
-                        <div className="video">
+                        <div className="video" id="video-service">
                             <FontAwesomeIcon className="icon" icon={faCirclePlay}></FontAwesomeIcon>
                         </div>
                         <p>
@@ -203,7 +203,7 @@ const Services = () => {
             <div class="services-list">
 
 
-              
+
                 <MDBAccordion flush initialActive={1} className="bg-dark">
                     <MDBAccordionItem collapseId={1} headerTitle='UI & UX DESIGN' className="accordionItem">
                         User interfaces for web products that increase conversion, reduce cost of maintenance and build consistent user experience.
@@ -231,6 +231,17 @@ const Services = () => {
                         resonate with their target market. Our branding services encompass logo design,
                         color palette selection, typography, and visual guidelines, ensuring consistency
                         across all digital touchpoints.
+                    </MDBAccordionItem>
+                    <MDBAccordionItem collapseId={3} headerTitle='SEO SERVICES'>
+                        We specialize in driving targeted organic traffic to your website, helping you climb
+                         the search engine rankings and outshine your competitors. Our expert team combines
+                          strategic keyword research, on-page optimization, authoritative link building,
+                           and technical SEO enhancements to ensure your website not only meets search
+                            engine algorithms but also provides a seamless user experience. Whether you're
+                             a startup, SMB, or enterprise, we tailor our strategies to your unique goals,
+                              enhancing your online visibility, boosting brand credibility, and delivering
+                               measurable results. Experience the power of SEO with Kreative Co and 
+                               watch your online presence flourish.
                     </MDBAccordionItem>
                 </MDBAccordion>
             </div>

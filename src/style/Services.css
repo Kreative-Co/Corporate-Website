@@ -1,6 +1,10 @@
 
 
 
+.intro #video-service{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/web5.webp");
+    background-size: cover;
+}
 
 
 .service{
@@ -13,7 +17,7 @@
 }
 
 .section{
-    background-color: #000;
+    background-color: #040402;
     color: #fff;
     padding-left: 0px;
     padding-left: 100px;
@@ -94,7 +98,7 @@ section .btn {
 /* Services Cards */
 
 .services-list{
-    background-color: #000;
+    background-color: #040402;
     padding-left: 100px;
     padding-right: 100px;
    
@@ -133,7 +137,7 @@ section .btn {
 
 
 .service-why{
-    background-color: #000;
+    background-color: #040402;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 100px;

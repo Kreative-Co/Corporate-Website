@@ -6,13 +6,13 @@ import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
-import One from "../images/Brixton-Work.JPG";
-import Five from "../images/Design-Work.JPG";
+import One from "../images/web-project.jpg";
+import Five from "../images/web-project.jpg";
 import Two from "../images/Lion-new-version.JPG";
 import Three from "../images/Joker-new-version.JPG";
 import Four from "../images/Art.JPG";
 import Six from "../images/space.JPG";
-import Seven from "../images/Ok.JPG";
+import Seven from "../images/zeen.jpg";
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import ContactForm from './ContactForm';
@@ -24,8 +24,8 @@ const Work = () => {
 
     const line1 = "OUR"
     const line2 = "WORK"
-    const design = "[BRIXTON PHOTOGRAPHY]"
-    const drink = "[OK DRINK] "
+    const design = "[WEBSITE DEV]"
+    const drink = "[BRAND IDENTITY] "
     const woodside = "[WOOSIDE DESIGN]"
     const interior = "[SPACE DESIGN]"
     const nationalgeo = "[NATIONAL GEOGRAPHY]"
@@ -356,42 +356,7 @@ const Work = () => {
 
                     </div>
                 </div>
-                <div className="row ">
-                    <div className="col-lg-5">
-                    <motion.h1
-                            className="load-screen-message"
-                            variants={sentence}
-                            initial="hidden"
-                            whileInView="visible"
-                        >
-                            {banking.split("").map((char, index) => {
-                                return (
-                                    <motion.span key={char + "-" + index} variants={letter}>
-                                        {char}
-                                    </motion.span>
-                                )
-                            })}
-                           
-
-
-                        </motion.h1>
-
-                       
-
-                    </div>
-                    <div className="col-lg-7">
-                        <motion.img 
-                        initial={{ opacity: 0, scale: 0.3 }}
-                        whileInView={{ opacity: 1, scale: 1 }}
-                        transition={{
-                            duration: 0.8,
-                            delay: 0.1,
-                            ease: [0, 0.71, 0.2, 1.01]
-                        }}className="img-fluid" src={Four} alt="Banking Design" />
-
-                    </div>
-
-                </div>
+               
 
             </div>
 
