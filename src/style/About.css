@@ -79,13 +79,13 @@
     font-size: 5.2rem;
     font-weight: bold;
     text-transform: uppercase;
-    opacity: 15%;
 }
 
 .about .row .col-lg-6 p {
     font-size: 1.3rem;
     opacity: 100%;
     width: 90%;
+    
 }
 
 .about .row .col-lg-6 img {
@@ -123,9 +123,10 @@
     font-weight: bold;
 }
 
-.about .process .col-sm h6 {
+.about .process .col-sm h2 {
     color: #fff;
     opacity: 15%;
+    font-size: 1.1rem;
 }
 
 
@@ -139,7 +140,8 @@
 }
 
 .core-values .title {
-    opacity: 15%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .core-values .title h1 {

@@ -76,7 +76,6 @@ section .btn {
 .section  h2 {
     font-size: 2rem;
     color: #fff;
-    opacity: 15%;
     text-transform: uppercase;
     
 }
@@ -150,7 +149,6 @@ section .btn {
     font-size: 5.2rem;
     font-weight: bold;
     color:#fff;
-    opacity: 15%;
     text-align: right;
 
 }

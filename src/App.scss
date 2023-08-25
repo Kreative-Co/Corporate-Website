@@ -19,6 +19,12 @@ p {
 
 }
 
+
+.logo{
+    width:50px;
+    height:50px;
+}
+
 /* Testimonials */
 
 .testimonials-new {
@@ -86,6 +92,10 @@ p {
     font-family: 'Montserrat';
 }
 
+.intro p{
+    font-weight: 800;
+}
+
 
 
 
@@ -94,7 +104,7 @@ p {
     margin-top: 40px;
     margin-bottom: 70px;
     height: 110px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./images/web11.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./images/web11.webp");
     background-size: cover;
     border-radius: 50px;
 }
@@ -106,13 +116,17 @@ p {
     padding-bottom: 5px;
 }
 
-
+.intro-button{
+    position: relative;
+    margin-top: 24px;
+}
 .intro .button {
-    font-size: 1.4rem;
+   
+    font-size: 24px;
     padding: 20px 40px 20px 40px;
     background-color: #040402;
     border: 1px solid #040402;
-    margin-right: 20px;
+    margin-left: 10px;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -136,6 +150,18 @@ p {
     height: 200px;
     border-radius: 50%;
     background-color: #040402;
+
+
+    .arrow{
+        position: relative;
+        top: 95px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        font-size: 3rem;
+        color: #fff;
+        cursor: pointer;
+    }
 }
 
 
@@ -162,7 +188,6 @@ p {
     padding-left: 100%;
     text-align: center;
     color: #fff;
-    opacity: 20%;
     font-weight: bold;
     white-space: nowrap;
     height: 100%;
@@ -222,11 +247,13 @@ p {
     font-weight: 600;
     letter-spacing: 1px;
     color: #fff;
+    font-size: 1.1rem;
 }
 
 
 .new-services {
     position: relative;
+    background-color: #040402;
 
 }
 
@@ -234,7 +261,7 @@ p {
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #101010;
+    background-color: #000;
     color: #fff;
 }
 
@@ -254,11 +281,12 @@ p {
 }
 
 .our-services .new-item .row .design {
-    background-color: #272727;
-    opacity: 30%;
+    background-color: #040402;
     height: 200px;
     margin-bottom: 2px;
     margin-right: 2px;
+
+    box-shadow: 4px 4px 14px #fff;
 
     .react {
         font-size: 10rem;
@@ -267,14 +295,17 @@ p {
         left: 50%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
-        opacity: 20%;
+        color:#fff;
     }
 }
 
 .our-services .new-item .row .consulting {
-    background-color: #272727;
-    opacity: 30%;
+    background-color: #040402;
     position: relative;
+   // box-shadow: 3px 3px #fff, -1em 0 .4em #253439;
+    box-shadow: 4px 4px 14px #fff;
+
+
 
 }
 
@@ -332,8 +363,8 @@ p {
 .our-services .new-item .row .consulting h1 {
     color: #fff;
     font-size: 4.5rem;
+    font-weight: bold;
     text-align: center;
-    opacity: 20%;
     margin: 0;
     position: relative;
     top: 50%;
@@ -406,17 +437,18 @@ p {
 .creative {
     position: relative;
     margin-top: 70px;
-    background-color: #272727;
+    background-color: #040402;
     padding: 100px;
-    opacity: 30%;
+    box-shadow: 4px 4px 14px #fff;
 }
+    
 
 .creative span #creative-text {
     font-size: 4.7rem;
+    font-weight: 300;
     text-transform: uppercase;
     font-weight: 700;
     color: #fff;
-    opacity: 10%;
 
     #creative-icon {
         opacity: 100%;
@@ -442,7 +474,6 @@ p {
     position: relative;
     height: 400px;
     padding-top: 150px;
-    font-family: "Merriweather Sans";
 
 
 }
@@ -450,7 +481,7 @@ p {
 .topnav-right {
 
     position: relative;
-    padding-left: 480px;
+    padding-left: 600px;
     width: 100%;
     float: right;
 }
@@ -468,9 +499,10 @@ p {
 }
 
 .nav-link {
-    font-size: 1.1rem;
-    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: bold;
     color: #000;
+    
 }
 
 
@@ -628,13 +660,13 @@ img {
 }
 
 .contact-intro {
-    background-color: #272727;
+    background-color: #040402;
+    box-shadow: 10px 10px 10px 10px;
 
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
     padding-top: 100px;
     padding-bottom: 200px;
-    opacity: 30%;
 }
 
 .contact-intro h1 {
@@ -647,7 +679,6 @@ img {
 }
 
 .contact-intro .text-center span {
-    opacity: 30%;
     position: relative;
     top: 40px;
 }
@@ -661,7 +692,6 @@ img {
 .contact-intro .contact-btn {
     position: relative;
     margin-top: 70px;
-    opacity: 30%;
 
 
 }
@@ -681,8 +711,8 @@ img {
     color: #fff;
     border-radius: 50px;
     border: 1px solid #fff;
-    font-size: 1.4rem;
-    margin-right: 20px;
+    font-size: 24px;
+    margin-left:10px;
 }
 
 
@@ -830,7 +860,6 @@ img {
     .creative {
         position: relative;
         margin-top: 70px;
-        background-color: #0a0a0a;
         padding: 90px;
         opacity: 30%;
     }
@@ -840,7 +869,6 @@ img {
         text-transform: uppercase;
         font-weight: 700;
         color: #fff;
-        opacity: 10%;
 
         #creative-icon {
             opacity: 100%;
@@ -992,6 +1020,22 @@ img {
         padding-bottom: 50px;
     }
 
+
+
+    .intro-image .span{
+
+        .arrow{
+            position: relative;
+            top: 95px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            font-size: 2.5rem;
+        }
+
+    }
+    
+
     .new-services .about-us .col-lg-7 p {
         font-size: 2.3rem;
 
@@ -1031,7 +1075,6 @@ img {
     .creative {
         position: relative;
         margin-top: 70px;
-        background-color: #0a0a0a;
         padding: 90px;
         opacity: 30%;
     }
@@ -1041,7 +1084,6 @@ img {
         text-transform: uppercase;
         font-weight: 700;
         color: #fff;
-        opacity: 10%;
 
         #creative-icon {
             opacity: 100%;
@@ -1279,7 +1321,17 @@ img {
     .intro-image .span {
         width: 150px;
         height: 150px;
+
+        .arrow{
+            position: relative;
+            top: 75px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            font-size: 2.5rem;
+        }
     }
+    
 
 
     .intro .button {
@@ -1315,7 +1367,6 @@ img {
     .creative {
         position: relative;
         margin-top: 70px;
-        background-color: #0a0a0a;
         padding: 90px;
         opacity: 30%;
     }
@@ -1325,7 +1376,6 @@ img {
         text-transform: uppercase;
         font-weight: 700;
         color: #fff;
-        opacity: 10%;
 
         #creative-icon {
             opacity: 100%;
@@ -1596,11 +1646,24 @@ img {
     .intro .disappear {
         display: none;
     }
+    .intro-image .span {
+        width: 150px;
+        height: 150px;
+
+        .arrow{
+            position: relative;
+            top: 65px;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            font-size: 2rem;
+          
+        }
+    }
 
     .creative {
         position: relative;
         margin-top: 70px;
-        background-color: #0a0a0a;
         padding: 90px;
         opacity: 30%;
     }
@@ -1609,7 +1672,6 @@ img {
         font-size: 2rem;
         text-transform: uppercase;
         font-weight: 700;
-        color: #fff;
         opacity: 10%;
 
         #creative-icon {
@@ -1847,7 +1909,6 @@ img {
     .creative {
         position: relative;
         margin-top: 70px;
-        background-color: #0a0a0a;
         padding: 90px;
         opacity: 30%;
     }
@@ -1857,7 +1918,6 @@ img {
         text-transform: uppercase;
         font-weight: 700;
         color: #fff;
-        opacity: 10%;
 
         #creative-icon {
             opacity: 100%;

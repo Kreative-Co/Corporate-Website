@@ -21,11 +21,11 @@ const FooterSec = () => {
                 <div className="col-lg-6">
                     <div className="text-end">
                         <ul>
-                            <li><Link className="footer-link" to="/">Home</Link>   </li>
-                            <li><Link className="footer-link" to="/services">Services</Link>   </li>
-                            <li><Link className="footer-link" to="/work">Work</Link>   </li>
-                            <li><Link className="footer-link" to="/about">About</Link>   </li>
-                            <li><Link className="footer-link" to="/contact">Contact</Link>   </li>
+                            <li><Link className="nav-link" to="/">Home</Link>   </li>
+                            <li><Link className="nav-link" to="/services">Services</Link>   </li>
+                            <li><Link className="nav-link" to="/work">Work</Link>   </li>
+                            <li><Link className="nav-link" to="/about">About</Link>   </li>
+                            <li><Link className="nav-link" to="/contact">Contact</Link>   </li>
 
                         </ul>
                    

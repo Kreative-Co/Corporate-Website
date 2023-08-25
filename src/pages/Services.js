@@ -65,10 +65,10 @@ const Services = () => {
                that elevate your online presence, enhance user experience, and ensure seamless
                 functionality. Partner with us to transform your digital landscape and unlock 
                 the full potential of your business." />
-            <link rel="canonical" href="/services" />
+            <link rel="canonical" href="https://kreative-enterprises.com/services" />
         </Helmet>
 
-        <section className="main">
+        <section className="main" role="main">
             <div className="intro">
                 <div className="row">
                     <div className="col-lg-7">
@@ -134,12 +134,12 @@ const Services = () => {
 
 
         </section>
-        <div className="service">
+        <div className="service" role="services">
 
             <div className="service-intro">
                 <div className="marquee-w">
                     <div className="marquee">
-                        <span>CUSTOM DESIGN</span>
+                        <span>WE SOLVE AND IMPACT</span>
 
                     </div>
 
@@ -192,7 +192,7 @@ const Services = () => {
                                 delay: 0.1,
                                 ease: [0, 0.71, 0.2, 1.01]
                             }}
-                            className="img-fluid" src={sectionImage} alt="service image" />
+                            className="img-fluid" src={sectionImage} alt="Service section image" />
                     </div>
                 </div>
             </div>
@@ -243,7 +243,7 @@ const Services = () => {
                 </MDBAccordion>
             </div>
             {/** Unique Solution */}
-            <div className="container-fluid service-why">
+            <div className="container-fluid service-why" role="why us">
                 <div className="row ">
                     <div className="col-lg-12 ">
                         <div className="right">

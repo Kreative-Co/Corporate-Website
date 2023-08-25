@@ -6,15 +6,15 @@ import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
-import Five from "../images/web-project.jpg";
-import Two from "../images/Lion-new-version.JPG";
-import Three from "../images/Joker-new-version.JPG";
-import Six from "../images/space.JPG";
-import Seven from "../images/zeen.jpg";
+import Five from "../images/web-project.webp";
+import Two from "../images/Lion-new-version.webp";
+import Three from "../images/Joker-new-version.webp";
+import Six from "../images/space.webp";
+import Seven from "../images/zeen.webp";
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import ContactForm from './ContactForm';
-import uiux from "../images/Wooside-work.JPG";
+import uiux from "../images/Wooside-work.webp";
 
 
 
@@ -75,10 +75,10 @@ const Work = () => {
              , captivating UI/UX designs, and successful digital projects that reflect our commitment to delivering
               outstanding results. Immerse yourself in our portfolio and envision the possibilities for
                your own digital success." />
-            <link rel="canonical" href="/work" />
+            <link rel="canonical" href="https://kreative-enterprises.com/work" />
         </Helmet>
         <div className="">
-            <section className="main">
+            <section className="main" role="main">
                 <div className="intro intro-work">
                     <div className="row ">
                         <div className="col-lg-7">
@@ -141,11 +141,11 @@ const Work = () => {
                     
                 </div>
             </section>
-            <div className="portfolio">
+            <div className="portfolio" role="portfolio">
                 <div className="service-intro">
                     <div className="marquee-w">
                         <div className="marquee">
-                            <span>DISCUSS YOUR IDEAS</span>
+                            <span>WE SOLVE AND IMPACT</span>
                         </div>
                     </div>
                 </div>
@@ -185,7 +185,7 @@ const Work = () => {
                             delay: 0.1,
                             ease: [0, 0.71, 0.2, 1.01]
                         }}
-                        className="img-fluid" src={uiux} alt="Brixon Design" />
+                        className="img-fluid" src={uiux} alt="Woodside project image" />
                     </div>
                 </div>
                 <div className="row">
@@ -218,7 +218,7 @@ const Work = () => {
                             delay: 0.1,
                             ease: [0, 0.71, 0.2, 1.01]
                         }}
-                         className="img-fluid" src={Seven} alt="Ok Drink" />
+                         className="img-fluid" src={Seven} alt="Zeen project image" />
                     </div>
                 </div>
                 <div className="row">
@@ -250,7 +250,7 @@ const Work = () => {
                             duration: 0.8,
                             delay: 0.1,
                             ease: [0, 0.71, 0.2, 1.01]
-                        }} className="img-fluid" src={Six} alt="Space Design" />
+                        }} className="img-fluid" src={Six} alt="Interior design project image" />
                     </div>
                 </div>
                 <div className="row">
@@ -282,7 +282,7 @@ const Work = () => {
                             duration: 0.8,
                             delay: 0.1,
                             ease: [0, 0.71, 0.2, 1.01]
-                        }} className="img-fluid" src={Five} alt="Art Gallery" />
+                        }} className="img-fluid" src={Five} alt="Web development project image" />
                     </div>
                 </div>
               

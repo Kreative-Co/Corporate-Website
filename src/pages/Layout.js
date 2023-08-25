@@ -4,7 +4,7 @@ import '../App.scss';
 import { useEffect } from "react";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Logo from '../images/black-logo.png';
+import Logo from '../images/KreativeCo.webp';
 import { motion } from 'framer-motion';
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -30,13 +30,13 @@ const Layout = () => {
 
         }}
       >
-        <Navbar className="navbar" expand="lg">
+        <Navbar className="navbar" expand="lg" role="header">
           <Navbar.Brand href="#home" className="brand">
-            <Link to="/"><img src={Logo} alt="logo-image" /> </Link>
+            <Link to="/"><img className="logo" src={Logo} alt="logo-image" /> </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="topnav-right">
+            <Nav className="topnav-right" role="navigation">
               <Nav.Link href="#home">
                 <Link className="nav-link" to="/">Home</Link>
               </Nav.Link>

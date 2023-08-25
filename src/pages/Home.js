@@ -5,14 +5,14 @@ import SectionHeader from './SectionHeader';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faYoast } from '@fortawesome/free-brands-svg-icons';
-import { faArrowUpRightDots} from '@fortawesome/free-solid-svg-icons';
+import { faArrowUpRightDots, faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons';
 import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import client from "../images/client.jpg";
-import uiux from "../images/Wooside-work.JPG";
-import Three from "../images/web-project.jpg";
-import Five from "../images/zeen.jpg";
+import client from "../images/client.webp";
+import uiux from "../images/Wooside-work.webp";
+import Three from "../images/web-project.webp";
+import Five from "../images/zeen.webp";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import { EffectCards } from 'swiper';
@@ -156,11 +156,11 @@ const Home = () => {
              We are a dynamic web design agency that specializes in crafting visually stunning and user-friendly websites.
               From concept to execution, our team of talented designers and developers will bring your brand to life online. 
             Discover the limitless possibilities with Kreative Enterprises" />
-            <link rel="canonical" href="/" />
+            <link rel="canonical" href="https://kreative-enterprises.com" />
         </Helmet>
         <div className="content">
             {/*Hero Section*/}
-            <section className="main " >
+            <section className="main" role="main" >
                 <div className="intro" >
                     <div className="row" >
                         <div className="col-lg-7">
@@ -186,8 +186,6 @@ const Home = () => {
                                         </motion.span>
                                     )
                                 })}
-
-
                             </motion.h1>
                             <div className="intro-button">
 
@@ -243,9 +241,10 @@ const Home = () => {
                                         ease: [0, 0.71, 0.2, 1.01]
                                     }}
                                     className="span">
+                                        <Link to="/contact">
+                                            <FontAwesomeIcon className="arrow" icon={faArrowUpRightFromSquare}/>
+                                        </Link>
                                 </motion.div>
-
-
                             </div>
                         </div>
 
@@ -257,11 +256,11 @@ const Home = () => {
                 <div className="service-intro">
                     <div className="marquee-w">
                         <div className="marquee">
-                            <span>DISCUSS YOUR IDEAS</span>
+                            <span>WE SOLVE AND IMPACT</span>
                         </div>
                     </div>
                 </div>
-                <section className={"about-us"}>
+                <section className={"about-us"} role="about">
                     <SectionHeader title="about" />
 
                     <motion.p
@@ -308,7 +307,7 @@ const Home = () => {
                         <br />
                     </motion.p>
                 </section>
-                <div className="our-services">
+                <div className="our-services" role="services">
                     <div className="row" data-aos="fade-up">
                         <div className="col-lg-6" >
                             <h1 className="hide">
@@ -384,7 +383,7 @@ const Home = () => {
                 </div>
             </div>
             {/*Work*/}
-            <div className="container-fluid work">
+            <div className="container-fluid work" role="portfolio">
                 <div className="row" >
                     <div className="col-lg-7">
                         <h1>PROJECT.</h1>
@@ -400,13 +399,13 @@ const Home = () => {
                         className="mySwiper"
                         data-aos="zoom-in"
                     >
-                        <SwiperSlide><img className="img-fluid" src={uiux} /></SwiperSlide>
-                        <SwiperSlide><img className="img-fluid" src={Five} /></SwiperSlide>
-                        <SwiperSlide><img className="img-fluid" src={Three} /></SwiperSlide>
+                        <SwiperSlide><img className="img-fluid" alt="Portfolio Branding" src={Five} /></SwiperSlide>
+                        <SwiperSlide><img className="img-fluid" alt="Portfolio UX UI" src={uiux} /></SwiperSlide>
+                        <SwiperSlide><img className="img-fluid" alt="Portfolio Development" src={Three} /></SwiperSlide>
                     </Swiper>
                 </Container>
             </div>
-            <div className="testimonials-new">
+            <div className="testimonials-new" role="testimonials"  >
 
                 <div className="row">
                     <div className="title">
@@ -416,7 +415,7 @@ const Home = () => {
                      
                 <div className="row clients">
                     <div className="col-lg-4">
-                        <img className="img-fluid" src={client} alt="client image" />
+                        <img className="img-fluid" src={client} alt="Image of a client" />
                     </div>
 
                     <div className="col-lg-7">

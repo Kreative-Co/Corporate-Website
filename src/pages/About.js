@@ -7,15 +7,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePlay} from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import process1 from "../images/process1.png";
-import process2 from "../images/process2.png";
-import process3 from "../images/process3.png";
-import process4 from "../images/process4.png";
-import process5 from "../images/process5.png";
-import process6 from "../images/process6.png";
-import process7 from "../images/process7.png";
-import process8 from "../images/process8.png";
-import process9 from "../images/process9.png";
+import process1 from "../images/process1.webp";
+import process2 from "../images/process2.webp";
+import process3 from "../images/process3.webp";
+import process4 from "../images/process4.webp";
+import process5 from "../images/process5.webp";
+import process6 from "../images/process6.webp";
+import process7 from "../images/process7.webp";
+import process8 from "../images/process8.webp";
+import process9 from "../images/process6.webp";
 import reactImage from "../images/photo-5.avif";
 
 import { Helmet } from 'react-helmet-async';
@@ -84,11 +84,11 @@ const About = () => {
                 Explore how our expertise and industry knowledge can elevate your
                  online presence and drive your business forward. Partner with Kreative 
                  Enterprises and unlock the potential of impactful web design." />
-            <link rel="canonical" href="/about" />
+            <link rel="canonical" href="https://kreative-enterprises.com/about" />
         </Helmet>
 
         <div className="company">
-            <section className="main">
+            <section className="main" role="main">
                 <div className="intro">
                     <div className="row">
                         <div className="col-lg-7">
@@ -158,11 +158,11 @@ const About = () => {
             </section>
 
             {/** About */}
-            <div className="about">
+            <div className="about" role="about">
                 <div className="service-intro">
                     <div className="marquee-w">
                         <div className="marquee">
-                            <span>LONG TERM RELATIONSHIPS</span>
+                            <span>WE SOLVE AND IMPACT</span>
 
                         </div>
 
@@ -203,10 +203,10 @@ const About = () => {
                                 delay: 0.1,
                                 ease: [0, 0.71, 0.2, 1.01]
                             }}
-                            className="img-fluid" src={reactImage} alt="about image" />
+                            className="img-fluid" src={reactImage} alt="about section image" />
                     </div>
                 </div>
-                <div className="row process">
+                <div className="row process" role="process">
                     <div className="title" data-aos="fade-up">
 
                         <h1 className="text-light">
@@ -218,21 +218,21 @@ const About = () => {
                         <div className="col-sm">
                             <img className="testing" src={process1} alt="client discovery image" />
                             <h1 className="text-white">Client Consulation & Discovery</h1>
-                            <h6>Kreative Co</h6>
+                            <h2>Kreative Co</h2>
 
                         </div>
 
                         <div className="col-sm">
                             <img className="testing" src={process2} alt="strategy image" />
                             <h1 className="text-white">Strategy and Planning</h1>
-                            <h6>Kreative Co</h6>
+                            <h2>Kreative Co</h2>
 
                         </div>
 
                         <div className="col-sm">
                             <img className="testing" src={process3} alt="initial payment image" />
                             <h1 className="text-white">Initial Payment 50%</h1>
-                            <h6>Kreative Co</h6>
+                            <h2>Kreative Co</h2>
 
                         </div>
 
@@ -241,19 +241,19 @@ const About = () => {
                         <div className="col-sm">
                             <img className="testing" src={process4} alt="devlopment image" />
                             <h1 className="text-white">Development / Creation</h1>
-                            <h6>Kreative Co</h6>
+                            <h2>Kreative Co</h2>
 
                         </div>
                         <div className="col-sm">
                             <img className="testing" src={process5} alt="testing image" />
                             <h1 className="text-white">Testing and Quality Assurance</h1>
-                            <h6>Kreative Co</h6>
+                            <h2>Kreative Co</h2>
 
                         </div>
                         <div className="col-sm">
                             <img className="testing" src={process6} alt="payment milestone image" />
                             <h1 className="text-white">Milestone Payment 25%</h1>
-                            <h6>Kreative Co</h6>
+                            <h2>Kreative Co</h2>
                         </div>
                     </div>
 
@@ -261,24 +261,24 @@ const About = () => {
                         <div className="col-sm">
                             <img className="testing" src={process7} alt="launch image" />
                             <h1 className="text-white">Launch and Implemention</h1>
-                            <h6>Kreative Co</h6>
+                            <h2>Kreative Co</h2>
                         </div>
                         <div className="col-sm">
                             <img className="testing" src={process8} alt="post-launch image" />
                             <h1 className="text-white">Post-Launch Support and Optimization</h1>
-                            <h6>Kreative Co</h6>
+                            <h2>Kreative Co</h2>
                         </div>
                         <div className="col-sm">
                             <img className="testing" src={process9} alt="final payment image" />
                             <h1 className="text-white">Final Payment 25%</h1>
-                            <h6>Kreative Co</h6>
+                            <h2>Kreative Co</h2>
                         </div>
                     </div>
 
 
                 </div>
             </div>
-            <div className="core-values">
+            <div className="core-values" role="values">
                 <div className="title">
                     <h1 className="display-1 text-end" data-aos="fade-up"  > What We Stand For  </h1>
                 </div>

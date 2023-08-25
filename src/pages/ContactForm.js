@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 const ContactForm = () => {
 
 
-    const line1 = "LET'S DISCUSS YOUR IDEAS"
+    const line1 = "LET'S FIND YOUR SOLUTION"
 
     const sentence = {
         hidden: { opacity: 1 },
@@ -68,7 +68,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="new-contact">
+        <div className="new-contact" role="contact">
             <div className="contact-intro">
                 <motion.h1
                     className="text-center"

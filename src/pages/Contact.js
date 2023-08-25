@@ -66,15 +66,14 @@ const Contact = () => {
              Our expert team is ready to provide professional solutions tailored to your business.
               Contact us today to start a conversation and take the first step towards an exceptional online presence.
              We look forward to hearing from you!" />
-            <link rel="canonical" href="/contact" />
+            <link rel="canonical" href="https://kreative-enterprises.com/contact" />
         </Helmet>
 
         <div className="contact-page">
-            <section className="main">
+            <section className="main" role="main">
                 <div className="intro">
                     <div className="row">
                         <div className="col-lg-7">
-
                             <motion.h1
                                 className="load-screen-message"
                                 variants={sentence}
@@ -126,7 +125,7 @@ const Contact = () => {
             </section>
 
             {/** Form Section */}
-            <div className="contact-formulaire">
+            <div className="contact-formulaire" role="contact">
                 <div className="row">
                     <div className="col-lg-6">
                         <h1>
