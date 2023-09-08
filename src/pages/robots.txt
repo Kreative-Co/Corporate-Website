@@ -1,0 +1,4 @@
+user-agent: *
+disallow: 
+
+sitemap: https//kreative-enterprises.com/sitemap.xml
