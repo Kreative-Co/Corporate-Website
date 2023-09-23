@@ -87,9 +87,9 @@ const ContactForm = () => {
                 </motion.h1>
                 <div className="contact-btn text-center" data-aos="fade-in">
 
-                    <Link to="/contact" className="button">  START NOW  </Link>
+                    <Link to="/contact" className="button">  Start Now  </Link>
 
-                    <Link to="/contact" className="button disappear"> FOLLOW US  </Link>
+                    <Link to="/contact" className="button disappear"> Follow Us  </Link>
                 </div>
             </div>
         </div>
