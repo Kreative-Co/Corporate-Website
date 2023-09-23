@@ -85,7 +85,7 @@
     font-size: 1.3rem;
     opacity: 100%;
     width: 90%;
-    
+
 }
 
 .about .row .col-lg-6 img {
@@ -127,6 +127,7 @@
     color: #fff;
     opacity: 15%;
     font-size: 1.1rem;
+
 }
 
 
@@ -213,6 +214,10 @@
         height: 450px;
     }
 
+    .about .vision p {
+        font-size: 1.2rem;
+    }
+
     .about .row .col-lg-6 p {
         font-size: 1.2rem;
     }
@@ -239,6 +244,10 @@
         font-size: 1.1rem;
     }
 
+    .about .vision p {
+        font-size: 1.1rem;
+    }
+
     .core-values .title h1 {
         font-size: 3.5rem;
     }
@@ -258,7 +267,6 @@
     .about .process .row {
         position: relative;
         padding-top: 25px;
-        padding-bottom: 25px;
     }
 
     .about .process .row .col-sm h1 {
@@ -278,6 +286,7 @@
 
     .about .row {
         padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .about .row .col-lg-6 h1 {
@@ -287,6 +296,10 @@
     .about .row .col-lg-6 p {
         font-size: 1rem;
         width: 100%;
+    }
+
+    .about .vision p {
+        font-size: 1rem;
     }
 
     .about .row .col-lg-6 .img-fluid {
@@ -435,7 +448,9 @@
     }
 
 
-
+    .about .process .col-sm h2 {
+        text-align: center;
+    }
 
 }
 

@@ -7,9 +7,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import Five from "../images/web-project.webp";
-import Two from "../images/Lion-new-version.webp";
-import Three from "../images/Joker-new-version.webp";
-import Six from "../images/space.webp";
+import Two from "../images/broker.jpg";
+import Three from "../images/fintech.jpg";
+import Six from "../images/piyee.jpg";
 import Seven from "../images/zeen.webp";
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
@@ -22,13 +22,12 @@ const Work = () => {
 
     const line1 = "OUR"
     const line2 = "WORK"
-    const design = "[WEBSITE DEV]"
-    const drink = "[BRAND IDENTITY] "
-    const woodside = "[WOOSIDE DESIGN]"
-    const interior = "[SPACE DESIGN]"
-    const nationalgeo = "[NATIONAL GEOGRAPHY]"
-    const banking = "[ART STATION]"
-    const joker = "[THE JOKER]"
+    const design = "[Website Dev]"
+    const drink = "[Brand Identity] "
+    const woodside = "[Woodside Design]"
+    const interior = "[FinTech]"
+    const nationalgeo = "[Real Estate Broker]"
+    const joker = "[Joint Base]"
 
     const brixon = "BRIXON PHOTOGRAPY"
 

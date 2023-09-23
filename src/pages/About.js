@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Link } from 'react-router-dom';
 import '../style/About.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCirclePlay} from '@fortawesome/free-solid-svg-icons';
+import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import process1 from "../images/process1.webp";
@@ -17,7 +17,6 @@ import process7 from "../images/process7.webp";
 import process8 from "../images/process8.webp";
 import process9 from "../images/process6.webp";
 import reactImage from "../images/photo-5.avif";
-
 import { Helmet } from 'react-helmet-async';
 import ContactForm from './ContactForm';
 import { motion } from 'framer-motion';
@@ -168,49 +167,51 @@ const About = () => {
 
                     </div>
                 </div>
-
-                <div className=" row">
-
-                    <div className="col-lg-6" data-aos="fade-up">
-                        <div className="mission">
-                            <h1>
+                <div className="row vision">
+                    <div className="col-lg-4">
+                        
+                          <h1 className="display-1 text-white">
                                 Our Mission
-                            </h1>
-                            <p>
-                                At our company, we are committed to building long-term relationships with our customers.
-                                Our mission is to provide exceptional products and services that
-                                exceed our customers' expectations
-                                and establish us as a trusted partner in their success.
+                            
+                        </h1>
 
-                            </p>
-                            <p>
-                                We believe that by taking the time to truly understand our customers'
+
+                    </div>
+                    <div className="col-lg-8">
+                        <h1 className="text-white display-1"> We solve and impact!</h1><br />
+                        <h2 className="text-white">
+                            "We cannot solve our problems with the same thinking we used when we created them." — Albert Einstein.
+                        </h2><br />
+
+                        <p className="text-light" >
+                            At our company, we are committed to building long-term relationships with our customers.
+                            Our mission is to provide exceptional products and services that
+                            exceed our customers' expectations
+                            and establish us as a trusted partner in their success.
+                        </p>
+                        <p className="text-light">
+
+                        We believe that by taking the time to truly understand our customers'
                                 unique needs and challenges, we can deliver customized solutions
                                 that meet their specific requirements and help them achieve their goals.
+                        </p>
+                        <p className="text-light">
 
-                            </p>
-                        </div>
+                           Collaboration drives success _ Andrew Carnegie; At Kreative, we believe in Andrew Carnegie's
+                           wisdom. We work closely with our clients, fusing our experitise with their vision to achieve extraordinary
+                           results. Together, we're unstoppable.
 
 
-                    </div>
-                    <div className="col-lg-6" >
-                        <motion.img
+                        </p>
 
-                            initial={{ opacity: 0, scale: 0.3 }}
-                            whileInView={{ opacity: 1, scale: 1 }}
-                            transition={{
-                                duration: 0.8,
-                                delay: 0.1,
-                                ease: [0, 0.71, 0.2, 1.01]
-                            }}
-                            className="img-fluid" src={reactImage} alt="about section image" />
                     </div>
                 </div>
+                
                 <div className="row process" role="process">
                     <div className="title" data-aos="fade-up">
 
                         <h1 className="text-light">
-                            HOW WE WORK
+                            How We Work
                         </h1>
                     </div>
 
@@ -299,18 +300,9 @@ const About = () => {
                         that help our customers save time and increase productivity.
                     </MDBAccordionItem>
                 </MDBAccordion>
-
             </div>
-
-
-
-
             <ContactForm />
-
         </div>
-
-
     </>;
 }
-
 export default About;
