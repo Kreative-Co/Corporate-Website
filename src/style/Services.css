@@ -1,6 +1,76 @@
 
 
 
+.new-services{
+
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #040402;
+
+}
+
+.new-services .row{
+    margin: auto;
+}
+
+
+.new-services .card{
+    position: relative;
+    background-color: #fff;
+    margin: 10px;
+    padding: 35px;
+    padding-top: 75px;
+    padding-bottom: 100px;
+    width: 31.5%;
+    
+}
+
+
+.new-services .card h1{
+    position: relative;
+    padding-bottom: 30px;
+    font-size: 2.7rem;
+    font-weight:bolder;
+   
+}
+.new-services .card h2{
+    font-size: 1.2rem ;
+}
+.new-services .button{
+   
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px 40px 15px 40px;
+    color: #fff;
+    border: 1px solid #253439;
+    font-size: 24px;
+    background-color: #253439;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    width: 75%;
+}
+.new-services .card ul li{
+    font-size: 1.1rem ;
+    margin: 0;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border-bottom: 1px solid #253439;
+
+
+}
+.new-services .card ul{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
 .intro #video-service{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/web5.webp");
     background-size: cover;
@@ -16,10 +86,33 @@
     padding-bottom: 100px;
 }
 
+.ser{
+    position: relative;
+    padding-top: 100px;
+    background-color: #040402;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.ser .col-lg-8 h2{
+    font-size: 1.4rem;
+}
+
+.ser .button{
+    position: relative;
+    top: 50px;
+    font-size: 24px;
+    padding: 20px 40px 20px 40px;
+    background-color: #253439;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
 .section{
     background-color: #040402;
     color: #fff;
-    padding-left: 0px;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -50,33 +143,21 @@
 
 }
 
-section .btn {
-    background-color: #fff;
-    position: relative;
-    top: 50px;
-    padding: 12px 25px;
-    border: none;
-    color: #191919;
-    cursor: pointer;
-    font-size: 1.6rem;
-    font-weight: 500;
-}
 
-.section .progress {
-    border-radius: 0;
-    height: 7px;
+
+.ser .progress {
+    border-radius: 0%;
     opacity: 50%;
 }
 
-.section .progress-sec {
+.ser .progress-sec {
     position: relative;
     padding-bottom: 70px;
 }
 
-.section  h2 {
+.ser .progress-sec  h2 {
     font-size: 2rem;
     color: #fff;
-    text-transform: uppercase;
     
 }
 
@@ -175,6 +256,60 @@ section .btn {
 
 @media screen and (max-width: 1400px){
 
+
+
+    .new-services .card{
+        position: relative;
+        margin: 10px;
+        padding: 35px;
+        padding-top: 75px;
+        padding-bottom: 100px;
+        
+    }
+
+    .new-services .button{
+   
+        position: relative;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding: 15px 30px 15px 30px;
+        color: #fff;
+        border: 1px solid #253439;
+        font-size: 1.2rem;
+        background-color: #253439;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        width: 65%;
+    }
+    
+    /*.new-services .card h1{
+        position: relative;
+        padding-bottom: 30px;
+        font-size: 2.7rem;
+        font-weight:bolder;
+       
+    }
+    .new-services .card h2{
+        font-size: 1.2rem ;
+        font-weight: bold;
+    }
+    .new-services .button{
+       
+        position: relative;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding: 15px 40px 15px 40px;
+        color: #fff;
+        border: 1px solid #253439;
+        font-size: 24px;
+        background-color: #253439;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        width: 75%;
+    }*/
+
     .service .row .col-lg-7 .data{
         padding-left: 50px;
     }
@@ -208,8 +343,37 @@ section .btn {
 
 @media screen and (max-width: 1280px) {
 
-    
+    .new-services .card{
+        position: relative;
+        margin: 10px;
+        padding: 35px;
+        padding-top: 75px;
+        padding-bottom: 50px;
+        
+    }
 
+    .new-services .card h1{
+       font-size: 2.4rem;
+        
+    }
+
+    .new-services .button{
+   
+        position: relative;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding: 15px 30px 15px 30px;
+        color: #fff;
+        border: 1px solid #253439;
+        font-size: 1.2rem;
+        background-color: #253439;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        width: 75%;
+    }
+
+    
     .service .row .col-lg-7 .data h1{
         font-size: 3.5rem;
     }
@@ -242,8 +406,90 @@ section .btn {
 
 }
 
+@media screen and (max-width: 1240px){
+
+
+    .ser .col-lg-4{
+        width: 100%;
+    }
+    .ser{
+        position: relative;
+        display: block;
+    }
+    .ser h1{
+        font-size: 4rem;
+        width: 100%;
+       
+    
+    }
+
+    .new-services .card{
+       
+        
+        position: relative;
+        margin: 10px;
+        padding: 15px;
+        padding-top: 75px;
+        padding-bottom: 50px;
+        width: 47%;
+        
+    }
+    .new-services .card h1{
+       
+      font-size: 2rem;
+        
+    }
+    .new-services .button{
+   
+        position: relative;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding: 15px 25px 15px 25px;
+        color: #fff;
+        border: 1px solid #253439;
+        font-size: 1.1rem;
+        background-color: #253439;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        width: 75%;
+    }
+    .new-services .card p{
+   
+        font-size: 1.1rem;
+    }
+   
+   
+
+
+    
+}
+
 @media screen and (max-width: 1000px){
 
+
+    .ser h1{
+        font-size: 3rem;
+       
+    
+    }
+    
+    .new-services .card{
+        position: relative;
+        display: flex;
+        margin: 10px;
+        padding: 35px;
+        padding-top: 75px;
+        padding-bottom: 100px;
+        width: 47%;
+        
+    }
+   
+    
+    .new-services .card ul{
+        display: none;
+    }
+   
 
     .service .row .col-lg-7 .data{
         padding-left: 0;
@@ -295,6 +541,27 @@ section .btn {
 
 
 @media screen and (max-width: 780px){
+
+
+    .ser h1{
+        font-size: 2.7rem;
+       
+    
+    }
+    
+    .new-services .card{
+        position: relative;
+        display: flex;
+        margin: 10px;
+        padding: 35px;
+        padding-top: 75px;
+        padding-bottom: 100px;
+        width: 100%;
+        
+    }
+    .new-services .button{
+        width: 40%;
+    }
     .service .row .col-lg-7 .data{
         padding-left: 0;
     }
@@ -350,6 +617,9 @@ section .btn {
         margin: 0;
         padding: 0;
         overflow-x: hidden;
+    }
+    .new-services .button{
+        width: 75%;
     }
    
     .section .row{

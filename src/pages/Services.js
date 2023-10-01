@@ -146,8 +146,44 @@ const Services = () => {
                 </div>
             </div>
 
+            <div className="row vision ser">
+                <div className="col-lg-4">
 
-            <div className="section">
+                    <h1 className="display-1 text-white">
+                        Our Services
+
+                    </h1>
+
+
+                </div>
+                <div className="col-lg-8">
+                    <h1 className="text-white display-1"> We solve and impact!</h1><br />
+                    <h2 className="text-white">
+                        By investing in our design solutions, you position your business for long-term success,
+                        a loyal customer base, and driving growth in your industry.                        </h2><br />
+                    <div className="data">
+
+                        <div className="progress-sec">
+                            <h2 className="text-white">UX & UI</h2>
+                            <ProgressBar className='progress' variant="warning" now={100} />
+                        </div>
+                        <div className="progress-sec">
+                            <h2 className="text-white">Marketing Website</h2>
+                            <ProgressBar className='progress' variant="warning" now={100} />
+                        </div>
+                        <div className="progress-sec">
+                            <h2 className="text-white">Branding</h2>
+                            <ProgressBar className='progress' variant="warning" now={100} />
+                        </div>
+                        
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            {/*    <div className="section">
 
 
                 <div className="row" data-aos="fade-up">
@@ -195,9 +231,75 @@ const Services = () => {
                             className="img-fluid" src={sectionImage} alt="Service section image" />
                     </div>
                 </div>
-            </div>
+                        </div>*/}
+
             {/** Services List */}
-            <div class="services-list">
+
+
+            <div className="container-fluid new-services">
+
+
+
+                <div className="row">
+                    <div className="card">
+                        <h1>Design / Development</h1>
+                        <h2>Our web development agency team builds creates marketing websites and landing pages that
+                            help to tell brand stories, increase conversion and build trust, and front-end applications using modern frameworks
+                            for innovative compagnies.
+                        </h2>
+                        <Link className="button" to="/contact">
+                            CONTACT US
+                        </Link>
+                        <ul>
+                            <li>Discovery</li>
+                            <li>UI/UX audit</li>
+                            <li> Visual interface & interations</li>
+                            <li> Prototypes</li>
+                            <li> UI Kit based on atomic design principles</li>
+                            <li> Front-end</li>
+                            <li> Back-end</li>
+                        </ul>
+
+                    </div>
+                    <div className="card">
+                        <h1>Branding</h1>
+                        <h2>Our branding agency creates visual identities and
+                            develops brand strategies for new businesses to establish a distintive
+                            and compelling brand identity to effectively enagage their target audience.
+                        </h2>
+                        <Link className="button" to="/contact">
+                            CONTACT US
+                        </Link>
+                        <ul>
+                            <li>Brand design</li>
+                            <li>Brand strategy</li>
+                            <li>Brand identity</li>
+                            <li>Rebranding</li>
+                            <li>Branding for startups</li>
+                        </ul>
+
+                    </div>
+                    <div className="card last">
+                        <h1>Search Engine Optimization</h1>
+                        <h2>Our SEO team hepls businesses drive organic traffic to your website,
+                            helping you climb search engine rankings and outshine your competitors.
+                        </h2>
+                        <Link className="button" to="/contact">
+                            CONTACT US
+                        </Link>
+                        <ul>
+                            <li>SEO audits</li>
+                            <li>SEO optimizations</li>
+                            <li>SEO strategy</li>
+                            <li> Content creation</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+            {/*}  <div class="services-list">
 
 
 
@@ -241,7 +343,7 @@ const Services = () => {
                                watch your online presence flourish.
                     </MDBAccordionItem>
                 </MDBAccordion>
-            </div>
+                        </div>*/}
             {/** Unique Solution */}
             <div className="container-fluid service-why" role="why us">
                 <div className="row ">

@@ -252,7 +252,7 @@ const Home = () => {
                 </div>
             </section>
             {/** Services */}
-            <div className="new-services">
+            <div className="new-service">
                 <div className="service-intro">
                     <div className="marquee-w">
                         <div className="marquee">
